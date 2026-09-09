@@ -1,0 +1,32 @@
+{
+  "n_train": 1719,
+  "n_test": 192,
+  "q2": 0.7706454641049386,
+  "r2": 0.8136725252230776,
+  "rmse": 0.3490143658350286,
+  "mae": 0.2502398870863638,
+  "ci": {
+    "r2": [
+      0.7143994442061666,
+      0.8745762882747048
+    ],
+    "rmse": [
+      0.2993690018150649,
+      0.4002818005458899
+    ],
+    "mae": [
+      0.2174146281443442,
+      0.2861899769878284
+    ]
+  },
+  "best_params": {
+    "mdl__max_features": "0.3"
+  },
+  "worst_split_r2": -0.0325980503724083,
+  "model_file": "dpph_pic50_ecfp4_mordred_extratrees.joblib",
+  "model_mb": 29.0,
+  "n_scored_models": 55,
+  "n_features": 3475,
+  "top_table_name": "Stacked model without language-model members",
+  "top_table_r2": 0.8140063176554858
+}
