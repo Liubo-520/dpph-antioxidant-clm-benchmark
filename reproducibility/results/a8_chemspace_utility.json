@@ -1,0 +1,175 @@
+{
+  "category_structure": {
+    "silhouette_categories_in_fingerprint_space": 0.04056603194504651,
+    "note": "Silhouette is computed on Jaccard distances between ECFP4 fingerprints for the seven defined categories; the residual 'Other' class is excluded because it is a catch-all rather than a chemical family."
+  },
+  "activity_landscape": {
+    "mean_abs_activity_gap_5_nearest_neighbours": 0.356488754071789,
+    "mean_abs_activity_gap_random_pairs": 0.9090150704628034,
+    "wilcoxon_p": 4.673695102206489e-238,
+    "interpretation": "Nearest neighbours differ in activity by clearly less than random pairs, so the landscape is locally smooth, but the residual gap of about 0.36 log units shows substantial activity-cliff behaviour."
+  },
+  "umap_sensitivity": [
+    {
+      "n_neighbors": 5,
+      "min_dist": 0.0,
+      "neighbourhood_preservation_k15": 0.6302808302808303,
+      "category_silhouette_2d": -0.24814344942569733,
+      "spearman_activity_vs_umap1": -0.12940971636268958,
+      "spearman_activity_vs_umap2": 0.014646721884888336
+    },
+    {
+      "n_neighbors": 5,
+      "min_dist": 0.1,
+      "neighbourhood_preservation_k15": 0.6372230943659515,
+      "category_silhouette_2d": -0.23047710955142975,
+      "spearman_activity_vs_umap1": -0.0201626240562978,
+      "spearman_activity_vs_umap2": 0.055761773739907254
+    },
+    {
+      "n_neighbors": 5,
+      "min_dist": 0.5,
+      "neighbourhood_preservation_k15": 0.6328623757195186,
+      "category_silhouette_2d": -0.23678334057331085,
+      "spearman_activity_vs_umap1": -0.012643082334675215,
+      "spearman_activity_vs_umap2": 0.027776782897200706
+    },
+    {
+      "n_neighbors": 15,
+      "min_dist": 0.0,
+      "neighbourhood_preservation_k15": 0.6812489098203385,
+      "category_silhouette_2d": -0.15294109284877777,
+      "spearman_activity_vs_umap1": -0.15393775114852007,
+      "spearman_activity_vs_umap2": -0.13394195159175287
+    },
+    {
+      "n_neighbors": 15,
+      "min_dist": 0.1,
+      "neighbourhood_preservation_k15": 0.6879818594104309,
+      "category_silhouette_2d": -0.19655951857566833,
+      "spearman_activity_vs_umap1": -0.06597889073704334,
+      "spearman_activity_vs_umap2": -0.06495893310724536
+    },
+    {
+      "n_neighbors": 15,
+      "min_dist": 0.5,
+      "neighbourhood_preservation_k15": 0.6694575266003838,
+      "category_silhouette_2d": -0.1827043890953064,
+      "spearman_activity_vs_umap1": -0.17760228600385408,
+      "spearman_activity_vs_umap2": 0.01606026402200429
+    },
+    {
+      "n_neighbors": 50,
+      "min_dist": 0.0,
+      "neighbourhood_preservation_k15": 0.6516657945229375,
+      "category_silhouette_2d": 0.0002643174957484007,
+      "spearman_activity_vs_umap1": 0.2130586543475636,
+      "spearman_activity_vs_umap2": 0.1719867540325383
+    },
+    {
+      "n_neighbors": 50,
+      "min_dist": 0.1,
+      "neighbourhood_preservation_k15": 0.6536193964765393,
+      "category_silhouette_2d": 0.005669809877872467,
+      "spearman_activity_vs_umap1": 0.2398464966642307,
+      "spearman_activity_vs_umap2": 0.14991947850781392
+    },
+    {
+      "n_neighbors": 50,
+      "min_dist": 0.5,
+      "neighbourhood_preservation_k15": 0.607221350078493,
+      "category_silhouette_2d": -0.03466314077377319,
+      "spearman_activity_vs_umap1": 0.16228964708430924,
+      "spearman_activity_vs_umap2": 0.20613926561098964
+    }
+  ],
+  "umap_conclusion": "Across the scanned settings the two-dimensional projection preserves only 65% of the 15 nearest fingerprint neighbours and the category silhouette stays near zero, so the projection is used purely as a qualitative overview and no conclusion in the manuscript rests on visual separation in this plot.",
+  "potent_compound_dispersion": {
+    "n_top_decile": 192,
+    "median_nn_tanimoto_among_top_decile": 0.7527777777777778,
+    "n_distinct_scaffolds_in_top_decile": 83,
+    "n_distinct_categories_in_top_decile": 7
+  },
+  "matched_molecular_pairs": {
+    "model_used": "RDKit-desc | ExtraTrees",
+    "n_matched_pairs_H_to_OH": 194,
+    "mean_observed_delta_pIC50": 0.19551408897311395,
+    "sd_observed_delta_pIC50": 0.6351643426816205,
+    "mean_predicted_delta_pIC50": 0.14249539950359227,
+    "spearman_observed_vs_predicted": 0.2504592746357756,
+    "spearman_p": 0.0004278878179615906,
+    "sign_agreement_pct": 59.27835051546392,
+    "observed_one_sample_t_p": 2.85327338804238e-05,
+    "note": "Predictions for training compounds are out-of-fold, so no pair is scored by a model that saw both of its members during fitting."
+  },
+  "prospective_triage": {
+    "active_definition": "experimental pIC50 >= 5.022 (top decile of the full dataset)",
+    "results": {
+      "source": {
+        "model": "RDKit-desc | ExtraTrees",
+        "n_test": 188,
+        "n_actives": 26,
+        "enrichment_factor_top5pct": 3.2136752136752134,
+        "hit_rate_top5pct": 44.44444444444444,
+        "enrichment_factor_top10pct": 1.5222672064777327,
+        "hit_rate_top10pct": 21.052631578947366,
+        "enrichment_factor_top20pct": 2.283400809716599,
+        "hit_rate_top20pct": 31.57894736842105,
+        "baseline_hit_rate_pct": 13.829787234042554,
+        "spearman_rank_correlation": 0.33763179959181117
+      },
+      "scaffold": {
+        "model": "RDKit-desc | ExtraTrees",
+        "n_test": 191,
+        "n_actives": 20,
+        "enrichment_factor_top5pct": 7.640000000000001,
+        "hit_rate_top5pct": 80.0,
+        "enrichment_factor_top10pct": 5.026315789473684,
+        "hit_rate_top10pct": 52.63157894736842,
+        "enrichment_factor_top20pct": 3.0157894736842104,
+        "hit_rate_top20pct": 31.57894736842105,
+        "baseline_hit_rate_pct": 10.471204188481675,
+        "spearman_rank_correlation": 0.6040542454817488
+      },
+      "cluster": {
+        "model": "RDKit-desc | ExtraTrees",
+        "n_test": 191,
+        "n_actives": 13,
+        "enrichment_factor_top5pct": 5.876923076923077,
+        "hit_rate_top5pct": 40.0,
+        "enrichment_factor_top10pct": 3.0931174089068825,
+        "hit_rate_top10pct": 21.052631578947366,
+        "enrichment_factor_top20pct": 2.3198380566801617,
+        "hit_rate_top20pct": 15.789473684210526,
+        "baseline_hit_rate_pct": 6.806282722513089,
+        "spearman_rank_correlation": 0.5410066168625951
+      },
+      "dissimilarity": {
+        "model": "RDKit-desc | ExtraTrees",
+        "n_test": 191,
+        "n_actives": 19,
+        "enrichment_factor_top5pct": 3.015789473684211,
+        "hit_rate_top5pct": 30.0,
+        "enrichment_factor_top10pct": 2.6454293628808863,
+        "hit_rate_top10pct": 26.31578947368421,
+        "enrichment_factor_top20pct": 1.8518005540166205,
+        "hit_rate_top20pct": 18.421052631578945,
+        "baseline_hit_rate_pct": 9.947643979057592,
+        "spearman_rank_correlation": 0.47056427585108246
+      },
+      "stratified": {
+        "model": "RDKit-desc | ExtraTrees",
+        "n_test": 192,
+        "n_actives": 21,
+        "enrichment_factor_top5pct": 7.314285714285715,
+        "hit_rate_top5pct": 80.0,
+        "enrichment_factor_top10pct": 5.774436090225564,
+        "hit_rate_top10pct": 63.1578947368421,
+        "enrichment_factor_top20pct": 3.6090225563909777,
+        "hit_rate_top20pct": 39.473684210526315,
+        "baseline_hit_rate_pct": 10.9375,
+        "spearman_rank_correlation": 0.7820961468731279
+      }
+    }
+  }
+}

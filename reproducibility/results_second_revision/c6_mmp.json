@@ -1,0 +1,433 @@
+{
+ "n_pairs": 194,
+ "n_molecules_in_pairs": 276,
+ "n_connected_components": 96,
+ "largest_component_molecules": 11,
+ "components_with_more_than_two_molecules": 40,
+ "hydroxyl_type_counts": {
+  "phenolic": 179,
+  "aliphatic or enolic": 14,
+  "carboxylic": 1
+ },
+ "pairs_sharing_bemis_murcko_scaffold": 194,
+ "protocols": {
+  "RDKit-desc | ExtraTrees": {
+   "molecule_level": {
+    "n_pairs": 194,
+    "mean_observed_delta": 0.19551408897311395,
+    "sd_observed_delta": 0.6351643426816205,
+    "mean_predicted_delta": 0.14249539950359227,
+    "spearman": 0.2504592746357756,
+    "spearman_p": 0.0004278878179615906,
+    "pearson": 0.4758187370468027,
+    "sign_agreement_pct": 59.27835051546392,
+    "sign_agreement_binomial_p": 0.0037093280633834535,
+    "mae_of_delta": 0.3983532068762668,
+    "predicted_delta_one_sample_t_p": 3.571545352627924e-07,
+    "spearman_ci95": [
+     0.07685680005644793,
+     0.4028611835914798
+    ],
+    "sign_agreement_ci95": [
+     50.56741813294233,
+     68.15976933514247
+    ],
+    "mean_predicted_delta_ci95": [
+     0.087304786744468,
+     0.20259567363671746
+    ],
+    "exposure": {
+     "pairs_partner_seen_for_both_members": 151,
+     "pairs_partner_seen_for_one_member": 30,
+     "pairs_partner_seen_for_neither": 13,
+     "pct_pairs_with_any_partner_exposure": 93.29896907216495,
+     "pct_predictions_made_by_a_model_trained_on_the_partner": 85.56701030927834
+    }
+   },
+   "component_aware": {
+    "n_pairs": 194,
+    "mean_observed_delta": 0.19551408897311395,
+    "sd_observed_delta": 0.6351643426816205,
+    "mean_predicted_delta": 0.13702010931663863,
+    "spearman": 0.3056240033298953,
+    "spearman_p": 1.4676913295699324e-05,
+    "pearson": 0.4486178864319704,
+    "sign_agreement_pct": 61.34020618556701,
+    "sign_agreement_binomial_p": 0.0005544671257743476,
+    "mae_of_delta": 0.4094075923855555,
+    "predicted_delta_one_sample_t_p": 7.251162782108203e-07,
+    "spearman_ci95": [
+     0.08727849828055192,
+     0.4816087784725575
+    ],
+    "sign_agreement_ci95": [
+     51.847421584263685,
+     69.94227549827853
+    ],
+    "mean_predicted_delta_ci95": [
+     0.06024703124724883,
+     0.20684965513891754
+    ]
+   },
+   "scaffold_aware": {
+    "n_pairs": 98,
+    "mean_observed_delta": 0.23326752389590236,
+    "sd_observed_delta": 0.4216565390960316,
+    "mean_predicted_delta": 0.24299690400880467,
+    "spearman": 0.32660074339013956,
+    "spearman_p": 0.001030028638374513,
+    "pearson": 0.36365016033320735,
+    "sign_agreement_pct": 74.48979591836735,
+    "sign_agreement_binomial_p": 3.202366199335256e-07,
+    "mae_of_delta": 0.32923512253728315,
+    "predicted_delta_one_sample_t_p": 1.688733234944864e-10,
+    "spearman_ci95": [
+     0.13230970514051288,
+     0.5003977539429305
+    ],
+    "sign_agreement_ci95": [
+     65.852053915276,
+     84.27135508325435
+    ],
+    "mean_predicted_delta_ci95": [
+     0.14797394728517083,
+     0.34086559592033694
+    ]
+   },
+   "component_aware_same_pairs": {
+    "n_pairs": 98,
+    "mean_observed_delta": 0.23326752389590236,
+    "sd_observed_delta": 0.4216565390960316,
+    "mean_predicted_delta": 0.14531796948795384,
+    "spearman": 0.34273090679570795,
+    "spearman_p": 0.0005511472804896923,
+    "pearson": 0.39128692430950707,
+    "sign_agreement_pct": 68.36734693877551,
+    "sign_agreement_binomial_p": 0.00010945488150518316,
+    "mae_of_delta": 0.3192067498508573,
+    "predicted_delta_one_sample_t_p": 2.4701249731119965e-05,
+    "spearman_ci95": [
+     0.19445055709880651,
+     0.4714483509483344
+    ],
+    "sign_agreement_ci95": [
+     57.89268092105264,
+     80.0
+    ],
+    "mean_predicted_delta_ci95": [
+     0.08006628325304219,
+     0.22389090460052125
+    ]
+   },
+   "component_aware_phenolic_only": {
+    "n_pairs": 179,
+    "mean_observed_delta": 0.22085069341844388,
+    "sd_observed_delta": 0.6461232128773904,
+    "mean_predicted_delta": 0.15141233446060218,
+    "spearman": 0.29694008376758174,
+    "spearman_p": 5.428314870291866e-05,
+    "pearson": 0.4505619939715749,
+    "sign_agreement_pct": 62.56983240223464,
+    "sign_agreement_binomial_p": 0.0002546165756421184,
+    "mae_of_delta": 0.42058347960464915,
+    "predicted_delta_one_sample_t_p": 3.5200259399357776e-07,
+    "spearman_ci95": [
+     0.08338955691959621,
+     0.4785668579941005
+    ],
+    "sign_agreement_ci95": [
+     53.259476031215165,
+     72.01848514635212
+    ],
+    "mean_predicted_delta_ci95": [
+     0.06635979572751619,
+     0.22829646552036997
+    ]
+   }
+  },
+  "ECFP4 | ExtraTrees": {
+   "molecule_level": {
+    "n_pairs": 194,
+    "mean_observed_delta": 0.19551408897311395,
+    "sd_observed_delta": 0.6351643426816205,
+    "mean_predicted_delta": 0.11736591130021065,
+    "spearman": -0.08547623831577698,
+    "spearman_p": 0.23600858830523105,
+    "pearson": -0.1674654875731792,
+    "sign_agreement_pct": 48.96907216494845,
+    "sign_agreement_binomial_p": 0.5856682854134962,
+    "mae_of_delta": 0.5334720798379283,
+    "predicted_delta_one_sample_t_p": 0.0004095753368484145,
+    "spearman_ci95": [
+     -0.29242178939752195,
+     0.14102319367875985
+    ],
+    "sign_agreement_ci95": [
+     40.200881860281804,
+     56.70776280131222
+    ],
+    "mean_predicted_delta_ci95": [
+     0.03945737520156414,
+     0.18627175624557563
+    ],
+    "exposure": {
+     "pairs_partner_seen_for_both_members": 151,
+     "pairs_partner_seen_for_one_member": 30,
+     "pairs_partner_seen_for_neither": 13,
+     "pct_pairs_with_any_partner_exposure": 93.29896907216495,
+     "pct_predictions_made_by_a_model_trained_on_the_partner": 85.56701030927834
+    }
+   },
+   "component_aware": {
+    "n_pairs": 194,
+    "mean_observed_delta": 0.19551408897311395,
+    "sd_observed_delta": 0.6351643426816205,
+    "mean_predicted_delta": 0.16682491047380665,
+    "spearman": 0.3112762349464808,
+    "spearman_p": 9.9705571243532e-06,
+    "pearson": 0.2948171135945935,
+    "sign_agreement_pct": 64.43298969072166,
+    "sign_agreement_binomial_p": 1.713997435053491e-05,
+    "mae_of_delta": 0.4281550333236788,
+    "predicted_delta_one_sample_t_p": 6.468497339586094e-08,
+    "spearman_ci95": [
+     0.14939651731737877,
+     0.46147420156282776
+    ],
+    "sign_agreement_ci95": [
+     56.57751716247139,
+     71.72867262088081
+    ],
+    "mean_predicted_delta_ci95": [
+     0.07517370075984516,
+     0.24321310823997067
+    ]
+   },
+   "scaffold_aware": {
+    "n_pairs": 98,
+    "mean_observed_delta": 0.23326752389590236,
+    "sd_observed_delta": 0.4216565390960316,
+    "mean_predicted_delta": 0.15233661276036917,
+    "spearman": 0.1975976894975422,
+    "spearman_p": 0.051141044416134394,
+    "pearson": 0.3320274020191024,
+    "sign_agreement_pct": 57.14285714285714,
+    "sign_agreement_binomial_p": 0.0774078925172145,
+    "mae_of_delta": 0.32951261128558523,
+    "predicted_delta_one_sample_t_p": 1.8557109299911375e-05,
+    "spearman_ci95": [
+     -0.014380238996664603,
+     0.4121388947561512
+    ],
+    "sign_agreement_ci95": [
+     48.7797256097561,
+     64.63414634146342
+    ],
+    "mean_predicted_delta_ci95": [
+     0.08730819038868866,
+     0.21103250625258235
+    ]
+   },
+   "component_aware_same_pairs": {
+    "n_pairs": 98,
+    "mean_observed_delta": 0.23326752389590236,
+    "sd_observed_delta": 0.4216565390960316,
+    "mean_predicted_delta": 0.18778533585893215,
+    "spearman": 0.3993968721509222,
+    "spearman_p": 4.621348320530318e-05,
+    "pearson": 0.43166217888619063,
+    "sign_agreement_pct": 65.3061224489796,
+    "sign_agreement_binomial_p": 0.001075776543962513,
+    "mae_of_delta": 0.3073616737312946,
+    "predicted_delta_one_sample_t_p": 8.639298611290967e-07,
+    "spearman_ci95": [
+     0.18866879528535455,
+     0.593307437155852
+    ],
+    "sign_agreement_ci95": [
+     56.042857142857144,
+     74.39095292115711
+    ],
+    "mean_predicted_delta_ci95": [
+     0.1072099368526226,
+     0.2598361724141724
+    ]
+   },
+   "component_aware_phenolic_only": {
+    "n_pairs": 179,
+    "mean_observed_delta": 0.22085069341844388,
+    "sd_observed_delta": 0.6461232128773904,
+    "mean_predicted_delta": 0.18510055103091916,
+    "spearman": 0.28936470265770003,
+    "spearman_p": 8.540767145583183e-05,
+    "pearson": 0.293268074530805,
+    "sign_agreement_pct": 67.0391061452514,
+    "sign_agreement_binomial_p": 1.2519486891042733e-06,
+    "mae_of_delta": 0.4376194056041647,
+    "predicted_delta_one_sample_t_p": 1.5971888637243354e-08,
+    "spearman_ci95": [
+     0.129490008931171,
+     0.4611434926104552
+    ],
+    "sign_agreement_ci95": [
+     59.09024455077087,
+     74.55621301775149
+    ],
+    "mean_predicted_delta_ci95": [
+     0.08838049197678895,
+     0.2676948090717912
+    ]
+   }
+  },
+  "MoLFormer-XL | SVR": {
+   "molecule_level": {
+    "n_pairs": 194,
+    "mean_observed_delta": 0.19551408897311395,
+    "sd_observed_delta": 0.6351643426816205,
+    "mean_predicted_delta": 0.19344200698966715,
+    "spearman": -0.022613857171445404,
+    "spearman_p": 0.7542965430748587,
+    "pearson": 0.14127725900752847,
+    "sign_agreement_pct": 63.4020618556701,
+    "sign_agreement_binomial_p": 5.9489615134543176e-05,
+    "mae_of_delta": 0.4774149979742339,
+    "predicted_delta_one_sample_t_p": 1.3933875208692812e-11,
+    "spearman_ci95": [
+     -0.21310059128935505,
+     0.14363269567862744
+    ],
+    "sign_agreement_ci95": [
+     56.28245458573327,
+     70.61962170912498
+    ],
+    "mean_predicted_delta_ci95": [
+     0.13615544946876337,
+     0.24613482136094958
+    ],
+    "exposure": {
+     "pairs_partner_seen_for_both_members": 151,
+     "pairs_partner_seen_for_one_member": 30,
+     "pairs_partner_seen_for_neither": 13,
+     "pct_pairs_with_any_partner_exposure": 93.29896907216495,
+     "pct_predictions_made_by_a_model_trained_on_the_partner": 85.56701030927834
+    }
+   },
+   "component_aware": {
+    "n_pairs": 194,
+    "mean_observed_delta": 0.19551408897311395,
+    "sd_observed_delta": 0.6351643426816205,
+    "mean_predicted_delta": 0.21653846704987786,
+    "spearman": 0.3358311463602024,
+    "spearman_p": 1.691881930657794e-06,
+    "pearson": 0.3464611053758031,
+    "sign_agreement_pct": 73.71134020618557,
+    "sign_agreement_binomial_p": 3.6312787679414133e-12,
+    "mae_of_delta": 0.385996008314318,
+    "predicted_delta_one_sample_t_p": 8.996037064540096e-23,
+    "spearman_ci95": [
+     0.18438771204709212,
+     0.48480607609870746
+    ],
+    "sign_agreement_ci95": [
+     66.11063218390805,
+     80.87431693989072
+    ],
+    "mean_predicted_delta_ci95": [
+     0.167493139984176,
+     0.264674872364083
+    ]
+   },
+   "scaffold_aware": {
+    "n_pairs": 98,
+    "mean_observed_delta": 0.23326752389590236,
+    "sd_observed_delta": 0.4216565390960316,
+    "mean_predicted_delta": 0.2044212601896567,
+    "spearman": 0.2740788911628381,
+    "spearman_p": 0.006315531690217542,
+    "pearson": 0.31183563786418,
+    "sign_agreement_pct": 74.48979591836735,
+    "sign_agreement_binomial_p": 3.202366199335256e-07,
+    "mae_of_delta": 0.3216555868856092,
+    "predicted_delta_one_sample_t_p": 4.5468212134432154e-09,
+    "spearman_ci95": [
+     0.07962347615077846,
+     0.5061728134184881
+    ],
+    "sign_agreement_ci95": [
+     62.92134831460674,
+     86.90605590062111
+    ],
+    "mean_predicted_delta_ci95": [
+     0.1189056980395936,
+     0.28415279340515004
+    ]
+   },
+   "component_aware_same_pairs": {
+    "n_pairs": 98,
+    "mean_observed_delta": 0.23326752389590236,
+    "sd_observed_delta": 0.4216565390960316,
+    "mean_predicted_delta": 0.21685105171065366,
+    "spearman": 0.4462189749376788,
+    "spearman_p": 4.123568215934885e-06,
+    "pearson": 0.45741260530489103,
+    "sign_agreement_pct": 83.6734693877551,
+    "sign_agreement_binomial_p": 1.1876979673366643e-12,
+    "mae_of_delta": 0.2922813886042419,
+    "predicted_delta_one_sample_t_p": 3.225495856070573e-10,
+    "spearman_ci95": [
+     0.290958752494716,
+     0.5780555832711376
+    ],
+    "sign_agreement_ci95": [
+     75.24752475247524,
+     91.66666666666666
+    ],
+    "mean_predicted_delta_ci95": [
+     0.1501847433493584,
+     0.29488525855781667
+    ]
+   },
+   "component_aware_phenolic_only": {
+    "n_pairs": 179,
+    "mean_observed_delta": 0.22085069341844388,
+    "sd_observed_delta": 0.6461232128773904,
+    "mean_predicted_delta": 0.23609066595912073,
+    "spearman": 0.3038950808147429,
+    "spearman_p": 3.540423198470116e-05,
+    "pearson": 0.3250836241346339,
+    "sign_agreement_pct": 76.53631284916202,
+    "sign_agreement_binomial_p": 6.263501621708359e-14,
+    "mae_of_delta": 0.39501961790423884,
+    "predicted_delta_one_sample_t_p": 3.008679201092846e-24,
+    "spearman_ci95": [
+     0.15494925350564903,
+     0.45473593598967366
+    ],
+    "sign_agreement_ci95": [
+     69.61205861157819,
+     83.88988095238095
+    ],
+    "mean_predicted_delta_ci95": [
+     0.18594045104228002,
+     0.2892056227298319
+    ]
+   }
+  }
+ },
+ "component_cv": {
+  "rule": "ten folds over all compounds; every connected component of the pair graph is assigned whole to one fold (compounds in no pair form their own component)",
+  "fold_sizes": [
+   191,
+   192,
+   191,
+   191,
+   191,
+   191,
+   191,
+   191,
+   191,
+   191
+  ],
+  "seed": 20260930
+ }
+}

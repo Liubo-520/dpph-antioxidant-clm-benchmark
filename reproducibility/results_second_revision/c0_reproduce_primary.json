@@ -1,0 +1,74 @@
+{
+ "grid": [
+  {
+   "partition": "scaffold",
+   "cell": "MoLFormer-XL | SVR",
+   "first_revision": 0.5940543312711438,
+   "second_revision_code": 0.5940543312711438,
+   "abs_difference": 0.0
+  },
+  {
+   "partition": "scaffold",
+   "cell": "RDKit-desc | ExtraTrees",
+   "first_revision": 0.4993457238186233,
+   "second_revision_code": 0.4993457238186235,
+   "abs_difference": 2.220446049250313e-16
+  },
+  {
+   "partition": "scaffold",
+   "cell": "ECFP4 | Ridge",
+   "first_revision": 0.42503361043193,
+   "second_revision_code": 0.42503361043193,
+   "abs_difference": 0.0
+  },
+  {
+   "partition": "scaffold",
+   "cell": "ChemBERTa-ZINC | SVR",
+   "first_revision": 0.5683775756274602,
+   "second_revision_code": 0.5683775756274602,
+   "abs_difference": 0.0
+  },
+  {
+   "partition": "cluster",
+   "cell": "MoLFormer-XL | SVR",
+   "first_revision": 0.5056354498003521,
+   "second_revision_code": 0.5056354498003521,
+   "abs_difference": 0.0
+  },
+  {
+   "partition": "cluster",
+   "cell": "RDKit-desc | ExtraTrees",
+   "first_revision": 0.4435494379855293,
+   "second_revision_code": 0.44354943798552937,
+   "abs_difference": 5.551115123125783e-17
+  },
+  {
+   "partition": "cluster",
+   "cell": "ECFP4 | Ridge",
+   "first_revision": 0.3097682994620653,
+   "second_revision_code": 0.3097682994620653,
+   "abs_difference": 0.0
+  },
+  {
+   "partition": "cluster",
+   "cell": "ChemBERTa-ZINC | SVR",
+   "first_revision": 0.3781814503641176,
+   "second_revision_code": 0.37818145036411766,
+   "abs_difference": 5.551115123125783e-17
+  }
+ ],
+ "gnn": [
+  {
+   "partition": "scaffold",
+   "first_revision": 0.5111326669194014,
+   "second_revision_code": 0.5160742022560967,
+   "abs_difference": 0.00494153533669528
+  },
+  {
+   "partition": "cluster",
+   "first_revision": 0.4982832028858062,
+   "second_revision_code": 0.5098270993112808,
+   "abs_difference": 0.011543896425474598
+  }
+ ]
+}

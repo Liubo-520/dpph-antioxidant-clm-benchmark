@@ -1,0 +1,92 @@
+{
+  "provenance_match": {
+    "mean CLS over the ten supervised fold encoders": {
+      "median_per_molecule_pearson_r": 0.8973686396462955,
+      "mean_column_pearson_r": 0.9240739378115735,
+      "max_abs_difference": 1.5663349389797077
+    },
+    "fold-1 supervised encoder CLS": {
+      "median_per_molecule_pearson_r": 0.7270614052171529,
+      "mean_column_pearson_r": 0.7510413823682631,
+      "max_abs_difference": 3.021085202693939
+    },
+    "frozen pretrained encoder, mean pooling": {
+      "median_per_molecule_pearson_r": 0.5035598719779677,
+      "mean_column_pearson_r": 0.4931185956762893,
+      "max_abs_difference": 2.951512783765793
+    }
+  },
+  "ridge_probe_on_stratified_split": {
+    "archived feature matrix used for the submitted result": {
+      "test_r2": 0.8759370139177705,
+      "test_rmse": 0.28479080901579296,
+      "test_mae": 0.18755337928884108
+    },
+    "frozen pretrained encoder, mean pooling": {
+      "test_r2": 0.5135855278135678,
+      "test_rmse": 0.5639077953918493,
+      "test_mae": 0.41755040195609344
+    },
+    "Mordred descriptors": {
+      "test_r2": 0.4996427405873559,
+      "test_rmse": 0.5719327381934471,
+      "test_mae": 0.4208482702045957
+    },
+    "ECFP4 fingerprints": {
+      "test_r2": 0.6511308511528138,
+      "test_rmse": 0.4775690099617517,
+      "test_mae": 0.3495542150177569
+    }
+  },
+  "contamination_test": {
+    "n_test": 192,
+    "n_test_seen_by_supervised_encoders": 162,
+    "n_test_never_seen": 30,
+    "sd_pIC50_seen_subset": 0.8456100723881141,
+    "sd_pIC50_unseen_subset": 0.5954766851924412,
+    "note_on_r2": "R2 is compared with caution because the 30 never-seen molecules have a different activity spread; RMSE and the RMSE ratio are the primary comparison.",
+    "archived_features": {
+      "rmse_seen": 0.19944606830545736,
+      "rmse_unseen": 0.5516085449679321,
+      "rmse_ratio_unseen_over_seen": 2.7657027769688987,
+      "median_abs_error_seen": 0.12232933301291116,
+      "median_abs_error_unseen": 0.2602420353488868,
+      "mannwhitney_p_seen_better": 0.00020614972315759965,
+      "r2_seen": 0.94402426528591,
+      "r2_unseen": 0.11232149636831512
+    },
+    "label_free_controls": {
+      "Mordred descriptors": {
+        "rmse_seen": 0.5749494392934248,
+        "rmse_unseen": 0.5553594629562542,
+        "rmse_ratio_unseen_over_seen": 0.9659274798819781,
+        "median_abs_error_seen": 0.28645186990024296,
+        "median_abs_error_unseen": 0.4138914810660821,
+        "mannwhitney_p_seen_better": 0.4892992781107565,
+        "r2_seen": 0.5348337969039765,
+        "r2_unseen": 0.10020808765342659
+      },
+      "frozen pretrained encoder": {
+        "rmse_seen": 0.5369181456292074,
+        "rmse_unseen": 0.6916869937563935,
+        "rmse_ratio_unseen_over_seen": 1.2882540837687924,
+        "median_abs_error_seen": 0.3140856256156639,
+        "median_abs_error_unseen": 0.29820282293774447,
+        "mannwhitney_p_seen_better": 0.7097363126324894,
+        "r2_seen": 0.5943373653667983,
+        "r2_unseen": -0.3957670812457099
+      },
+      "ECFP4 fingerprints": {
+        "rmse_seen": 0.45405089653393566,
+        "rmse_unseen": 0.5885455373136077,
+        "rmse_ratio_unseen_over_seen": 1.296210494916664,
+        "median_abs_error_seen": 0.2360671869921398,
+        "median_abs_error_unseen": 0.3704575968201853,
+        "mannwhitney_p_seen_better": 0.011192159139603999,
+        "r2_seen": 0.7098931931883848,
+        "r2_unseen": -0.010540850990817141
+      }
+    }
+  },
+  "conclusion": "The archived feature matrix matches the mean CLS representation of the ten encoders that had been supervised on DPPH labels under an earlier 80:20 random partition, and does not match any label-free extraction from the same checkpoint. Because that earlier partition overlaps the chemistry-stratified hold-out, 162 of the 192 nominally held-out molecules had already contributed to encoder training. Splitting the hold-out accordingly reproduces the signature of information leakage: the archived features predict the previously seen molecules far better than the unseen ones, whereas label-free representations show no such gap. All results in the revised manuscript are therefore recomputed with encoders that are fitted inside the training partition only."
+}

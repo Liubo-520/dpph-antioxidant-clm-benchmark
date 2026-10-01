@@ -1,0 +1,1336 @@
+{
+ "selection_rule": "highest training-set Q2_CV within the family",
+ "n_boot": 2000,
+ "partitions": {
+  "stratified": {
+   "n_test": 192,
+   "families": {
+    "Fp": {
+     "label": "ECFP4",
+     "n_candidates": 10,
+     "candidates": [
+      "ECFP4 | CatBoost",
+      "ECFP4 | ExtraTrees",
+      "ECFP4 | Ridge",
+      "ECFP4 | SVR",
+      "ECFP4-count | Ridge",
+      "ECFP4-count | SVR",
+      "ECFP6 | Ridge",
+      "ECFP6 | SVR",
+      "MACCS | Ridge",
+      "MACCS | SVR"
+     ],
+     "selected": "ECFP4 | ExtraTrees",
+     "selected_by_inner_cv": "ECFP4 | ExtraTrees",
+     "same_under_both_training_criteria": true,
+     "q2_cv": 0.7315195889115869,
+     "inner_cv_r2": 0.7162656799117312,
+     "test_r2": 0.7983205394950098,
+     "test_r2_ci95": [
+      0.6893174001118004,
+      0.8669339102971821
+     ],
+     "test_rmse": 0.3631078932841713,
+     "test_mae": 0.2517354552907185,
+     "spearman": 0.8221427139395207,
+     "previous_test_selected": "ECFP4 | ExtraTrees",
+     "previous_test_selected_r2": 0.7983205394950098,
+     "selection_changed": false,
+     "optimism_of_test_selection": 0.0,
+     "rank": 2
+    },
+    "Desc": {
+     "label": "Mordred / RDKit",
+     "n_candidates": 8,
+     "candidates": [
+      "Mordred | CatBoost",
+      "Mordred | ExtraTrees",
+      "Mordred | Ridge",
+      "Mordred | SVR",
+      "RDKit-desc | CatBoost",
+      "RDKit-desc | ExtraTrees",
+      "RDKit-desc | Ridge",
+      "RDKit-desc | SVR"
+     ],
+     "selected": "RDKit-desc | ExtraTrees",
+     "selected_by_inner_cv": "RDKit-desc | ExtraTrees",
+     "same_under_both_training_criteria": true,
+     "q2_cv": 0.7768273138017393,
+     "inner_cv_r2": 0.7688118894838856,
+     "test_r2": 0.7760926983357355,
+     "test_r2_ci95": [
+      0.6480850125530814,
+      0.8562143246365181
+     ],
+     "test_rmse": 0.3825947289606013,
+     "test_mae": 0.2622711371686207,
+     "spearman": 0.7820961468731279,
+     "previous_test_selected": "RDKit-desc | ExtraTrees",
+     "previous_test_selected_r2": 0.7760926983357355,
+     "selection_changed": false,
+     "optimism_of_test_selection": 0.0,
+     "rank": 4
+    },
+    "Frozen": {
+     "label": "Frozen CLM",
+     "n_candidates": 14,
+     "candidates": [
+      "ChemBERTa-MLM | Ridge",
+      "ChemBERTa-MLM | SVR",
+      "ChemBERTa-MTR | Ridge",
+      "ChemBERTa-MTR | SVR",
+      "ChemBERTa-MTR-199 | Ridge",
+      "ChemBERTa-MTR-199 | SVR",
+      "ChemBERTa-ZINC | CatBoost",
+      "ChemBERTa-ZINC | ExtraTrees",
+      "ChemBERTa-ZINC | Ridge",
+      "ChemBERTa-ZINC | SVR",
+      "MoLFormer-XL | CatBoost",
+      "MoLFormer-XL | ExtraTrees",
+      "MoLFormer-XL | Ridge",
+      "MoLFormer-XL | SVR"
+     ],
+     "selected": "MoLFormer-XL | SVR",
+     "selected_by_inner_cv": "MoLFormer-XL | SVR",
+     "same_under_both_training_criteria": true,
+     "q2_cv": 0.7759539699101531,
+     "inner_cv_r2": 0.7699692738102449,
+     "test_r2": 0.7253981460965595,
+     "test_r2_ci95": [
+      0.5455894949072742,
+      0.8303533625182823
+     ],
+     "test_rmse": 0.42369816856534875,
+     "test_mae": 0.2933481224974736,
+     "spearman": 0.7420389077129025,
+     "previous_test_selected": "ChemBERTa-MTR-199 | SVR",
+     "previous_test_selected_r2": 0.7438879272887489,
+     "selection_changed": true,
+     "optimism_of_test_selection": 0.01848978119218936,
+     "rank": 7
+    },
+    "Ft": {
+     "label": "Fine-tuned CLM",
+     "n_candidates": 3,
+     "candidates": [
+      "ChemBERTa-MTR (fine-tuned) | fold ensemble",
+      "ChemBERTa-ZINC (fine-tuned) | fold ensemble (3-seed mean)",
+      "ChemBERTa-ZINC (fine-tuned) | fold ensemble (single seed)"
+     ],
+     "selected": "ChemBERTa-ZINC (fine-tuned) | fold ensemble (3-seed mean)",
+     "selected_by_inner_cv": "ChemBERTa-ZINC (fine-tuned) | fold ensemble (3-seed mean)",
+     "same_under_both_training_criteria": true,
+     "q2_cv": 0.709499904487241,
+     "inner_cv_r2": 0.6738098978996275,
+     "test_r2": 0.7379846916309796,
+     "test_r2_ci95": [
+      0.582475967932907,
+      0.8261582643541225
+     ],
+     "test_rmse": 0.4138740408245893,
+     "test_mae": 0.2929445784224331,
+     "spearman": 0.770829730458174,
+     "previous_test_selected": "ChemBERTa-ZINC (fine-tuned) | fold ensemble (3-seed mean)",
+     "previous_test_selected_r2": 0.7379846916309796,
+     "selection_changed": false,
+     "optimism_of_test_selection": 0.0,
+     "rank": 5
+    },
+    "Hyb": {
+     "label": "Hybrid, ECFP4 + Mordred",
+     "n_candidates": 4,
+     "candidates": [
+      "ECFP4+Mordred | CatBoost",
+      "ECFP4+Mordred | ExtraTrees",
+      "ECFP4+Mordred | Ridge",
+      "ECFP4+Mordred | SVR"
+     ],
+     "selected": "ECFP4+Mordred | ExtraTrees",
+     "selected_by_inner_cv": "ECFP4+Mordred | ExtraTrees",
+     "same_under_both_training_criteria": true,
+     "q2_cv": 0.7706454641049386,
+     "inner_cv_r2": 0.7508984169742814,
+     "test_r2": 0.8136725252230776,
+     "test_r2_ci95": [
+      0.7121282851538165,
+      0.8762892160710741
+     ],
+     "test_rmse": 0.3490143658350286,
+     "test_mae": 0.25023988708636385,
+     "spearman": 0.843160293389452,
+     "previous_test_selected": "ECFP4+Mordred | ExtraTrees",
+     "previous_test_selected_r2": 0.8136725252230776,
+     "selection_changed": false,
+     "optimism_of_test_selection": 0.0,
+     "rank": 1
+    },
+    "HybClm": {
+     "label": "Hybrid with a CLM",
+     "n_candidates": 10,
+     "candidates": [
+      "ChemBERTa-ZINC+Mordred | CatBoost",
+      "ChemBERTa-ZINC+Mordred | ExtraTrees",
+      "ChemBERTa-ZINC+Mordred | Ridge",
+      "ChemBERTa-ZINC+Mordred | SVR",
+      "ECFP4+ChemBERTa-ZINC | CatBoost",
+      "ECFP4+ChemBERTa-ZINC | ExtraTrees",
+      "ECFP4+ChemBERTa-ZINC | Ridge",
+      "ECFP4+ChemBERTa-ZINC | SVR",
+      "MoLFormer-XL+Mordred | Ridge",
+      "MoLFormer-XL+Mordred | SVR"
+     ],
+     "selected": "MoLFormer-XL+Mordred | SVR",
+     "selected_by_inner_cv": "MoLFormer-XL+Mordred | SVR",
+     "same_under_both_training_criteria": true,
+     "q2_cv": 0.7662895261216156,
+     "inner_cv_r2": 0.7593340112205125,
+     "test_r2": 0.7298079095822207,
+     "test_r2_ci95": [
+      0.5833985498600761,
+      0.8163131289870638
+     ],
+     "test_rmse": 0.42028236746072173,
+     "test_mae": 0.30778482856318296,
+     "spearman": 0.7288405001008323,
+     "previous_test_selected": "ECFP4+ChemBERTa-ZINC | ExtraTrees",
+     "previous_test_selected_r2": 0.7673866952800557,
+     "selection_changed": true,
+     "optimism_of_test_selection": 0.037578785697834904,
+     "rank": 6
+    },
+    "Gnn": {
+     "label": "Graph network",
+     "n_candidates": 1,
+     "candidates": [
+      "Molecular graph | AttentiveFP, fold ensemble"
+     ],
+     "selected": "Molecular graph | AttentiveFP, fold ensemble",
+     "selected_by_inner_cv": "Molecular graph | AttentiveFP, fold ensemble",
+     "same_under_both_training_criteria": true,
+     "q2_cv": 0.7450756575899105,
+     "inner_cv_r2": 0.7401111364364624,
+     "test_r2": 0.7786347829042459,
+     "test_r2_ci95": [
+      0.6578345234351682,
+      0.8530519725178354
+     ],
+     "test_rmse": 0.3804166748044901,
+     "test_mae": 0.2729740932018721,
+     "spearman": 0.8037948071106866,
+     "previous_test_selected": "Molecular graph | AttentiveFP, fold ensemble",
+     "previous_test_selected_r2": 0.7786347829042459,
+     "selection_changed": false,
+     "optimism_of_test_selection": 0.0,
+     "rank": 3
+    }
+   },
+   "n_families": 7,
+   "ranking": [
+    "Hyb",
+    "Fp",
+    "Gnn",
+    "Desc",
+    "Ft",
+    "HybClm",
+    "Frozen"
+   ],
+   "contrasts": {
+    "Frozen-Hyb": {
+     "delta_r2": -0.08827437912651814,
+     "delta_r2_ci95": [
+      -0.19967838288773745,
+      -0.0227929310038669
+     ],
+     "p_bootstrap_two_sided": 0.002,
+     "p_wilcoxon_abs_error": 0.002521454497324373
+    },
+    "Frozen-Fp": {
+     "delta_r2": -0.0729223933984503,
+     "delta_r2_ci95": [
+      -0.18627310479917109,
+      -0.0017873917979542725
+     ],
+     "p_bootstrap_two_sided": 0.045,
+     "p_wilcoxon_abs_error": 0.006845208041380094
+    },
+    "Frozen-Ft": {
+     "delta_r2": -0.012586545534420068,
+     "delta_r2_ci95": [
+      -0.10373507375272704,
+      0.0653594905219757
+     ],
+     "p_bootstrap_two_sided": 0.834,
+     "p_wilcoxon_abs_error": 0.8194323345579986
+    },
+    "Hyb-Fp": {
+     "delta_r2": 0.01535198572806784,
+     "delta_r2_ci95": [
+      -0.007573665810800498,
+      0.04383802627865032
+     ],
+     "p_bootstrap_two_sided": 0.205,
+     "p_wilcoxon_abs_error": 0.42056111664014284
+    },
+    "Frozen-Desc": {
+     "delta_r2": -0.05069455223917596,
+     "delta_r2_ci95": [
+      -0.14693070269906947,
+      0.015321331067431804
+     ],
+     "p_bootstrap_two_sided": 0.158,
+     "p_wilcoxon_abs_error": 0.0521811967352105
+    }
+   }
+  },
+  "scaffold": {
+   "n_test": 191,
+   "families": {
+    "Fp": {
+     "label": "ECFP4",
+     "n_candidates": 3,
+     "candidates": [
+      "ECFP4 | ExtraTrees",
+      "ECFP4 | Ridge",
+      "ECFP4 | SVR"
+     ],
+     "selected": "ECFP4 | ExtraTrees",
+     "selected_by_inner_cv": "ECFP4 | ExtraTrees",
+     "same_under_both_training_criteria": true,
+     "q2_cv": 0.7536461191822222,
+     "inner_cv_r2": 0.7607855421022078,
+     "test_r2": 0.5552867663299214,
+     "test_r2_ci95": [
+      0.29241802732215216,
+      0.7186218696326037
+     ],
+     "test_rmse": 0.4692205869457727,
+     "test_mae": 0.31751283885389986,
+     "spearman": 0.6477928550887035,
+     "previous_test_selected": "ECFP4 | ExtraTrees",
+     "previous_test_selected_r2": 0.5552867663299214,
+     "selection_changed": false,
+     "optimism_of_test_selection": 0.0,
+     "rank": 3,
+     "retention_pct_of_stratified": 69.55686830770718
+    },
+    "Desc": {
+     "label": "Mordred / RDKit",
+     "n_candidates": 6,
+     "candidates": [
+      "Mordred | ExtraTrees",
+      "Mordred | Ridge",
+      "Mordred | SVR",
+      "RDKit-desc | ExtraTrees",
+      "RDKit-desc | Ridge",
+      "RDKit-desc | SVR"
+     ],
+     "selected": "RDKit-desc | ExtraTrees",
+     "selected_by_inner_cv": "RDKit-desc | ExtraTrees",
+     "same_under_both_training_criteria": true,
+     "q2_cv": 0.8047607670300121,
+     "inner_cv_r2": 0.7799074987174714,
+     "test_r2": 0.4993457238186233,
+     "test_r2_ci95": [
+      0.2766668570289441,
+      0.6498164584402287
+     ],
+     "test_rmse": 0.49785858077098527,
+     "test_mae": 0.3427881880097966,
+     "spearman": 0.6040542454817488,
+     "previous_test_selected": "Mordred | ExtraTrees",
+     "previous_test_selected_r2": 0.6056951164235718,
+     "selection_changed": true,
+     "optimism_of_test_selection": 0.10634939260494847,
+     "rank": 7,
+     "retention_pct_of_stratified": 64.34098979276929
+    },
+    "Frozen": {
+     "label": "Frozen CLM",
+     "n_candidates": 6,
+     "candidates": [
+      "ChemBERTa-ZINC | ExtraTrees",
+      "ChemBERTa-ZINC | Ridge",
+      "ChemBERTa-ZINC | SVR",
+      "MoLFormer-XL | ExtraTrees",
+      "MoLFormer-XL | Ridge",
+      "MoLFormer-XL | SVR"
+     ],
+     "selected": "MoLFormer-XL | SVR",
+     "selected_by_inner_cv": "MoLFormer-XL | SVR",
+     "same_under_both_training_criteria": true,
+     "q2_cv": 0.7787152186092664,
+     "inner_cv_r2": 0.7624576267285568,
+     "test_r2": 0.5940543312711438,
+     "test_r2_ci95": [
+      0.3521379094479134,
+      0.735584518517625
+     ],
+     "test_rmse": 0.4483023214747722,
+     "test_mae": 0.3158464061960966,
+     "spearman": 0.6536117797987365,
+     "previous_test_selected": "MoLFormer-XL | SVR",
+     "previous_test_selected_r2": 0.5940543312711438,
+     "selection_changed": false,
+     "optimism_of_test_selection": 0.0,
+     "rank": 1,
+     "retention_pct_of_stratified": 81.89355521072255
+    },
+    "Ft": {
+     "label": "Fine-tuned CLM",
+     "n_candidates": 1,
+     "candidates": [
+      "ChemBERTa-ZINC (fine-tuned) | fold ensemble"
+     ],
+     "selected": "ChemBERTa-ZINC (fine-tuned) | fold ensemble",
+     "selected_by_inner_cv": "ChemBERTa-ZINC (fine-tuned) | fold ensemble",
+     "same_under_both_training_criteria": true,
+     "q2_cv": 0.6740099484297046,
+     "inner_cv_r2": 0.674843966960907,
+     "test_r2": 0.5282205334065069,
+     "test_r2_ci95": [
+      0.2667702779348866,
+      0.6871306534506169
+     ],
+     "test_rmse": 0.48328859817127817,
+     "test_mae": 0.3539743021114178,
+     "spearman": 0.577759043606796,
+     "previous_test_selected": "ChemBERTa-ZINC (fine-tuned) | fold ensemble",
+     "previous_test_selected_r2": 0.5282205334065069,
+     "selection_changed": false,
+     "optimism_of_test_selection": 0.0,
+     "rank": 5,
+     "retention_pct_of_stratified": 71.57608272864246
+    },
+    "Hyb": {
+     "label": "Hybrid, ECFP4 + Mordred",
+     "n_candidates": 4,
+     "candidates": [
+      "ECFP4+Mordred | CatBoost",
+      "ECFP4+Mordred | ExtraTrees",
+      "ECFP4+Mordred | Ridge",
+      "ECFP4+Mordred | SVR"
+     ],
+     "selected": "ECFP4+Mordred | ExtraTrees",
+     "selected_by_inner_cv": "ECFP4+Mordred | ExtraTrees",
+     "same_under_both_training_criteria": true,
+     "q2_cv": 0.7811648353537627,
+     "inner_cv_r2": 0.7741999242123045,
+     "test_r2": 0.5774583963833526,
+     "test_r2_ci95": [
+      0.33766072167374417,
+      0.730940204794268
+     ],
+     "test_rmse": 0.45737431272012863,
+     "test_mae": 0.31500916665485545,
+     "spearman": 0.641761888752063,
+     "previous_test_selected": "ECFP4+Mordred | ExtraTrees",
+     "previous_test_selected_r2": 0.5774583963833526,
+     "selection_changed": false,
+     "optimism_of_test_selection": 0.0,
+     "rank": 2,
+     "retention_pct_of_stratified": 70.96938614524754
+    },
+    "HybClm": {
+     "label": "Hybrid with a CLM",
+     "n_candidates": 3,
+     "candidates": [
+      "ECFP4+ChemBERTa-ZINC | ExtraTrees",
+      "ECFP4+ChemBERTa-ZINC | Ridge",
+      "ECFP4+ChemBERTa-ZINC | SVR"
+     ],
+     "selected": "ECFP4+ChemBERTa-ZINC | ExtraTrees",
+     "selected_by_inner_cv": "ECFP4+ChemBERTa-ZINC | ExtraTrees",
+     "same_under_both_training_criteria": true,
+     "q2_cv": 0.7439425233689696,
+     "inner_cv_r2": 0.7422951109991968,
+     "test_r2": 0.5531054011327572,
+     "test_r2_ci95": [
+      0.3018030281592359,
+      0.7091823247942174
+     ],
+     "test_rmse": 0.4703699673835772,
+     "test_mae": 0.32949730102196023,
+     "spearman": 0.6192909268406502,
+     "previous_test_selected": "ECFP4+ChemBERTa-ZINC | ExtraTrees",
+     "previous_test_selected_r2": 0.5531054011327572,
+     "selection_changed": false,
+     "optimism_of_test_selection": 0.0,
+     "rank": 4,
+     "retention_pct_of_stratified": 75.78780578705744
+    },
+    "Gnn": {
+     "label": "Graph network",
+     "n_candidates": 1,
+     "candidates": [
+      "Molecular graph | AttentiveFP, fold ensemble"
+     ],
+     "selected": "Molecular graph | AttentiveFP, fold ensemble",
+     "selected_by_inner_cv": "Molecular graph | AttentiveFP, fold ensemble",
+     "same_under_both_training_criteria": true,
+     "q2_cv": 0.7953962148517855,
+     "inner_cv_r2": 0.7950753450393677,
+     "test_r2": 0.5111326669194014,
+     "test_r2_ci95": [
+      0.2244718069767081,
+      0.6883695797618744
+     ],
+     "test_rmse": 0.49196311282005206,
+     "test_mae": 0.34623576287200686,
+     "spearman": 0.6234389484358706,
+     "previous_test_selected": "Molecular graph | AttentiveFP, fold ensemble",
+     "previous_test_selected_r2": 0.5111326669194014,
+     "selection_changed": false,
+     "optimism_of_test_selection": 0.0,
+     "rank": 6,
+     "retention_pct_of_stratified": 65.64472563284639
+    }
+   },
+   "n_families": 7,
+   "ranking": [
+    "Frozen",
+    "Hyb",
+    "Fp",
+    "HybClm",
+    "Ft",
+    "Gnn",
+    "Desc"
+   ],
+   "contrasts": {
+    "Frozen-Hyb": {
+     "delta_r2": 0.01659593488779121,
+     "delta_r2_ci95": [
+      -0.13438756828408607,
+      0.14837401587031326
+     ],
+     "p_bootstrap_two_sided": 0.784,
+     "p_wilcoxon_abs_error": 0.5883856351465798
+    },
+    "Frozen-Fp": {
+     "delta_r2": 0.038767564941222465,
+     "delta_r2_ci95": [
+      -0.12281292972367727,
+      0.1902043814824529
+     ],
+     "p_bootstrap_two_sided": 0.572,
+     "p_wilcoxon_abs_error": 0.4405632138900586
+    },
+    "Frozen-Ft": {
+     "delta_r2": 0.06583379786463694,
+     "delta_r2_ci95": [
+      -0.055492427367425226,
+      0.1940839344526845
+     ],
+     "p_bootstrap_two_sided": 0.237,
+     "p_wilcoxon_abs_error": 0.02734636429749922
+    },
+    "Hyb-Fp": {
+     "delta_r2": 0.022171630053431257,
+     "delta_r2_ci95": [
+      -0.017480937042600193,
+      0.07058503165735903
+     ],
+     "p_bootstrap_two_sided": 0.266,
+     "p_wilcoxon_abs_error": 0.8732928725703947
+    },
+    "Frozen-Desc": {
+     "delta_r2": 0.09470860745252052,
+     "delta_r2_ci95": [
+      -0.07794917062796393,
+      0.23830553520783015
+     ],
+     "p_bootstrap_two_sided": 0.217,
+     "p_wilcoxon_abs_error": 0.46415222902732334
+    }
+   }
+  },
+  "cluster": {
+   "n_test": 191,
+   "families": {
+    "Fp": {
+     "label": "ECFP4",
+     "n_candidates": 3,
+     "candidates": [
+      "ECFP4 | ExtraTrees",
+      "ECFP4 | Ridge",
+      "ECFP4 | SVR"
+     ],
+     "selected": "ECFP4 | ExtraTrees",
+     "selected_by_inner_cv": "ECFP4 | ExtraTrees",
+     "same_under_both_training_criteria": true,
+     "q2_cv": 0.8025356712663958,
+     "inner_cv_r2": 0.777235703918223,
+     "test_r2": 0.34446265525346553,
+     "test_r2_ci95": [
+      0.16543949885156609,
+      0.5214475081754343
+     ],
+     "test_rmse": 0.810166293948505,
+     "test_mae": 0.5119668998447463,
+     "spearman": 0.56021652045152,
+     "previous_test_selected": "ECFP4 | ExtraTrees",
+     "previous_test_selected_r2": 0.3444626552534655,
+     "selection_changed": false,
+     "optimism_of_test_selection": -5.551115123125783e-17,
+     "rank": 5,
+     "retention_pct_of_stratified": 43.14841447914654
+    },
+    "Desc": {
+     "label": "Mordred / RDKit",
+     "n_candidates": 6,
+     "candidates": [
+      "Mordred | ExtraTrees",
+      "Mordred | Ridge",
+      "Mordred | SVR",
+      "RDKit-desc | ExtraTrees",
+      "RDKit-desc | Ridge",
+      "RDKit-desc | SVR"
+     ],
+     "selected": "RDKit-desc | ExtraTrees",
+     "selected_by_inner_cv": "RDKit-desc | ExtraTrees",
+     "same_under_both_training_criteria": true,
+     "q2_cv": 0.8207491622228296,
+     "inner_cv_r2": 0.8071224943712323,
+     "test_r2": 0.44354943798552937,
+     "test_r2_ci95": [
+      0.25372365739656194,
+      0.5874910674364597
+     ],
+     "test_rmse": 0.7464294135587505,
+     "test_mae": 0.5164280870999424,
+     "spearman": 0.5410066168625951,
+     "previous_test_selected": "RDKit-desc | SVR",
+     "previous_test_selected_r2": 0.4674500989288589,
+     "selection_changed": true,
+     "optimism_of_test_selection": 0.023900660943329544,
+     "rank": 3,
+     "retention_pct_of_stratified": 57.1516055925643
+    },
+    "Frozen": {
+     "label": "Frozen CLM",
+     "n_candidates": 6,
+     "candidates": [
+      "ChemBERTa-ZINC | ExtraTrees",
+      "ChemBERTa-ZINC | Ridge",
+      "ChemBERTa-ZINC | SVR",
+      "MoLFormer-XL | ExtraTrees",
+      "MoLFormer-XL | Ridge",
+      "MoLFormer-XL | SVR"
+     ],
+     "selected": "MoLFormer-XL | SVR",
+     "selected_by_inner_cv": "MoLFormer-XL | SVR",
+     "same_under_both_training_criteria": true,
+     "q2_cv": 0.8091301617200191,
+     "inner_cv_r2": 0.7963200339220545,
+     "test_r2": 0.5056354498003521,
+     "test_r2_ci95": [
+      0.3481784395358016,
+      0.6194139591640881
+     ],
+     "test_rmse": 0.7035567150629771,
+     "test_mae": 0.49408104908827677,
+     "spearman": 0.5563948622066012,
+     "previous_test_selected": "MoLFormer-XL | SVR",
+     "previous_test_selected_r2": 0.5056354498003521,
+     "selection_changed": false,
+     "optimism_of_test_selection": 0.0,
+     "rank": 1,
+     "retention_pct_of_stratified": 69.70454122625311
+    },
+    "Ft": {
+     "label": "Fine-tuned CLM",
+     "n_candidates": 1,
+     "candidates": [
+      "ChemBERTa-ZINC (fine-tuned) | fold ensemble"
+     ],
+     "selected": "ChemBERTa-ZINC (fine-tuned) | fold ensemble",
+     "selected_by_inner_cv": "ChemBERTa-ZINC (fine-tuned) | fold ensemble",
+     "same_under_both_training_criteria": true,
+     "q2_cv": 0.736217345415859,
+     "inner_cv_r2": 0.7263511180877685,
+     "test_r2": 0.3192132356955647,
+     "test_r2_ci95": [
+      0.12429402674501842,
+      0.4752725147834327
+     ],
+     "test_rmse": 0.8256215190450462,
+     "test_mae": 0.5515355830581207,
+     "spearman": 0.5351397945050845,
+     "previous_test_selected": "ChemBERTa-ZINC (fine-tuned) | fold ensemble",
+     "previous_test_selected_r2": 0.3192132356955647,
+     "selection_changed": false,
+     "optimism_of_test_selection": 0.0,
+     "rank": 7,
+     "retention_pct_of_stratified": 43.254723209784885
+    },
+    "Hyb": {
+     "label": "Hybrid, ECFP4 + Mordred",
+     "n_candidates": 4,
+     "candidates": [
+      "ECFP4+Mordred | CatBoost",
+      "ECFP4+Mordred | ExtraTrees",
+      "ECFP4+Mordred | Ridge",
+      "ECFP4+Mordred | SVR"
+     ],
+     "selected": "ECFP4+Mordred | ExtraTrees",
+     "selected_by_inner_cv": "ECFP4+Mordred | ExtraTrees",
+     "same_under_both_training_criteria": true,
+     "q2_cv": 0.8242405210762505,
+     "inner_cv_r2": 0.8086365742035471,
+     "test_r2": 0.38542397367281744,
+     "test_r2_ci95": [
+      0.21348784955774197,
+      0.546225889553367
+     ],
+     "test_rmse": 0.7844463734905749,
+     "test_mae": 0.5076280475208337,
+     "spearman": 0.5692798266767949,
+     "previous_test_selected": "ECFP4+Mordred | Ridge",
+     "previous_test_selected_r2": 0.4029721012350983,
+     "selection_changed": true,
+     "optimism_of_test_selection": 0.017548127562280857,
+     "rank": 4,
+     "retention_pct_of_stratified": 47.368438988049775
+    },
+    "HybClm": {
+     "label": "Hybrid with a CLM",
+     "n_candidates": 3,
+     "candidates": [
+      "ECFP4+ChemBERTa-ZINC | ExtraTrees",
+      "ECFP4+ChemBERTa-ZINC | Ridge",
+      "ECFP4+ChemBERTa-ZINC | SVR"
+     ],
+     "selected": "ECFP4+ChemBERTa-ZINC | ExtraTrees",
+     "selected_by_inner_cv": "ECFP4+ChemBERTa-ZINC | ExtraTrees",
+     "same_under_both_training_criteria": true,
+     "q2_cv": 0.7960904986807004,
+     "inner_cv_r2": 0.7764734525612191,
+     "test_r2": 0.337575962951831,
+     "test_r2_ci95": [
+      0.16387319398541764,
+      0.5075955767449382
+     ],
+     "test_rmse": 0.8144107424934637,
+     "test_mae": 0.5241547480656322,
+     "spearman": 0.5465341572578484,
+     "previous_test_selected": "ECFP4+ChemBERTa-ZINC | Ridge",
+     "previous_test_selected_r2": 0.3579345180416214,
+     "selection_changed": true,
+     "optimism_of_test_selection": 0.020358555089790398,
+     "rank": 6,
+     "retention_pct_of_stratified": 46.25545414341654
+    },
+    "Gnn": {
+     "label": "Graph network",
+     "n_candidates": 1,
+     "candidates": [
+      "Molecular graph | AttentiveFP, fold ensemble"
+     ],
+     "selected": "Molecular graph | AttentiveFP, fold ensemble",
+     "selected_by_inner_cv": "Molecular graph | AttentiveFP, fold ensemble",
+     "same_under_both_training_criteria": true,
+     "q2_cv": 0.8176538360716931,
+     "inner_cv_r2": 0.812975800037384,
+     "test_r2": 0.4982832028858062,
+     "test_r2_ci95": [
+      0.2764707193842643,
+      0.65553533055301
+     ],
+     "test_rmse": 0.7087690953293824,
+     "test_mae": 0.48709315503152834,
+     "spearman": 0.5518584729244398,
+     "previous_test_selected": "Molecular graph | AttentiveFP, fold ensemble",
+     "previous_test_selected_r2": 0.4982832028858062,
+     "selection_changed": false,
+     "optimism_of_test_selection": 0.0,
+     "rank": 2,
+     "retention_pct_of_stratified": 63.994470042456804
+    }
+   },
+   "n_families": 7,
+   "ranking": [
+    "Frozen",
+    "Gnn",
+    "Desc",
+    "Hyb",
+    "Fp",
+    "HybClm",
+    "Ft"
+   ],
+   "contrasts": {
+    "Frozen-Hyb": {
+     "delta_r2": 0.12021147612753469,
+     "delta_r2_ci95": [
+      -0.013710099246762855,
+      0.24823664215487634
+     ],
+     "p_bootstrap_two_sided": 0.091,
+     "p_wilcoxon_abs_error": 0.838414653737104
+    },
+    "Frozen-Fp": {
+     "delta_r2": 0.1611727945468866,
+     "delta_r2_ci95": [
+      0.011209438593946752,
+      0.2929772673791005
+     ],
+     "p_bootstrap_two_sided": 0.032,
+     "p_wilcoxon_abs_error": 0.560768877040041
+    },
+    "Frozen-Ft": {
+     "delta_r2": 0.18642221410478743,
+     "delta_r2_ci95": [
+      0.0741626778442379,
+      0.31872551882012157
+     ],
+     "p_bootstrap_two_sided": 0.0,
+     "p_wilcoxon_abs_error": 0.017603307585354083
+    },
+    "Hyb-Fp": {
+     "delta_r2": 0.04096131841935191,
+     "delta_r2_ci95": [
+      -0.0026636565765636856,
+      0.08605058454158886
+     ],
+     "p_bootstrap_two_sided": 0.068,
+     "p_wilcoxon_abs_error": 0.4835188490864577
+    },
+    "Frozen-Desc": {
+     "delta_r2": 0.06208601181482276,
+     "delta_r2_ci95": [
+      -0.038287145098374206,
+      0.1695747613364501
+     ],
+     "p_bootstrap_two_sided": 0.249,
+     "p_wilcoxon_abs_error": 0.2614898320146094
+    }
+   }
+  },
+  "dissimilarity": {
+   "n_test": 191,
+   "families": {
+    "Fp": {
+     "label": "ECFP4",
+     "n_candidates": 3,
+     "candidates": [
+      "ECFP4 | ExtraTrees",
+      "ECFP4 | Ridge",
+      "ECFP4 | SVR"
+     ],
+     "selected": "ECFP4 | ExtraTrees",
+     "selected_by_inner_cv": "ECFP4 | ExtraTrees",
+     "same_under_both_training_criteria": true,
+     "q2_cv": 0.8138554974818883,
+     "inner_cv_r2": 0.8012636708020826,
+     "test_r2": 0.20921920482715228,
+     "test_r2_ci95": [
+      0.061559061306534504,
+      0.33137767588879286
+     ],
+     "test_rmse": 0.8809965479211311,
+     "test_mae": 0.5958378363625556,
+     "spearman": 0.5118860632644835,
+     "previous_test_selected": "ECFP4 | ExtraTrees",
+     "previous_test_selected_r2": 0.2092192048271522,
+     "selection_changed": false,
+     "optimism_of_test_selection": -8.326672684688674e-17,
+     "rank": 4,
+     "retention_pct_of_stratified": 26.20741850879813
+    },
+    "Desc": {
+     "label": "Mordred / RDKit",
+     "n_candidates": 6,
+     "candidates": [
+      "Mordred | ExtraTrees",
+      "Mordred | Ridge",
+      "Mordred | SVR",
+      "RDKit-desc | ExtraTrees",
+      "RDKit-desc | Ridge",
+      "RDKit-desc | SVR"
+     ],
+     "selected": "RDKit-desc | ExtraTrees",
+     "selected_by_inner_cv": "RDKit-desc | ExtraTrees",
+     "same_under_both_training_criteria": true,
+     "q2_cv": 0.8318484775860432,
+     "inner_cv_r2": 0.8096701837398758,
+     "test_r2": 0.21362768137882981,
+     "test_r2_ci95": [
+      -0.03216427998539551,
+      0.3882719317106624
+     ],
+     "test_rmse": 0.8785374083259614,
+     "test_mae": 0.6296358150678883,
+     "spearman": 0.47056427585108246,
+     "previous_test_selected": "RDKit-desc | ExtraTrees",
+     "previous_test_selected_r2": 0.2136276813788298,
+     "selection_changed": false,
+     "optimism_of_test_selection": -2.7755575615628914e-17,
+     "rank": 3,
+     "retention_pct_of_stratified": 27.526052214759414
+    },
+    "Frozen": {
+     "label": "Frozen CLM",
+     "n_candidates": 6,
+     "candidates": [
+      "ChemBERTa-ZINC | ExtraTrees",
+      "ChemBERTa-ZINC | Ridge",
+      "ChemBERTa-ZINC | SVR",
+      "MoLFormer-XL | ExtraTrees",
+      "MoLFormer-XL | Ridge",
+      "MoLFormer-XL | SVR"
+     ],
+     "selected": "MoLFormer-XL | SVR",
+     "selected_by_inner_cv": "MoLFormer-XL | SVR",
+     "same_under_both_training_criteria": true,
+     "q2_cv": 0.8272582239604995,
+     "inner_cv_r2": 0.8047085100602074,
+     "test_r2": 0.30063457710331,
+     "test_r2_ci95": [
+      0.07341126570782576,
+      0.46084281500918095
+     ],
+     "test_rmse": 0.8285109034956689,
+     "test_mae": 0.5935231343457812,
+     "spearman": 0.4643314767576344,
+     "previous_test_selected": "MoLFormer-XL | SVR",
+     "previous_test_selected_r2": 0.30063457710331,
+     "selection_changed": false,
+     "optimism_of_test_selection": 0.0,
+     "rank": 1,
+     "retention_pct_of_stratified": 41.44407849965635
+    },
+    "Ft": {
+     "label": "Fine-tuned CLM",
+     "n_candidates": 1,
+     "candidates": [
+      "ChemBERTa-ZINC (fine-tuned) | fold ensemble"
+     ],
+     "selected": "ChemBERTa-ZINC (fine-tuned) | fold ensemble",
+     "selected_by_inner_cv": "ChemBERTa-ZINC (fine-tuned) | fold ensemble",
+     "same_under_both_training_criteria": true,
+     "q2_cv": 0.7360698776919365,
+     "inner_cv_r2": 0.732794439792633,
+     "test_r2": 0.13891916261342108,
+     "test_r2_ci95": [
+      -0.09817834699342975,
+      0.2899207065283838
+     ],
+     "test_rmse": 0.9193229715313234,
+     "test_mae": 0.6359347876987177,
+     "spearman": 0.45130614944518704,
+     "previous_test_selected": "ChemBERTa-ZINC (fine-tuned) | fold ensemble",
+     "previous_test_selected_r2": 0.138919162613421,
+     "selection_changed": false,
+     "optimism_of_test_selection": -8.326672684688674e-17,
+     "rank": 7,
+     "retention_pct_of_stratified": 18.824125241189414
+    },
+    "Hyb": {
+     "label": "Hybrid, ECFP4 + Mordred",
+     "n_candidates": 4,
+     "candidates": [
+      "ECFP4+Mordred | CatBoost",
+      "ECFP4+Mordred | ExtraTrees",
+      "ECFP4+Mordred | Ridge",
+      "ECFP4+Mordred | SVR"
+     ],
+     "selected": "ECFP4+Mordred | ExtraTrees",
+     "selected_by_inner_cv": "ECFP4+Mordred | ExtraTrees",
+     "same_under_both_training_criteria": true,
+     "q2_cv": 0.8291322726931314,
+     "inner_cv_r2": 0.8117705282013079,
+     "test_r2": 0.2512076745613423,
+     "test_r2_ci95": [
+      0.07887034525778416,
+      0.3882364992116413
+     ],
+     "test_rmse": 0.8572881925040272,
+     "test_mae": 0.5952858767701457,
+     "spearman": 0.5328027101254744,
+     "previous_test_selected": "ECFP4+Mordred | CatBoost",
+     "previous_test_selected_r2": 0.2789833010717711,
+     "selection_changed": true,
+     "optimism_of_test_selection": 0.027775626510428808,
+     "rank": 2,
+     "retention_pct_of_stratified": 30.873314112759413
+    },
+    "HybClm": {
+     "label": "Hybrid with a CLM",
+     "n_candidates": 3,
+     "candidates": [
+      "ECFP4+ChemBERTa-ZINC | ExtraTrees",
+      "ECFP4+ChemBERTa-ZINC | Ridge",
+      "ECFP4+ChemBERTa-ZINC | SVR"
+     ],
+     "selected": "ECFP4+ChemBERTa-ZINC | ExtraTrees",
+     "selected_by_inner_cv": "ECFP4+ChemBERTa-ZINC | ExtraTrees",
+     "same_under_both_training_criteria": true,
+     "q2_cv": 0.8087282732150493,
+     "inner_cv_r2": 0.7890929665915869,
+     "test_r2": 0.2046801441891315,
+     "test_r2_ci95": [
+      0.04870371294751726,
+      0.32902868993797924
+     ],
+     "test_rmse": 0.8835213783149655,
+     "test_mae": 0.6031605546893732,
+     "spearman": 0.5009653174641093,
+     "previous_test_selected": "ECFP4+ChemBERTa-ZINC | ExtraTrees",
+     "previous_test_selected_r2": 0.2046801441891315,
+     "selection_changed": false,
+     "optimism_of_test_selection": 0.0,
+     "rank": 5,
+     "retention_pct_of_stratified": 28.04575580803185
+    },
+    "Gnn": {
+     "label": "Graph network",
+     "n_candidates": 1,
+     "candidates": [
+      "Molecular graph | AttentiveFP, fold ensemble"
+     ],
+     "selected": "Molecular graph | AttentiveFP, fold ensemble",
+     "selected_by_inner_cv": "Molecular graph | AttentiveFP, fold ensemble",
+     "same_under_both_training_criteria": true,
+     "q2_cv": 0.8074940358952499,
+     "inner_cv_r2": 0.8035862565040588,
+     "test_r2": 0.18119446614160384,
+     "test_r2_ci95": [
+      -0.11953251239630566,
+      0.38341160248188566
+     ],
+     "test_rmse": 0.8964715973640354,
+     "test_mae": 0.6418411452274092,
+     "spearman": 0.43877080039802996,
+     "previous_test_selected": "Molecular graph | AttentiveFP, fold ensemble",
+     "previous_test_selected_r2": 0.1811944661416038,
+     "selection_changed": false,
+     "optimism_of_test_selection": -2.7755575615628914e-17,
+     "rank": 6,
+     "retention_pct_of_stratified": 23.270790121366385
+    }
+   },
+   "n_families": 7,
+   "ranking": [
+    "Frozen",
+    "Hyb",
+    "Desc",
+    "Fp",
+    "HybClm",
+    "Gnn",
+    "Ft"
+   ],
+   "contrasts": {
+    "Frozen-Hyb": {
+     "delta_r2": 0.04942690254196769,
+     "delta_r2_ci95": [
+      -0.08458932372611794,
+      0.1919694852214983
+     ],
+     "p_bootstrap_two_sided": 0.519,
+     "p_wilcoxon_abs_error": 0.806886462121021
+    },
+    "Frozen-Fp": {
+     "delta_r2": 0.0914153722761577,
+     "delta_r2_ci95": [
+      -0.07334126493664583,
+      0.23994759124906925
+     ],
+     "p_bootstrap_two_sided": 0.291,
+     "p_wilcoxon_abs_error": 0.5424244569274881
+    },
+    "Frozen-Ft": {
+     "delta_r2": 0.1617154144898889,
+     "delta_r2_ci95": [
+      0.031458814920924665,
+      0.3168512127537593
+     ],
+     "p_bootstrap_two_sided": 0.015,
+     "p_wilcoxon_abs_error": 0.31604654185922176
+    },
+    "Hyb-Fp": {
+     "delta_r2": 0.041988469734190015,
+     "delta_r2_ci95": [
+      -0.0466834399089949,
+      0.10591618309041295
+     ],
+     "p_bootstrap_two_sided": 0.341,
+     "p_wilcoxon_abs_error": 0.5041499166454659
+    },
+    "Frozen-Desc": {
+     "delta_r2": 0.08700689572448017,
+     "delta_r2_ci95": [
+      -0.03622793492693779,
+      0.23384982624323195
+     ],
+     "p_bootstrap_two_sided": 0.172,
+     "p_wilcoxon_abs_error": 0.3011418613093617
+    }
+   }
+  },
+  "source": {
+   "n_test": 188,
+   "families": {
+    "Fp": {
+     "label": "ECFP4",
+     "n_candidates": 3,
+     "candidates": [
+      "ECFP4 | ExtraTrees",
+      "ECFP4 | Ridge",
+      "ECFP4 | SVR"
+     ],
+     "selected": "ECFP4 | ExtraTrees",
+     "selected_by_inner_cv": "ECFP4 | ExtraTrees",
+     "same_under_both_training_criteria": true,
+     "q2_cv": 0.800297395577521,
+     "inner_cv_r2": 0.7965380014864757,
+     "test_r2": -0.4708570688314033,
+     "test_r2_ci95": [
+      -0.9530066605395676,
+      -0.18627143574841495
+     ],
+     "test_rmse": 0.8633481185645944,
+     "test_mae": 0.6536294935626329,
+     "spearman": 0.23404711626607905,
+     "previous_test_selected": "ECFP4 | SVR",
+     "previous_test_selected_r2": -0.2719808979804092,
+     "selection_changed": true,
+     "optimism_of_test_selection": 0.19887617085099413,
+     "rank": 7,
+     "retention_pct_of_stratified": -58.98095383205991
+    },
+    "Desc": {
+     "label": "Mordred / RDKit",
+     "n_candidates": 6,
+     "candidates": [
+      "Mordred | ExtraTrees",
+      "Mordred | Ridge",
+      "Mordred | SVR",
+      "RDKit-desc | ExtraTrees",
+      "RDKit-desc | Ridge",
+      "RDKit-desc | SVR"
+     ],
+     "selected": "RDKit-desc | ExtraTrees",
+     "selected_by_inner_cv": "RDKit-desc | ExtraTrees",
+     "same_under_both_training_criteria": true,
+     "q2_cv": 0.8195073112002675,
+     "inner_cv_r2": 0.8126723608407289,
+     "test_r2": -0.07993476164535762,
+     "test_r2_ci95": [
+      -0.2974050596192096,
+      0.06877353342842155
+     ],
+     "test_rmse": 0.7397746944564983,
+     "test_mae": 0.5563160943415398,
+     "spearman": 0.33763179959181117,
+     "previous_test_selected": "Mordred | ExtraTrees",
+     "previous_test_selected_r2": -0.0325980503724083,
+     "selection_changed": true,
+     "optimism_of_test_selection": 0.04733671127294932,
+     "rank": 1,
+     "retention_pct_of_stratified": -10.299640985770242
+    },
+    "Frozen": {
+     "label": "Frozen CLM",
+     "n_candidates": 6,
+     "candidates": [
+      "ChemBERTa-ZINC | ExtraTrees",
+      "ChemBERTa-ZINC | Ridge",
+      "ChemBERTa-ZINC | SVR",
+      "MoLFormer-XL | ExtraTrees",
+      "MoLFormer-XL | Ridge",
+      "MoLFormer-XL | SVR"
+     ],
+     "selected": "MoLFormer-XL | SVR",
+     "selected_by_inner_cv": "MoLFormer-XL | SVR",
+     "same_under_both_training_criteria": true,
+     "q2_cv": 0.8187887350953542,
+     "inner_cv_r2": 0.8057494202243168,
+     "test_r2": -0.3913142279318962,
+     "test_r2_ci95": [
+      -0.6783810564297668,
+      -0.17043290649392057
+     ],
+     "test_rmse": 0.8396790624006618,
+     "test_mae": 0.6152452216129323,
+     "spearman": 0.20847553820480577,
+     "previous_test_selected": "ChemBERTa-ZINC | ExtraTrees",
+     "previous_test_selected_r2": -0.0498646214944373,
+     "selection_changed": true,
+     "optimism_of_test_selection": 0.34144960643745886,
+     "rank": 5,
+     "retention_pct_of_stratified": -53.94475158746924
+    },
+    "Ft": {
+     "label": "Fine-tuned CLM",
+     "n_candidates": 1,
+     "candidates": [
+      "ChemBERTa-ZINC (fine-tuned) | fold ensemble"
+     ],
+     "selected": "ChemBERTa-ZINC (fine-tuned) | fold ensemble",
+     "selected_by_inner_cv": "ChemBERTa-ZINC (fine-tuned) | fold ensemble",
+     "same_under_both_training_criteria": true,
+     "q2_cv": 0.7286301571071059,
+     "inner_cv_r2": 0.7286133885383606,
+     "test_r2": -0.35807503387236905,
+     "test_r2_ci95": [
+      -0.8214683312347941,
+      -0.06807378773801427
+     ],
+     "test_rmse": 0.829588252676565,
+     "test_mae": 0.59773882666723,
+     "spearman": 0.3073729208831775,
+     "previous_test_selected": "ChemBERTa-ZINC (fine-tuned) | fold ensemble",
+     "previous_test_selected_r2": -0.358075033872369,
+     "selection_changed": false,
+     "optimism_of_test_selection": 5.551115123125783e-17,
+     "rank": 4,
+     "retention_pct_of_stratified": -48.52065875255583
+    },
+    "Hyb": {
+     "label": "Hybrid, ECFP4 + Mordred",
+     "n_candidates": 4,
+     "candidates": [
+      "ECFP4+Mordred | CatBoost",
+      "ECFP4+Mordred | ExtraTrees",
+      "ECFP4+Mordred | Ridge",
+      "ECFP4+Mordred | SVR"
+     ],
+     "selected": "ECFP4+Mordred | ExtraTrees",
+     "selected_by_inner_cv": "ECFP4+Mordred | ExtraTrees",
+     "same_under_both_training_criteria": true,
+     "q2_cv": 0.8167539508678948,
+     "inner_cv_r2": 0.8078163597212338,
+     "test_r2": -0.18343959320113346,
+     "test_r2_ci95": [
+      -0.4754874116336342,
+      -0.006488988913346271
+     ],
+     "test_rmse": 0.7744150034804334,
+     "test_mae": 0.6014129010721235,
+     "spearman": 0.30127129912680645,
+     "previous_test_selected": "ECFP4+Mordred | CatBoost",
+     "previous_test_selected_r2": -0.0923775181104646,
+     "selection_changed": true,
+     "optimism_of_test_selection": 0.09106207509066885,
+     "rank": 2,
+     "retention_pct_of_stratified": -22.54464634293033
+    },
+    "HybClm": {
+     "label": "Hybrid with a CLM",
+     "n_candidates": 3,
+     "candidates": [
+      "ECFP4+ChemBERTa-ZINC | ExtraTrees",
+      "ECFP4+ChemBERTa-ZINC | Ridge",
+      "ECFP4+ChemBERTa-ZINC | SVR"
+     ],
+     "selected": "ECFP4+ChemBERTa-ZINC | ExtraTrees",
+     "selected_by_inner_cv": "ECFP4+ChemBERTa-ZINC | ExtraTrees",
+     "same_under_both_training_criteria": true,
+     "q2_cv": 0.7863355378292863,
+     "inner_cv_r2": 0.7788318224965037,
+     "test_r2": -0.28755522437955494,
+     "test_r2_ci95": [
+      -0.6594202031935066,
+      -0.06421199522970679
+     ],
+     "test_rmse": 0.8077624185639518,
+     "test_mae": 0.6199977832036995,
+     "spearman": 0.2816661030408849,
+     "previous_test_selected": "ECFP4+ChemBERTa-ZINC | SVR",
+     "previous_test_selected_r2": -0.2618689814007278,
+     "selection_changed": true,
+     "optimism_of_test_selection": 0.025686242978827156,
+     "rank": 3,
+     "retention_pct_of_stratified": -39.401494640441236
+    },
+    "Gnn": {
+     "label": "Graph network",
+     "n_candidates": 1,
+     "candidates": [
+      "Molecular graph | AttentiveFP, fold ensemble"
+     ],
+     "selected": "Molecular graph | AttentiveFP, fold ensemble",
+     "selected_by_inner_cv": "Molecular graph | AttentiveFP, fold ensemble",
+     "same_under_both_training_criteria": true,
+     "q2_cv": 0.7987125027121988,
+     "inner_cv_r2": 0.7981921911239624,
+     "test_r2": -0.4550166478724418,
+     "test_r2_ci95": [
+      -1.018805914034961,
+      -0.11097585452684963
+     ],
+     "test_rmse": 0.8586866127078596,
+     "test_mae": 0.6359387246679016,
+     "spearman": 0.25148770554810046,
+     "previous_test_selected": "Molecular graph | AttentiveFP, fold ensemble",
+     "previous_test_selected_r2": -0.4550166478724418,
+     "selection_changed": false,
+     "optimism_of_test_selection": 0.0,
+     "rank": 6,
+     "retention_pct_of_stratified": -58.43775000331553
+    }
+   },
+   "n_families": 7,
+   "ranking": [
+    "Desc",
+    "Hyb",
+    "HybClm",
+    "Ft",
+    "Frozen",
+    "Gnn",
+    "Fp"
+   ],
+   "contrasts": {
+    "Frozen-Hyb": {
+     "delta_r2": -0.20787463473076273,
+     "delta_r2_ci95": [
+      -0.3839983328816524,
+      -0.016732116435016767
+     ],
+     "p_bootstrap_two_sided": 0.031,
+     "p_wilcoxon_abs_error": 0.9041133219705377
+    },
+    "Frozen-Fp": {
+     "delta_r2": 0.07954284089950714,
+     "delta_r2_ci95": [
+      -0.1559653016615278,
+      0.4229707602155522
+     ],
+     "p_bootstrap_two_sided": 0.542,
+     "p_wilcoxon_abs_error": 0.166759335260789
+    },
+    "Frozen-Ft": {
+     "delta_r2": -0.03323919405952713,
+     "delta_r2_ci95": [
+      -0.2581508598629094,
+      0.2806768966345638
+     ],
+     "p_bootstrap_two_sided": 0.783,
+     "p_wilcoxon_abs_error": 0.13005957369568846
+    },
+    "Hyb-Fp": {
+     "delta_r2": 0.28741747563026987,
+     "delta_r2_ci95": [
+      0.15246466834611952,
+      0.502123848819903
+     ],
+     "p_bootstrap_two_sided": 0.0,
+     "p_wilcoxon_abs_error": 0.0007506041443734705
+    },
+    "Frozen-Desc": {
+     "delta_r2": -0.31137946628653856,
+     "delta_r2_ci95": [
+      -0.5084372773792682,
+      -0.13301574978393127
+     ],
+     "p_bootstrap_two_sided": 0.001,
+     "p_wilcoxon_abs_error": 0.009051164993326498
+    }
+   }
+  }
+ },
+ "summary": {
+  "n_family_partition_combinations": 35,
+  "n_where_selection_changed": 12,
+  "n_where_both_training_criteria_agree": 35,
+  "max_optimism_of_test_selection": 0.34144960643745886
+ }
+}

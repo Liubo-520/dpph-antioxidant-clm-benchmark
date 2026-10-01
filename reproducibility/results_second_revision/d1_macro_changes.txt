@@ -1,0 +1,2710 @@
+Macros whose value changed relative to the first revision (old -> new)
+  ADPctInside                  91.7  ->  91.1
+  ADRMSEInside                 0.2991  ->  0.2907
+  ADRtwoInside                 0.8646  ->  0.8713
+  ADnHighResidual              3  ->  5
+  ADnInside                    176  ->  175
+  BestFrozenName               ChemBERTa-MTR-199 + SVR  ->  MoLFormer-XL + SVR
+  BestFrozenQtwo               0.7506  ->  0.7760
+  BestFrozenRMSE               0.4092  ->  0.4237
+  BestFrozenRtwo               0.7439  ->  0.7254
+  BestModelName                Stacked model without language-model members  ->  Stacked model over representation families
+  BestQtwo                     0.8022  ->  0.8091
+  BestSingleName               ECFP4+Mordred + ExtraTrees  ->  RDKit-desc + ExtraTrees
+  BestSingleQtwo               0.7706  ->  0.7768
+  BestSingleRtwo               0.8137  ->  0.7761
+  BestTestMAE                  0.2480  ->  0.2519
+  BestTestRMSE                 0.3487  ->  0.3604
+  BestTestRMSECI               [0.297, 0.399]  ->  [0.303, 0.416]
+  BestTestRtwo                 0.8140  ->  0.8013
+  BestTestRtwoCI               [0.714, 0.879]  ->  [0.684, 0.875]
+  BestVsFtCI                   [0.023, 0.151]  ->  [0.014, 0.134]
+  BestVsFtDelta                0.076  ->  0.063
+  BestVsFtP                    = 0.0348  ->  = 0.0332
+  ClasswiseRMSEMax             0.5457  ->  0.6311
+  ClasswiseRMSEMin             0.2913  ->  0.2887
+  ConfCoverage                 92.2  ->  91.7
+  ConfHalfWidth                0.611  ->  0.605
+  FamilySpread                 0.0757  ->  0.0883
+  FingerprintDeltaRtwo         0.016  ->  0.003
+  MatchedDeltaCI               [0.033, 0.111]  ->  [0.018, 0.096]
+  MatchedDeltaModel            Stacked model without language-model members  ->  Stacked model over representation families
+  MatchedDeltaP                = 0.0011  ->  = 0.0015
+  MatchedDeltaRtwo             0.068  ->  0.055
+  MaxAbsError                  1.56  ->  1.40
+  NErrorAboveOne               7  ->  5
+  NPairs                       66  ->  9
+  NPairsSignificant            23  ->  5
+  RankClusFp                   6  ->  5
+  RankClusHybClm               5  ->  6
+  RankStratFrozen              6  ->  7
+  RankStratFt                  7  ->  5
+  RankStratHybClm              5  ->  6
+  RetDescClus                  60  ->  57
+  RetDescScaf                  78  ->  64
+  RetDescSrc                   -4  ->  -10
+  RetFpSrc                     -34  ->  -59
+  RetFrozenClus                68  ->  70
+  RetFrozenDiss                40  ->  41
+  RetFrozenScaf                80  ->  82
+  RetFrozenSrc                 -7  ->  -54
+  RetHybClmClus                47  ->  46
+  RetHybClmDiss                27  ->  28
+  RetHybClmScaf                72  ->  76
+  RetHybClmSrc                 -34  ->  -39
+  RetHybClus                   50  ->  47
+  RetHybDiss                   34  ->  31
+  RetHybSrc                    -11  ->  -23
+  RtwoDescClus                 0.467  ->  0.444
+  RtwoDescScaf                 0.606  ->  0.499
+  RtwoDescSrc                  -0.033  ->  -0.080
+  RtwoFpSrc                    -0.272  ->  -0.471
+  RtwoFrozenSrc                -0.050  ->  -0.391
+  RtwoHybClmClus               0.358  ->  0.338
+  RtwoHybClmSrc                -0.262  ->  -0.288
+  RtwoHybClus                  0.403  ->  0.385
+  RtwoHybDiss                  0.279  ->  0.251
+  RtwoHybSrc                   -0.092  ->  -0.183
+  SimSpearman                  -0.276  ->  -0.288
+  SimSpearmanP                 = 0.0001  ->  $<$ 0.0001
+  TriageModelClus              RDKit-desc + ExtraTrees  ->  ECFP4+Mordred + ExtraTrees
+  TriageRhoClus                0.541  ->  0.569
+
+2637 new macros
+  BestHybridClmName                    MoLFormer-XL+Mordred + SVR
+  BestHybridClmQtwo                    0.7663
+  BestHybridClmRMSE                    0.4203
+  BestHybridClmRtwo                    0.7298
+  BestVsHybCI                          [-0.053, 0.019]
+  BestVsHybDelta                       -0.012
+  BestVsSingleCI                       [-0.002, 0.057]
+  BestVsSingleDelta                    0.025
+  ConFrozenDescClus                    0.062
+  ConFrozenDescClusCI                  [-0.038, 0.170]
+  ConFrozenDescClusP                   = 0.249
+  ConFrozenDescDiss                    0.087
+  ConFrozenDescDissCI                  [-0.036, 0.234]
+  ConFrozenDescDissP                   = 0.172
+  ConFrozenDescScaf                    0.095
+  ConFrozenDescScafCI                  [-0.078, 0.238]
+  ConFrozenDescScafP                   = 0.217
+  ConFrozenDescSrc                     -0.311
+  ConFrozenDescSrcCI                   [-0.508, -0.133]
+  ConFrozenDescSrcP                    = 0.001
+  ConFrozenDescStrat                   -0.051
+  ConFrozenDescStratCI                 [-0.147, 0.015]
+  ConFrozenDescStratP                  = 0.158
+  ConFrozenFpClus                      0.161
+  ConFrozenFpClusCI                    [0.011, 0.293]
+  ConFrozenFpClusP                     = 0.032
+  ConFrozenFpDiss                      0.091
+  ConFrozenFpDissCI                    [-0.073, 0.240]
+  ConFrozenFpDissP                     = 0.291
+  ConFrozenFpScaf                      0.039
+  ConFrozenFpScafCI                    [-0.123, 0.190]
+  ConFrozenFpScafP                     = 0.572
+  ConFrozenFpSrc                       0.080
+  ConFrozenFpSrcCI                     [-0.156, 0.423]
+  ConFrozenFpSrcP                      = 0.542
+  ConFrozenFpStrat                     -0.073
+  ConFrozenFpStratCI                   [-0.186, -0.002]
+  ConFrozenFpStratP                    = 0.045
+  ConFrozenFtClus                      0.186
+  ConFrozenFtClusCI                    [0.074, 0.319]
+  ConFrozenFtClusP                     $<$ 0.001
+  ConFrozenFtDiss                      0.162
+  ConFrozenFtDissCI                    [0.031, 0.317]
+  ConFrozenFtDissP                     = 0.015
+  ConFrozenFtScaf                      0.066
+  ConFrozenFtScafCI                    [-0.055, 0.194]
+  ConFrozenFtScafP                     = 0.237
+  ConFrozenFtSrc                       -0.033
+  ConFrozenFtSrcCI                     [-0.258, 0.281]
+  ConFrozenFtSrcP                      = 0.783
+  ConFrozenFtStrat                     -0.013
+  ConFrozenFtStratCI                   [-0.104, 0.065]
+  ConFrozenFtStratP                    = 0.834
+  ConFrozenHybClus                     0.120
+  ConFrozenHybClusCI                   [-0.014, 0.248]
+  ConFrozenHybClusP                    = 0.091
+  ConFrozenHybDiss                     0.049
+  ConFrozenHybDissCI                   [-0.085, 0.192]
+  ConFrozenHybDissP                    = 0.519
+  ConFrozenHybScaf                     0.017
+  ConFrozenHybScafCI                   [-0.134, 0.148]
+  ConFrozenHybScafP                    = 0.784
+  ConFrozenHybSrc                      -0.208
+  ConFrozenHybSrcCI                    [-0.384, -0.017]
+  ConFrozenHybSrcP                     = 0.031
+  ConFrozenHybStrat                    -0.088
+  ConFrozenHybStratCI                  [-0.200, -0.023]
+  ConFrozenHybStratP                   = 0.002
+  ConHybFpClus                         0.041
+  ConHybFpClusCI                       [-0.003, 0.086]
+  ConHybFpClusP                        = 0.068
+  ConHybFpDiss                         0.042
+  ConHybFpDissCI                       [-0.047, 0.106]
+  ConHybFpDissP                        = 0.341
+  ConHybFpScaf                         0.022
+  ConHybFpScafCI                       [-0.017, 0.071]
+  ConHybFpScafP                        = 0.266
+  ConHybFpSrc                          0.287
+  ConHybFpSrcCI                        [0.152, 0.502]
+  ConHybFpSrcP                         $<$ 0.001
+  ConHybFpStrat                        0.015
+  ConHybFpStratCI                      [-0.008, 0.044]
+  ConHybFpStratP                       = 0.205
+  EFFiveClus                           5.88
+  EFFiveClusCI                         [1.27, 10.42]
+  EFFiveDiss                           3.02
+  EFFiveDissCI                         [0.00, 6.37]
+  EFFiveScaf                           7.64
+  EFFiveScafCI                         [4.49, 11.24]
+  EFFiveSrc                            3.21
+  EFFiveSrcCI                          [0.72, 6.07]
+  EFFiveStrat                          7.31
+  EFFiveStratCI                        [4.17, 10.97]
+  EFTenClusCI                          [0.72, 6.03]
+  EFTenDissCI                          [0.96, 4.69]
+  EFTenScafCI                          [3.17, 7.10]
+  EFTenSrcCI                           [0.47, 3.20]
+  EFTenStratCI                         [4.28, 8.42]
+  EFTwentyClus                         1.93
+  EFTwentyClusCI                       [0.72, 3.48]
+  EFTwentyDiss                         1.85
+  EFTwentyDissCI                       [0.84, 2.93]
+  EFTwentyScaf                         3.02
+  EFTwentyScafCI                       [2.07, 4.14]
+  EFTwentySrc                          2.28
+  EFTwentySrcCI                        [1.04, 2.97]
+  EFTwentyStrat                        3.61
+  EFTwentyStratCI                      [2.72, 4.63]
+  FamilyLastNameClus                   Fine-tuned CLM
+  FamilyLastNameDiss                   Fine-tuned CLM
+  FamilyLastNameScaf                   Mordred / RDKit
+  FamilyLastNameSrc                    ECFP4
+  FamilyLastNameStrat                  Frozen CLM
+  FamilyLeaderClus                     Frozen CLM
+  FamilyLeaderDiss                     Frozen CLM
+  FamilyLeaderScaf                     Frozen CLM
+  FamilyLeaderSrc                      Mordred / RDKit
+  FamilyLeaderStrat                    Hybrid, ECFP4 + Mordred
+  MMPCompMagnitudePct                  70
+  MMPCompN                             194
+  MMPCompObsDelta                      0.196
+  MMPCompPhN                           179
+  MMPCompPhObsDelta                    0.221
+  MMPCompPhPredDelta                   0.151
+  MMPCompPhPredDeltaCI                 [0.066, 0.228]
+  MMPCompPhRho                         0.297
+  MMPCompPhRhoCI                       [0.083, 0.479]
+  MMPCompPhRhoP                        $<$ 0.0001
+  MMPCompPhSignAgreement               63
+  MMPCompPhSignCI                      [53, 72]
+  MMPCompPhSignP                       = 0.0003
+  MMPCompPredDelta                     0.137
+  MMPCompPredDeltaCI                   [0.060, 0.207]
+  MMPCompRho                           0.306
+  MMPCompRhoCI                         [0.087, 0.482]
+  MMPCompRhoP                          $<$ 0.0001
+  MMPCompSignAgreement                 61
+  MMPCompSignCI                        [52, 70]
+  MMPCompSignP                         = 0.0006
+  MMPCompSubN                          98
+  MMPCompSubObsDelta                   0.233
+  MMPCompSubPredDelta                  0.145
+  MMPCompSubPredDeltaCI                [0.080, 0.224]
+  MMPCompSubRho                        0.343
+  MMPCompSubRhoCI                      [0.194, 0.471]
+  MMPCompSubRhoP                       = 0.0006
+  MMPCompSubSignAgreement              68
+  MMPCompSubSignCI                     [58, 80]
+  MMPCompSubSignP                      = 0.0001
+  MMPExposedBoth                       151
+  MMPExposedNone                       13
+  MMPExposedOne                        30
+  MMPExposedPairsPct                   93
+  MMPExposedPredPct                    86
+  MMPModel                             RDKit-desc + ExtraTrees
+  MMPN                                 194
+  MMPPredDeltaCI                       [0.087, 0.203]
+  MMPRhoCI                             [0.077, 0.403]
+  MMPScafN                             98
+  MMPScafObsDelta                      0.233
+  MMPScafPredDelta                     0.243
+  MMPScafPredDeltaCI                   [0.148, 0.341]
+  MMPScafRho                           0.327
+  MMPScafRhoCI                         [0.132, 0.500]
+  MMPScafRhoP                          = 0.001
+  MMPScafSignAgreement                 74
+  MMPScafSignCI                        [66, 84]
+  MMPScafSignP                         $<$ 0.0001
+  MMPSignCI                            [51, 68]
+  MMPSignP                             = 0.0037
+  NButinaClusters                      569
+  NCandMaxHard                         6
+  NCandMaxStrat                        14
+  NCandMinHard                         1
+  NCandMinStrat                        1
+  NFamiliesScaf                        7
+  NFamiliesSrc                         7
+  NMMPComponents                       96
+  NMMPLargestComponent                 11
+  NMMPMolecules                        276
+  NMMPOther                            15
+  NMMPPhenolic                         179
+  NMMPSameScaffold                     194
+  NMainRows                            10
+  NRepAllPartitions                    30
+  NRepCandidates                       18
+  NRepDesigns                          4
+  NRepFolds                            5
+  NRepFoldsTotal                       10
+  NRepGroupPartitions                  15
+  NRepLateCells                        4
+  NRepPartitions                       20
+  NSelAgree                            35
+  NSelChanged                          12
+  NSelCombos                           35
+  NSingletonClusters                   290
+  NSrDone                              10
+  NSrPartitions                        10
+  NSrSeeds                             5
+  NTriageModels                        2
+  NTriagePartitions                    5
+  NTriageTenAboveOne                   2
+  PrimMaxClus                          0.506
+  PrimMaxDiss                          0.301
+  PrimMaxScaf                          0.594
+  PrimMaxSrc                           -0.080
+  PrimMaxStrat                         0.814
+  PrimMinClus                          0.319
+  PrimMinDiss                          0.139
+  PrimMinScaf                          0.499
+  PrimMinSrc                           -0.471
+  PrimMinStrat                         0.725
+  PrimNNegClus                         0
+  PrimNNegDiss                         0
+  PrimNNegScaf                         0
+  PrimNNegSrc                          7
+  PrimNNegStrat                        0
+  RankScafDesc                         7
+  RankScafFp                           3
+  RankScafFrozen                       1
+  RankScafFt                           5
+  RankScafGnn                          6
+  RankScafHyb                          2
+  RankScafHybClm                       4
+  RankSrcDesc                          1
+  RankSrcFp                            7
+  RankSrcFrozen                        5
+  RankSrcFt                            4
+  RankSrcGnn                           6
+  RankSrcHyb                           2
+  RankSrcHybClm                        3
+  RepClusAllMax                        0.620
+  RepClusAllMin                        -0.036
+  RepClusAllNegFolds                   0
+  RepClusBestRank                      2.4
+  RepClusBestRankFamily                descriptor
+  RepClusDescFirst                     2
+  RepClusDescFpCI                      [-0.141, 0.249]
+  RepClusDescFpDelta                   0.054
+  RepClusDescFpP                       = 0.4375
+  RepClusDescFpPoolCI                  [-0.030, 0.170]
+  RepClusDescFpPoolDelta               0.069
+  RepClusDescFpPoolP                   = 0.158
+  RepClusDescFpWins                    3
+  RepClusDescLast                      0
+  RepClusDescMax                       0.620
+  RepClusDescMean                      0.395
+  RepClusDescMin                       0.104
+  RepClusDescPoolRMSE                  0.584
+  RepClusDescPoolRank                  2
+  RepClusDescPooled                    0.437
+  RepClusDescPooledCI                  [0.284, 0.564]
+  RepClusDescRMSE                      0.580
+  RepClusDescRank                      2.4
+  RepClusDescRankOfMean                2
+  RepClusDescRho                       0.60
+  RepClusDescSD                        0.221
+  RepClusFpFirst                       1
+  RepClusFpLast                        1
+  RepClusFpMax                         0.441
+  RepClusFpMean                        0.340
+  RepClusFpMin                         0.252
+  RepClusFpPoolRMSE                    0.618
+  RepClusFpPoolRank                    5
+  RepClusFpPooled                      0.369
+  RepClusFpPooledCI                    [0.244, 0.475]
+  RepClusFpRMSE                        0.616
+  RepClusFpRank                        4.0
+  RepClusFpRankOfMean                  4
+  RepClusFpRho                         0.61
+  RepClusFpSD                          0.093
+  RepClusFriedmanP                     = 0.1036
+  RepClusFrozenDescCI                  [-0.121, -0.002]
+  RepClusFrozenDescDelta               -0.062
+  RepClusFrozenDescP                   = 0.0625
+  RepClusFrozenDescPoolCI              [-0.125, -0.000]
+  RepClusFrozenDescPoolDelta           -0.061
+  RepClusFrozenDescPoolP               = 0.050
+  RepClusFrozenDescWins                0
+  RepClusFrozenFirst                   0
+  RepClusFrozenFpCI                    [-0.213, 0.198]
+  RepClusFrozenFpDelta                 -0.007
+  RepClusFrozenFpP                     = 1
+  RepClusFrozenFpPoolCI                [-0.091, 0.104]
+  RepClusFrozenFpPoolDelta             0.008
+  RepClusFrozenFpPoolP                 = 0.858
+  RepClusFrozenFpWins                  2
+  RepClusFrozenFtCI                    [-0.042, 0.214]
+  RepClusFrozenFtDelta                 0.086
+  RepClusFrozenFtP                     = 0.1875
+  RepClusFrozenFtPoolCI                [0.008, 0.168]
+  RepClusFrozenFtPoolDelta             0.085
+  RepClusFrozenFtPoolP                 = 0.029
+  RepClusFrozenFtWins                  4
+  RepClusFrozenGnnCI                   [-0.173, 0.019]
+  RepClusFrozenGnnDelta                -0.077
+  RepClusFrozenGnnP                    = 0.1875
+  RepClusFrozenGnnPoolCI               [-0.129, -0.006]
+  RepClusFrozenGnnPoolDelta            -0.066
+  RepClusFrozenGnnPoolP                = 0.026
+  RepClusFrozenGnnWins                 1
+  RepClusFrozenHybCI                   [-0.202, 0.126]
+  RepClusFrozenHybDelta                -0.038
+  RepClusFrozenHybP                    = 0.8125
+  RepClusFrozenHybPoolCI               [-0.115, 0.052]
+  RepClusFrozenHybPoolDelta            -0.032
+  RepClusFrozenHybPoolP                = 0.414
+  RepClusFrozenHybWins                 2
+  RepClusFrozenLast                    1
+  RepClusFrozenMax                     0.573
+  RepClusFrozenMean                    0.333
+  RepClusFrozenMin                     0.092
+  RepClusFrozenPoolRMSE                0.614
+  RepClusFrozenPoolRank                4
+  RepClusFrozenPooled                  0.376
+  RepClusFrozenPooledCI                [0.223, 0.497]
+  RepClusFrozenRMSE                    0.610
+  RepClusFrozenRank                    4.8
+  RepClusFrozenRankOfMean              5
+  RepClusFrozenRho                     0.53
+  RepClusFrozenSD                      0.225
+  RepClusFtFirst                       0
+  RepClusFtLast                        3
+  RepClusFtMax                         0.458
+  RepClusFtMean                        0.247
+  RepClusFtMin                         -0.036
+  RepClusFtPoolRMSE                    0.655
+  RepClusFtPoolRank                    7
+  RepClusFtPooled                      0.291
+  RepClusFtPooledCI                    [0.144, 0.409]
+  RepClusFtRMSE                        0.653
+  RepClusFtRank                        6.2
+  RepClusFtRankOfMean                  7
+  RepClusFtRho                         0.55
+  RepClusFtSD                          0.199
+  RepClusFtVsZincCI                    [-0.137, 0.053]
+  RepClusFtVsZincDelta                 -0.042
+  RepClusFtVsZincWins                  1
+  RepClusGnnFirst                      1
+  RepClusGnnFtCI                       [0.040, 0.286]
+  RepClusGnnFtDelta                    0.163
+  RepClusGnnFtP                        = 0.0625
+  RepClusGnnFtPoolCI                   [0.060, 0.251]
+  RepClusGnnFtPoolDelta                0.151
+  RepClusGnnFtPoolP                    $<$ 0.001
+  RepClusGnnFtWins                     5
+  RepClusGnnLast                       0
+  RepClusGnnMax                        0.606
+  RepClusGnnMean                       0.410
+  RepClusGnnMin                        0.184
+  RepClusGnnPoolRMSE                   0.581
+  RepClusGnnPoolRank                   1
+  RepClusGnnPooled                     0.442
+  RepClusGnnPooledCI                   [0.289, 0.566]
+  RepClusGnnRMSE                       0.577
+  RepClusGnnRank                       3.0
+  RepClusGnnRankOfMean                 1
+  RepClusGnnRho                        0.59
+  RepClusGnnSD                         0.183
+  RepClusHighSim                       17.8
+  RepClusHybClmFirst                   0
+  RepClusHybClmLast                    0
+  RepClusHybClmMax                     0.492
+  RepClusHybClmMean                    0.316
+  RepClusHybClmMin                     0.150
+  RepClusHybClmPoolRMSE                0.626
+  RepClusHybClmPoolRank                6
+  RepClusHybClmPooled                  0.353
+  RepClusHybClmPooledCI                [0.226, 0.459]
+  RepClusHybClmRMSE                    0.624
+  RepClusHybClmRank                    4.4
+  RepClusHybClmRankOfMean              6
+  RepClusHybClmRho                     0.56
+  RepClusHybClmSD                      0.158
+  RepClusHybFirst                      1
+  RepClusHybFpCI                       [-0.077, 0.139]
+  RepClusHybFpDelta                    0.031
+  RepClusHybFpP                        = 0.625
+  RepClusHybFpPoolCI                   [-0.016, 0.092]
+  RepClusHybFpPoolDelta                0.040
+  RepClusHybFpPoolP                    = 0.143
+  RepClusHybFpWins                     4
+  RepClusHybLast                       0
+  RepClusHybMax                        0.532
+  RepClusHybMean                       0.371
+  RepClusHybMin                        0.158
+  RepClusHybPoolRMSE                   0.598
+  RepClusHybPoolRank                   3
+  RepClusHybPooled                     0.409
+  RepClusHybPooledCI                   [0.285, 0.513]
+  RepClusHybRMSE                       0.597
+  RepClusHybRank                       3.2
+  RepClusHybRankOfMean                 3
+  RepClusHybRho                        0.63
+  RepClusHybSD                         0.142
+  RepClusKendallW                      0.35
+  RepClusLast                          Fine-tuned CLM
+  RepClusLeader                        Graph network
+  RepClusMeanMax                       0.410
+  RepClusMeanMin                       0.247
+  RepClusMeanSpread                    0.163
+  RepClusNFolds                        5
+  RepClusNNSim                         0.560
+  RepClusNNSimMax                      0.579
+  RepClusNNSimMin                      0.547
+  RepClusNNeg                          1
+  RepClusNPooled                       955
+  RepClusNScored                       35
+  RepClusRankMax                       6.2
+  RepClusRankMin                       2.4
+  RepClusRhoMax                        0.63
+  RepClusRhoMin                        0.53
+  RepClusSDMax                         0.89
+  RepClusSDMaxFam                      0.225
+  RepClusSDMin                         0.68
+  RepClusSDMinFam                      0.093
+  RepClusScafSeen                      49.6
+  RepClusWorstRankFamily               fine-tuned language-model
+  RepClusZincFrozenMean                0.288
+  RepEFFiveClusAbove                   5
+  RepEFFiveClusMax                     9.55
+  RepEFFiveClusMean                    5.88
+  RepEFFiveClusMin                     3.91
+  RepEFFiveScafAbove                   5
+  RepEFFiveScafMax                     10.61
+  RepEFFiveScafMean                    6.79
+  RepEFFiveScafMin                     1.64
+  RepEFFiveSrcAbove                    3
+  RepEFFiveSrcMax                      6.37
+  RepEFFiveSrcMean                     3.21
+  RepEFFiveSrcMin                      0.00
+  RepEFFiveStratAbove                  5
+  RepEFFiveStratMax                    19.10
+  RepEFFiveStratMean                   9.86
+  RepEFFiveStratMin                    5.49
+  RepEFPooledClus                      4.20
+  RepEFPooledScaf                      4.02
+  RepEFPooledSrc                       1.92
+  RepEFPooledStrat                     6.78
+  RepEFTenClusAbove                    5
+  RepEFTenClusMax                      5.48
+  RepEFTenClusMean                     4.39
+  RepEFTenClusMin                      3.14
+  RepEFTenScafAbove                    5
+  RepEFTenScafMax                      7.26
+  RepEFTenScafMean                     4.55
+  RepEFTenScafMin                      1.72
+  RepEFTenSrcAbove                     3
+  RepEFTenSrcMax                       6.03
+  RepEFTenSrcMean                      3.03
+  RepEFTenSrcMin                       0.35
+  RepEFTenStratAbove                   5
+  RepEFTenStratMax                     10.05
+  RepEFTenStratMean                    7.36
+  RepEFTenStratMin                     5.05
+  RepEFTwentyClusAbove                 5
+  RepEFTwentyClusMax                   4.40
+  RepEFTwentyClusMean                  3.13
+  RepEFTwentyClusMin                   1.57
+  RepEFTwentyScafAbove                 5
+  RepEFTwentyScafMax                   3.77
+  RepEFTwentyScafMean                  3.23
+  RepEFTwentyScafMin                   2.44
+  RepEFTwentySrcAbove                  5
+  RepEFTwentySrcMax                    3.66
+  RepEFTwentySrcMean                   2.67
+  RepEFTwentySrcMin                    1.22
+  RepEFTwentyStratAbove                5
+  RepEFTwentyStratMax                  5.03
+  RepEFTwentyStratMean                 4.50
+  RepEFTwentyStratMin                  3.79
+  RepFxClusAllMax                      0.620
+  RepFxClusAllMin                      -0.036
+  RepFxClusAllNegFolds                 0
+  RepFxClusBestRank                    2.6
+  RepFxClusBestRankFamily              descriptor
+  RepFxClusDescFirst                   2
+  RepFxClusDescFpCI                    [-0.141, 0.249]
+  RepFxClusDescFpDelta                 0.054
+  RepFxClusDescFpP                     = 0.4375
+  RepFxClusDescFpPoolCI                [-0.030, 0.170]
+  RepFxClusDescFpPoolDelta             0.069
+  RepFxClusDescFpPoolP                 = 0.158
+  RepFxClusDescFpWins                  3
+  RepFxClusDescLast                    0
+  RepFxClusDescMax                     0.620
+  RepFxClusDescMean                    0.395
+  RepFxClusDescMin                     0.104
+  RepFxClusDescPoolRMSE                0.584
+  RepFxClusDescPoolRank                2
+  RepFxClusDescPooled                  0.437
+  RepFxClusDescPooledCI                [0.284, 0.564]
+  RepFxClusDescRMSE                    0.580
+  RepFxClusDescRank                    2.6
+  RepFxClusDescRankOfMean              2
+  RepFxClusDescRho                     0.60
+  RepFxClusDescSD                      0.221
+  RepFxClusFpFirst                     1
+  RepFxClusFpLast                      1
+  RepFxClusFpMax                       0.441
+  RepFxClusFpMean                      0.340
+  RepFxClusFpMin                       0.252
+  RepFxClusFpPoolRMSE                  0.618
+  RepFxClusFpPoolRank                  6
+  RepFxClusFpPooled                    0.369
+  RepFxClusFpPooledCI                  [0.244, 0.475]
+  RepFxClusFpRMSE                      0.616
+  RepFxClusFpRank                      4.2
+  RepFxClusFpRankOfMean                5
+  RepFxClusFpRho                       0.61
+  RepFxClusFpSD                        0.093
+  RepFxClusFriedmanP                   = 0.1509
+  RepFxClusFrozenDescCI                [-0.121, -0.002]
+  RepFxClusFrozenDescDelta             -0.062
+  RepFxClusFrozenDescP                 = 0.0625
+  RepFxClusFrozenDescPoolCI            [-0.125, -0.000]
+  RepFxClusFrozenDescPoolDelta         -0.061
+  RepFxClusFrozenDescPoolP             = 0.050
+  RepFxClusFrozenDescWins              0
+  RepFxClusFrozenFirst                 0
+  RepFxClusFrozenFpCI                  [-0.213, 0.198]
+  RepFxClusFrozenFpDelta               -0.007
+  RepFxClusFrozenFpP                   = 1
+  RepFxClusFrozenFpPoolCI              [-0.091, 0.104]
+  RepFxClusFrozenFpPoolDelta           0.008
+  RepFxClusFrozenFpPoolP               = 0.858
+  RepFxClusFrozenFpWins                2
+  RepFxClusFrozenFtCI                  [-0.042, 0.214]
+  RepFxClusFrozenFtDelta               0.086
+  RepFxClusFrozenFtP                   = 0.1875
+  RepFxClusFrozenFtPoolCI              [0.008, 0.168]
+  RepFxClusFrozenFtPoolDelta           0.085
+  RepFxClusFrozenFtPoolP               = 0.029
+  RepFxClusFrozenFtWins                4
+  RepFxClusFrozenGnnCI                 [-0.173, 0.019]
+  RepFxClusFrozenGnnDelta              -0.077
+  RepFxClusFrozenGnnP                  = 0.1875
+  RepFxClusFrozenGnnPoolCI             [-0.129, -0.006]
+  RepFxClusFrozenGnnPoolDelta          -0.066
+  RepFxClusFrozenGnnPoolP              = 0.026
+  RepFxClusFrozenGnnWins               1
+  RepFxClusFrozenHybCI                 [-0.202, 0.126]
+  RepFxClusFrozenHybDelta              -0.038
+  RepFxClusFrozenHybP                  = 0.8125
+  RepFxClusFrozenHybPoolCI             [-0.115, 0.052]
+  RepFxClusFrozenHybPoolDelta          -0.032
+  RepFxClusFrozenHybPoolP              = 0.414
+  RepFxClusFrozenHybWins               2
+  RepFxClusFrozenLast                  1
+  RepFxClusFrozenMax                   0.573
+  RepFxClusFrozenMean                  0.333
+  RepFxClusFrozenMin                   0.092
+  RepFxClusFrozenPoolRMSE              0.614
+  RepFxClusFrozenPoolRank              5
+  RepFxClusFrozenPooled                0.376
+  RepFxClusFrozenPooledCI              [0.223, 0.497]
+  RepFxClusFrozenRMSE                  0.610
+  RepFxClusFrozenRank                  4.8
+  RepFxClusFrozenRankOfMean            6
+  RepFxClusFrozenRho                   0.53
+  RepFxClusFrozenSD                    0.225
+  RepFxClusFtFirst                     0
+  RepFxClusFtLast                      3
+  RepFxClusFtMax                       0.458
+  RepFxClusFtMean                      0.247
+  RepFxClusFtMin                       -0.036
+  RepFxClusFtPoolRMSE                  0.655
+  RepFxClusFtPoolRank                  7
+  RepFxClusFtPooled                    0.291
+  RepFxClusFtPooledCI                  [0.144, 0.409]
+  RepFxClusFtRMSE                      0.653
+  RepFxClusFtRank                      6.2
+  RepFxClusFtRankOfMean                7
+  RepFxClusFtRho                       0.55
+  RepFxClusFtSD                        0.199
+  RepFxClusFtVsZincCI                  [-0.137, 0.053]
+  RepFxClusFtVsZincDelta               -0.042
+  RepFxClusFtVsZincWins                1
+  RepFxClusGnnFirst                    1
+  RepFxClusGnnFtCI                     [0.040, 0.286]
+  RepFxClusGnnFtDelta                  0.163
+  RepFxClusGnnFtP                      = 0.0625
+  RepFxClusGnnFtPoolCI                 [0.060, 0.251]
+  RepFxClusGnnFtPoolDelta              0.151
+  RepFxClusGnnFtPoolP                  $<$ 0.001
+  RepFxClusGnnFtWins                   5
+  RepFxClusGnnLast                     0
+  RepFxClusGnnMax                      0.606
+  RepFxClusGnnMean                     0.410
+  RepFxClusGnnMin                      0.184
+  RepFxClusGnnPoolRMSE                 0.581
+  RepFxClusGnnPoolRank                 1
+  RepFxClusGnnPooled                   0.442
+  RepFxClusGnnPooledCI                 [0.289, 0.566]
+  RepFxClusGnnRMSE                     0.577
+  RepFxClusGnnRank                     3.2
+  RepFxClusGnnRankOfMean               1
+  RepFxClusGnnRho                      0.59
+  RepFxClusGnnSD                       0.183
+  RepFxClusHybClmFirst                 0
+  RepFxClusHybClmLast                  0
+  RepFxClusHybClmMax                   0.492
+  RepFxClusHybClmMean                  0.342
+  RepFxClusHybClmMin                   0.150
+  RepFxClusHybClmPoolRMSE              0.613
+  RepFxClusHybClmPoolRank              4
+  RepFxClusHybClmPooled                0.379
+  RepFxClusHybClmPooledCI              [0.263, 0.475]
+  RepFxClusHybClmRMSE                  0.612
+  RepFxClusHybClmRank                  3.8
+  RepFxClusHybClmRankOfMean            4
+  RepFxClusHybClmRho                   0.62
+  RepFxClusHybClmSD                    0.138
+  RepFxClusHybFirst                    1
+  RepFxClusHybFpCI                     [-0.077, 0.139]
+  RepFxClusHybFpDelta                  0.031
+  RepFxClusHybFpP                      = 0.625
+  RepFxClusHybFpPoolCI                 [-0.016, 0.092]
+  RepFxClusHybFpPoolDelta              0.040
+  RepFxClusHybFpPoolP                  = 0.143
+  RepFxClusHybFpWins                   4
+  RepFxClusHybLast                     0
+  RepFxClusHybMax                      0.532
+  RepFxClusHybMean                     0.371
+  RepFxClusHybMin                      0.158
+  RepFxClusHybPoolRMSE                 0.598
+  RepFxClusHybPoolRank                 3
+  RepFxClusHybPooled                   0.409
+  RepFxClusHybPooledCI                 [0.285, 0.513]
+  RepFxClusHybRMSE                     0.597
+  RepFxClusHybRank                     3.2
+  RepFxClusHybRankOfMean               3
+  RepFxClusHybRho                      0.63
+  RepFxClusHybSD                       0.142
+  RepFxClusKendallW                    0.31
+  RepFxClusLast                        Fine-tuned CLM
+  RepFxClusLeader                      Graph network
+  RepFxClusMeanMax                     0.410
+  RepFxClusMeanMin                     0.247
+  RepFxClusMeanSpread                  0.163
+  RepFxClusNFolds                      5
+  RepFxClusNNeg                        1
+  RepFxClusNPooled                     955
+  RepFxClusNScored                     35
+  RepFxClusRankMax                     6.2
+  RepFxClusRankMin                     2.6
+  RepFxClusRhoMax                      0.63
+  RepFxClusRhoMin                      0.53
+  RepFxClusSDMaxFam                    0.225
+  RepFxClusSDMinFam                    0.093
+  RepFxClusWorstRankFamily             fine-tuned language-model
+  RepFxClusZincFrozenMean              0.288
+  RepFxIntClusDescFp                   0.038
+  RepFxIntClusDescFpCI                 [-0.056, 0.135]
+  RepFxIntClusDescFpP                  = 0.430
+  RepFxIntClusFrozenDesc               -0.051
+  RepFxIntClusFrozenDescCI             [-0.105, 0.006]
+  RepFxIntClusFrozenDescP              = 0.074
+  RepFxIntClusFrozenFp                 -0.013
+  RepFxIntClusFrozenFpCI               [-0.106, 0.081]
+  RepFxIntClusFrozenFpP                = 0.772
+  RepFxIntClusFrozenFt                 0.046
+  RepFxIntClusFrozenFtCI               [-0.039, 0.132]
+  RepFxIntClusFrozenFtP                = 0.298
+  RepFxIntClusFrozenGnn                -0.048
+  RepFxIntClusFrozenGnnCI              [-0.107, 0.012]
+  RepFxIntClusFrozenGnnP               = 0.128
+  RepFxIntClusFrozenHyb                -0.023
+  RepFxIntClusFrozenHybCI              [-0.099, 0.050]
+  RepFxIntClusFrozenHybP               = 0.542
+  RepFxIntClusGnnFt                    0.094
+  RepFxIntClusGnnFtCI                  [0.002, 0.180]
+  RepFxIntClusGnnFtP                   = 0.048
+  RepFxIntClusHybFp                    0.011
+  RepFxIntClusHybFpCI                  [-0.052, 0.069]
+  RepFxIntClusHybFpP                   = 0.718
+  RepFxIntScafDescFp                   -0.089
+  RepFxIntScafDescFpCI                 [-0.166, -0.029]
+  RepFxIntScafDescFpP                  = 0.011
+  RepFxIntScafFrozenDesc               0.055
+  RepFxIntScafFrozenDescCI             [-0.020, 0.117]
+  RepFxIntScafFrozenDescP              = 0.114
+  RepFxIntScafFrozenFp                 -0.034
+  RepFxIntScafFrozenFpCI               [-0.114, 0.026]
+  RepFxIntScafFrozenFpP                = 0.255
+  RepFxIntScafFrozenFt                 0.037
+  RepFxIntScafFrozenFtCI               [-0.028, 0.160]
+  RepFxIntScafFrozenFtP                = 0.268
+  RepFxIntScafFrozenGnn                0.020
+  RepFxIntScafFrozenGnnCI              [-0.050, 0.109]
+  RepFxIntScafFrozenGnnP               = 0.560
+  RepFxIntScafFrozenHyb                -0.013
+  RepFxIntScafFrozenHybCI              [-0.096, 0.042]
+  RepFxIntScafFrozenHybP               = 0.661
+  RepFxIntScafGnnFt                    0.017
+  RepFxIntScafGnnFtCI                  [-0.058, 0.138]
+  RepFxIntScafGnnFtP                   = 0.618
+  RepFxIntScafHybFp                    -0.021
+  RepFxIntScafHybFpCI                  [-0.059, 0.021]
+  RepFxIntScafHybFpP                   = 0.276
+  RepFxIntSrcDescFp                    0.027
+  RepFxIntSrcDescFpCI                  [-0.040, 0.098]
+  RepFxIntSrcDescFpP                   = 0.399
+  RepFxIntSrcFrozenDesc                -0.017
+  RepFxIntSrcFrozenDescCI              [-0.096, 0.038]
+  RepFxIntSrcFrozenDescP               = 0.561
+  RepFxIntSrcFrozenFp                  0.010
+  RepFxIntSrcFrozenFpCI                [-0.081, 0.083]
+  RepFxIntSrcFrozenFpP                 = 0.812
+  RepFxIntSrcFrozenFt                  -0.018
+  RepFxIntSrcFrozenFtCI                [-0.082, 0.055]
+  RepFxIntSrcFrozenFtP                 = 0.588
+  RepFxIntSrcFrozenGnn                 0.085
+  RepFxIntSrcFrozenGnnCI               [-0.014, 0.228]
+  RepFxIntSrcFrozenGnnP                = 0.090
+  RepFxIntSrcFrozenHyb                 -0.029
+  RepFxIntSrcFrozenHybCI               [-0.104, 0.042]
+  RepFxIntSrcFrozenHybP                = 0.410
+  RepFxIntSrcGnnFt                     -0.103
+  RepFxIntSrcGnnFtCI                   [-0.252, 0.003]
+  RepFxIntSrcGnnFtP                    = 0.056
+  RepFxIntSrcHybFp                     0.039
+  RepFxIntSrcHybFpCI                   [-0.024, 0.092]
+  RepFxIntSrcHybFpP                    = 0.206
+  RepFxScafAllMax                      0.837
+  RepFxScafAllMin                      0.189
+  RepFxScafAllNegFolds                 0
+  RepFxScafBestRank                    2.2
+  RepFxScafBestRankFamily              fingerprint--descriptor hybrid
+  RepFxScafDescFirst                   1
+  RepFxScafDescFpCI                    [-0.139, 0.043]
+  RepFxScafDescFpDelta                 -0.048
+  RepFxScafDescFpP                     = 0.3125
+  RepFxScafDescFpPoolCI                [-0.146, 0.007]
+  RepFxScafDescFpPoolDelta             -0.059
+  RepFxScafDescFpPoolP                 = 0.090
+  RepFxScafDescFpWins                  2
+  RepFxScafDescLast                    1
+  RepFxScafDescMax                     0.781
+  RepFxScafDescMean                    0.616
+  RepFxScafDescMin                     0.443
+  RepFxScafDescPoolRMSE                0.543
+  RepFxScafDescPoolRank                6
+  RepFxScafDescPooled                  0.651
+  RepFxScafDescPooledCI                [0.432, 0.782]
+  RepFxScafDescRMSE                    0.536
+  RepFxScafDescRank                    4.6
+  RepFxScafDescRankOfMean              6
+  RepFxScafDescRho                     0.64
+  RepFxScafDescSD                      0.124
+  RepFxScafFpFirst                     0
+  RepFxScafFpLast                      0
+  RepFxScafFpMax                       0.830
+  RepFxScafFpMean                      0.664
+  RepFxScafFpMin                       0.438
+  RepFxScafFpPoolRMSE                  0.495
+  RepFxScafFpPoolRank                  2
+  RepFxScafFpPooled                    0.710
+  RepFxScafFpPooledCI                  [0.503, 0.820]
+  RepFxScafFpRMSE                      0.491
+  RepFxScafFpRank                      3.6
+  RepFxScafFpRankOfMean                2
+  RepFxScafFpRho                       0.65
+  RepFxScafFpSD                        0.152
+  RepFxScafFriedmanP                   = 0.1067
+  RepFxScafFrozenDescCI                [-0.073, 0.141]
+  RepFxScafFrozenDescDelta             0.034
+  RepFxScafFrozenDescP                 = 0.625
+  RepFxScafFrozenDescPoolCI            [-0.016, 0.122]
+  RepFxScafFrozenDescPoolDelta         0.046
+  RepFxScafFrozenDescPoolP             = 0.165
+  RepFxScafFrozenDescWins              3
+  RepFxScafFrozenFirst                 1
+  RepFxScafFrozenFpCI                  [-0.105, 0.076]
+  RepFxScafFrozenFpDelta               -0.014
+  RepFxScafFrozenFpP                   = 0.625
+  RepFxScafFrozenFpPoolCI              [-0.077, 0.044]
+  RepFxScafFrozenFpPoolDelta           -0.013
+  RepFxScafFrozenFpPoolP               = 0.616
+  RepFxScafFrozenFpWins                1
+  RepFxScafFrozenFtCI                  [0.009, 0.197]
+  RepFxScafFrozenFtDelta               0.103
+  RepFxScafFrozenFtP                   = 0.125
+  RepFxScafFrozenFtPoolCI              [0.026, 0.161]
+  RepFxScafFrozenFtPoolDelta           0.076
+  RepFxScafFrozenFtPoolP               $<$ 0.001
+  RepFxScafFrozenFtWins                4
+  RepFxScafFrozenGnnCI                 [-0.165, 0.165]
+  RepFxScafFrozenGnnDelta              0.000
+  RepFxScafFrozenGnnP                  = 0.625
+  RepFxScafFrozenGnnPoolCI             [-0.068, 0.089]
+  RepFxScafFrozenGnnPoolDelta          0.002
+  RepFxScafFrozenGnnPoolP              = 0.963
+  RepFxScafFrozenGnnWins               1
+  RepFxScafFrozenHybCI                 [-0.140, 0.078]
+  RepFxScafFrozenHybDelta              -0.031
+  RepFxScafFrozenHybP                  = 0.4375
+  RepFxScafFrozenHybPoolCI             [-0.087, 0.028]
+  RepFxScafFrozenHybPoolDelta          -0.022
+  RepFxScafFrozenHybPoolP              = 0.401
+  RepFxScafFrozenHybWins               1
+  RepFxScafFrozenLast                  0
+  RepFxScafFrozenMax                   0.763
+  RepFxScafFrozenMean                  0.650
+  RepFxScafFrozenMin                   0.374
+  RepFxScafFrozenPoolRMSE              0.506
+  RepFxScafFrozenPoolRank              4
+  RepFxScafFrozenPooled                0.697
+  RepFxScafFrozenPooledCI              [0.480, 0.813]
+  RepFxScafFrozenRMSE                  0.503
+  RepFxScafFrozenRank                  4.6
+  RepFxScafFrozenRankOfMean            3
+  RepFxScafFrozenRho                   0.65
+  RepFxScafFrozenSD                    0.162
+  RepFxScafFtFirst                     0
+  RepFxScafFtLast                      3
+  RepFxScafFtMax                       0.771
+  RepFxScafFtMean                      0.547
+  RepFxScafFtMin                       0.189
+  RepFxScafFtPoolRMSE                  0.566
+  RepFxScafFtPoolRank                  7
+  RepFxScafFtPooled                    0.620
+  RepFxScafFtPooledCI                  [0.355, 0.768]
+  RepFxScafFtRMSE                      0.564
+  RepFxScafFtRank                      6.2
+  RepFxScafFtRankOfMean                7
+  RepFxScafFtRho                       0.58
+  RepFxScafFtSD                        0.227
+  RepFxScafFtVsZincCI                  [-0.027, 0.113]
+  RepFxScafFtVsZincDelta               0.043
+  RepFxScafFtVsZincWins                3
+  RepFxScafGnnFirst                    2
+  RepFxScafGnnFtCI                     [-0.084, 0.290]
+  RepFxScafGnnFtDelta                  0.103
+  RepFxScafGnnFtP                      = 0.3125
+  RepFxScafGnnFtPoolCI                 [-0.007, 0.177]
+  RepFxScafGnnFtPoolDelta              0.075
+  RepFxScafGnnFtPoolP                  = 0.064
+  RepFxScafGnnFtWins                   4
+  RepFxScafGnnLast                     1
+  RepFxScafGnnMax                      0.837
+  RepFxScafGnnMean                     0.650
+  RepFxScafGnnMin                      0.465
+  RepFxScafGnnPoolRMSE                 0.507
+  RepFxScafGnnPoolRank                 5
+  RepFxScafGnnPooled                   0.695
+  RepFxScafGnnPooledCI                 [0.470, 0.821]
+  RepFxScafGnnRMSE                     0.500
+  RepFxScafGnnRank                     3.2
+  RepFxScafGnnRankOfMean               4
+  RepFxScafGnnRho                      0.69
+  RepFxScafGnnSD                       0.169
+  RepFxScafHybClmFirst                 0
+  RepFxScafHybClmLast                  0
+  RepFxScafHybClmMax                   0.818
+  RepFxScafHybClmMean                  0.650
+  RepFxScafHybClmMin                   0.479
+  RepFxScafHybClmPoolRMSE              0.502
+  RepFxScafHybClmPoolRank              3
+  RepFxScafHybClmPooled                0.702
+  RepFxScafHybClmPooledCI              [0.496, 0.815]
+  RepFxScafHybClmRMSE                  0.500
+  RepFxScafHybClmRank                  3.6
+  RepFxScafHybClmRankOfMean            5
+  RepFxScafHybClmRho                   0.65
+  RepFxScafHybClmSD                    0.142
+  RepFxScafHybFirst                    1
+  RepFxScafHybFpCI                     [-0.029, 0.062]
+  RepFxScafHybFpDelta                  0.017
+  RepFxScafHybFpP                      = 0.4375
+  RepFxScafHybFpPoolCI                 [-0.023, 0.044]
+  RepFxScafHybFpPoolDelta              0.009
+  RepFxScafHybFpPoolP                  = 0.538
+  RepFxScafHybFpWins                   4
+  RepFxScafHybLast                     0
+  RepFxScafHybMax                      0.809
+  RepFxScafHybMean                     0.681
+  RepFxScafHybMin                      0.516
+  RepFxScafHybPoolRMSE                 0.487
+  RepFxScafHybPoolRank                 1
+  RepFxScafHybPooled                   0.719
+  RepFxScafHybPooledCI                 [0.530, 0.825]
+  RepFxScafHybRMSE                     0.484
+  RepFxScafHybRank                     2.2
+  RepFxScafHybRankOfMean               1
+  RepFxScafHybRho                      0.67
+  RepFxScafHybSD                       0.121
+  RepFxScafKendallW                    0.35
+  RepFxScafLast                        Fine-tuned CLM
+  RepFxScafLeader                      Hybrid, ECFP4 + Mordred
+  RepFxScafMeanMax                     0.681
+  RepFxScafMeanMin                     0.547
+  RepFxScafMeanSpread                  0.134
+  RepFxScafNFolds                      5
+  RepFxScafNNeg                        0
+  RepFxScafNPooled                     955
+  RepFxScafNScored                     35
+  RepFxScafRankMax                     6.2
+  RepFxScafRankMin                     2.2
+  RepFxScafRhoMax                      0.69
+  RepFxScafRhoMin                      0.58
+  RepFxScafSDMaxFam                    0.227
+  RepFxScafSDMinFam                    0.121
+  RepFxScafWorstRankFamily             fine-tuned language-model
+  RepFxScafZincFrozenMean              0.504
+  RepFxSrcAllMax                       0.268
+  RepFxSrcAllMin                       -0.446
+  RepFxSrcAllNegFolds                  1
+  RepFxSrcBestRank                     3.0
+  RepFxSrcBestRankFamily               descriptor and language-model hybrid
+  RepFxSrcDescFirst                    1
+  RepFxSrcDescFpCI                     [-0.039, 0.181]
+  RepFxSrcDescFpDelta                  0.071
+  RepFxSrcDescFpP                      = 0.1875
+  RepFxSrcDescFpPoolCI                 [-0.002, 0.141]
+  RepFxSrcDescFpPoolDelta              0.057
+  RepFxSrcDescFpPoolP                  = 0.058
+  RepFxSrcDescFpWins                   4
+  RepFxSrcDescLast                     0
+  RepFxSrcDescMax                      0.265
+  RepFxSrcDescMean                     0.069
+  RepFxSrcDescMin                      -0.220
+  RepFxSrcDescPoolRMSE                 1.029
+  RepFxSrcDescPoolRank                 2
+  RepFxSrcDescPooled                   0.060
+  RepFxSrcDescPooledCI                 [-0.063, 0.160]
+  RepFxSrcDescRMSE                     0.976
+  RepFxSrcDescRank                     3.0
+  RepFxSrcDescRankOfMean               1
+  RepFxSrcDescRho                      0.41
+  RepFxSrcDescSD                       0.193
+  RepFxSrcFpFirst                      0
+  RepFxSrcFpLast                       1
+  RepFxSrcFpMax                        0.149
+  RepFxSrcFpMean                       -0.002
+  RepFxSrcFpMin                        -0.156
+  RepFxSrcFpPoolRMSE                   1.060
+  RepFxSrcFpPoolRank                   6
+  RepFxSrcFpPooled                     0.003
+  RepFxSrcFpPooledCI                   [-0.133, 0.102]
+  RepFxSrcFpRMSE                       1.011
+  RepFxSrcFpRank                       5.0
+  RepFxSrcFpRankOfMean                 5
+  RepFxSrcFpRho                        0.34
+  RepFxSrcFpSD                         0.117
+  RepFxSrcFriedmanP                    = 0.3769
+  RepFxSrcFrozenDescCI                 [-0.130, 0.032]
+  RepFxSrcFrozenDescDelta              -0.049
+  RepFxSrcFrozenDescP                  = 0.3125
+  RepFxSrcFrozenDescPoolCI             [-0.117, 0.022]
+  RepFxSrcFrozenDescPoolDelta          -0.027
+  RepFxSrcFrozenDescPoolP              = 0.327
+  RepFxSrcFrozenDescWins               2
+  RepFxSrcFrozenFirst                  1
+  RepFxSrcFrozenFpCI                   [-0.127, 0.172]
+  RepFxSrcFrozenFpDelta                0.022
+  RepFxSrcFrozenFpP                    = 0.625
+  RepFxSrcFrozenFpPoolCI               [-0.053, 0.100]
+  RepFxSrcFrozenFpPoolDelta            0.030
+  RepFxSrcFrozenFpPoolP                = 0.412
+  RepFxSrcFrozenFpWins                 4
+  RepFxSrcFrozenFtCI                   [-0.073, 0.215]
+  RepFxSrcFrozenFtDelta                0.071
+  RepFxSrcFrozenFtP                    = 0.3125
+  RepFxSrcFrozenFtPoolCI               [-0.052, 0.092]
+  RepFxSrcFrozenFtPoolDelta            0.022
+  RepFxSrcFrozenFtPoolP                = 0.465
+  RepFxSrcFrozenFtWins                 3
+  RepFxSrcFrozenGnnCI                  [-0.146, 0.288]
+  RepFxSrcFrozenGnnDelta               0.071
+  RepFxSrcFrozenGnnP                   = 0.4375
+  RepFxSrcFrozenGnnPoolCI              [-0.034, 0.228]
+  RepFxSrcFrozenGnnPoolDelta           0.067
+  RepFxSrcFrozenGnnPoolP               = 0.177
+  RepFxSrcFrozenGnnWins                3
+  RepFxSrcFrozenHybCI                  [-0.146, 0.070]
+  RepFxSrcFrozenHybDelta               -0.038
+  RepFxSrcFrozenHybP                   = 0.4375
+  RepFxSrcFrozenHybPoolCI              [-0.125, 0.022]
+  RepFxSrcFrozenHybPoolDelta           -0.038
+  RepFxSrcFrozenHybPoolP               = 0.213
+  RepFxSrcFrozenHybWins                2
+  RepFxSrcFrozenLast                   0
+  RepFxSrcFrozenMax                    0.268
+  RepFxSrcFrozenMean                   0.020
+  RepFxSrcFrozenMin                    -0.336
+  RepFxSrcFrozenPoolRMSE               1.044
+  RepFxSrcFrozenPoolRank               4
+  RepFxSrcFrozenPooled                 0.033
+  RepFxSrcFrozenPooledCI               [-0.116, 0.119]
+  RepFxSrcFrozenRMSE                   0.996
+  RepFxSrcFrozenRank                   3.8
+  RepFxSrcFrozenRankOfMean             4
+  RepFxSrcFrozenRho                    0.32
+  RepFxSrcFrozenSD                     0.221
+  RepFxSrcFtFirst                      1
+  RepFxSrcFtLast                       1
+  RepFxSrcFtMax                        0.097
+  RepFxSrcFtMean                       -0.051
+  RepFxSrcFtMin                        -0.446
+  RepFxSrcFtPoolRMSE                   1.055
+  RepFxSrcFtPoolRank                   5
+  RepFxSrcFtPooled                     0.011
+  RepFxSrcFtPooledCI                   [-0.159, 0.119]
+  RepFxSrcFtRMSE                       1.020
+  RepFxSrcFtRank                       4.6
+  RepFxSrcFtRankOfMean                 7
+  RepFxSrcFtRho                        0.36
+  RepFxSrcFtSD                         0.224
+  RepFxSrcFtVsZincCI                   [-0.152, -0.005]
+  RepFxSrcFtVsZincDelta                -0.078
+  RepFxSrcFtVsZincWins                 0
+  RepFxSrcGnnFirst                     1
+  RepFxSrcGnnFtCI                      [-0.241, 0.241]
+  RepFxSrcGnnFtDelta                   0.000
+  RepFxSrcGnnFtP                       = 1
+  RepFxSrcGnnFtPoolCI                  [-0.218, 0.070]
+  RepFxSrcGnnFtPoolDelta               -0.045
+  RepFxSrcGnnFtPoolP                   = 0.437
+  RepFxSrcGnnFtWins                    2
+  RepFxSrcGnnLast                      3
+  RepFxSrcGnnMax                       0.213
+  RepFxSrcGnnMean                      -0.051
+  RepFxSrcGnnMin                       -0.269
+  RepFxSrcGnnPoolRMSE                  1.079
+  RepFxSrcGnnPoolRank                  7
+  RepFxSrcGnnPooled                    -0.034
+  RepFxSrcGnnPooledCI                  [-0.252, 0.082]
+  RepFxSrcGnnRMSE                      1.030
+  RepFxSrcGnnRank                      5.4
+  RepFxSrcGnnRankOfMean                6
+  RepFxSrcGnnRho                       0.32
+  RepFxSrcGnnSD                        0.178
+  RepFxSrcHybClmFirst                  1
+  RepFxSrcHybClmLast                   0
+  RepFxSrcHybClmMax                    0.164
+  RepFxSrcHybClmMean                   0.041
+  RepFxSrcHybClmMin                    -0.154
+  RepFxSrcHybClmPoolRMSE               1.036
+  RepFxSrcHybClmPoolRank               3
+  RepFxSrcHybClmPooled                 0.047
+  RepFxSrcHybClmPooledCI               [-0.072, 0.155]
+  RepFxSrcHybClmRMSE                   0.988
+  RepFxSrcHybClmRank                   3.0
+  RepFxSrcHybClmRankOfMean             3
+  RepFxSrcHybClmRho                    0.38
+  RepFxSrcHybClmSD                     0.124
+  RepFxSrcHybFirst                     0
+  RepFxSrcHybFpCI                      [-0.039, 0.159]
+  RepFxSrcHybFpDelta                   0.060
+  RepFxSrcHybFpP                       = 0.3125
+  RepFxSrcHybFpPoolCI                  [0.014, 0.128]
+  RepFxSrcHybFpPoolDelta               0.068
+  RepFxSrcHybFpPoolP                   = 0.016
+  RepFxSrcHybFpWins                    3
+  RepFxSrcHybLast                      0
+  RepFxSrcHybMax                       0.209
+  RepFxSrcHybMean                      0.058
+  RepFxSrcHybMin                       -0.172
+  RepFxSrcHybPoolRMSE                  1.023
+  RepFxSrcHybPoolRank                  1
+  RepFxSrcHybPooled                    0.071
+  RepFxSrcHybPooledCI                  [-0.055, 0.157]
+  RepFxSrcHybRMSE                      0.978
+  RepFxSrcHybRank                      3.2
+  RepFxSrcHybRankOfMean                2
+  RepFxSrcHybRho                       0.39
+  RepFxSrcHybSD                        0.144
+  RepFxSrcKendallW                     0.21
+  RepFxSrcLast                         Fine-tuned CLM
+  RepFxSrcLeader                       Mordred / RDKit
+  RepFxSrcMeanMax                      0.069
+  RepFxSrcMeanMin                      -0.051
+  RepFxSrcMeanSpread                   0.120
+  RepFxSrcNFolds                       5
+  RepFxSrcNNeg                         13
+  RepFxSrcNPooled                      956
+  RepFxSrcNScored                      35
+  RepFxSrcRankMax                      5.4
+  RepFxSrcRankMin                      3.0
+  RepFxSrcRhoMax                       0.41
+  RepFxSrcRhoMin                       0.32
+  RepFxSrcSDMaxFam                     0.224
+  RepFxSrcSDMinFam                     0.117
+  RepFxSrcWorstRankFamily              graph-network
+  RepFxSrcZincFrozenMean               0.028
+  RepFxStratAllMax                     0.806
+  RepFxStratAllMin                     0.538
+  RepFxStratAllNegFolds                0
+  RepFxStratBestRank                   2.2
+  RepFxStratBestRankFamily             fingerprint--descriptor hybrid
+  RepFxStratDescFirst                  0
+  RepFxStratDescFpCI                   [0.013, 0.047]
+  RepFxStratDescFpDelta                0.030
+  RepFxStratDescFpP                    = 0.0625
+  RepFxStratDescFpPoolCI               [-0.007, 0.072]
+  RepFxStratDescFpPoolDelta            0.030
+  RepFxStratDescFpPoolP                = 0.120
+  RepFxStratDescFpWins                 5
+  RepFxStratDescLast                   0
+  RepFxStratDescMax                    0.791
+  RepFxStratDescMean                   0.737
+  RepFxStratDescMin                    0.623
+  RepFxStratDescPoolRMSE               0.458
+  RepFxStratDescPoolRank               2
+  RepFxStratDescPooled                 0.740
+  RepFxStratDescPooledCI               [0.679, 0.796]
+  RepFxStratDescRMSE                   0.456
+  RepFxStratDescRank                   3.0
+  RepFxStratDescRankOfMean             2
+  RepFxStratDescRho                    0.82
+  RepFxStratDescSD                     0.066
+  RepFxStratFpFirst                    0
+  RepFxStratFpLast                     0
+  RepFxStratFpMax                      0.741
+  RepFxStratFpMean                     0.707
+  RepFxStratFpMin                      0.610
+  RepFxStratFpPoolRMSE                 0.484
+  RepFxStratFpPoolRank                 5
+  RepFxStratFpPooled                   0.710
+  RepFxStratFpPooledCI                 [0.638, 0.775]
+  RepFxStratFpRMSE                     0.483
+  RepFxStratFpRank                     5.2
+  RepFxStratFpRankOfMean               5
+  RepFxStratFpRho                      0.81
+  RepFxStratFpSD                       0.055
+  RepFxStratFriedmanP                  = 0.0341
+  RepFxStratFrozenDescCI               [-0.063, 0.043]
+  RepFxStratFrozenDescDelta            -0.010
+  RepFxStratFrozenDescP                = 0.8125
+  RepFxStratFrozenDescPoolCI           [-0.045, 0.026]
+  RepFxStratFrozenDescPoolDelta        -0.010
+  RepFxStratFrozenDescPoolP            = 0.538
+  RepFxStratFrozenDescWins             3
+  RepFxStratFrozenFirst                1
+  RepFxStratFrozenFpCI                 [-0.030, 0.070]
+  RepFxStratFrozenFpDelta              0.020
+  RepFxStratFrozenFpP                  = 0.4375
+  RepFxStratFrozenFpPoolCI             [-0.023, 0.069]
+  RepFxStratFrozenFpPoolDelta          0.020
+  RepFxStratFrozenFpPoolP              = 0.410
+  RepFxStratFrozenFpWins               4
+  RepFxStratFrozenFtCI                 [-0.024, 0.105]
+  RepFxStratFrozenFtDelta              0.041
+  RepFxStratFrozenFtP                  = 0.3125
+  RepFxStratFrozenFtPoolCI             [0.006, 0.074]
+  RepFxStratFrozenFtPoolDelta          0.039
+  RepFxStratFrozenFtPoolP              = 0.018
+  RepFxStratFrozenFtWins               4
+  RepFxStratFrozenGnnCI                [-0.084, 0.045]
+  RepFxStratFrozenGnnDelta             -0.020
+  RepFxStratFrozenGnnP                 = 0.4375
+  RepFxStratFrozenGnnPoolCI            [-0.054, 0.020]
+  RepFxStratFrozenGnnPoolDelta         -0.018
+  RepFxStratFrozenGnnPoolP             = 0.336
+  RepFxStratFrozenGnnWins              1
+  RepFxStratFrozenHybCI                [-0.076, 0.058]
+  RepFxStratFrozenHybDelta             -0.009
+  RepFxStratFrozenHybP                 = 0.8125
+  RepFxStratFrozenHybPoolCI            [-0.047, 0.033]
+  RepFxStratFrozenHybPoolDelta         -0.009
+  RepFxStratFrozenHybPoolP             = 0.633
+  RepFxStratFrozenHybWins              2
+  RepFxStratFrozenLast                 1
+  RepFxStratFrozenMax                  0.806
+  RepFxStratFrozenMean                 0.727
+  RepFxStratFrozenMin                  0.644
+  RepFxStratFrozenPoolRMSE             0.467
+  RepFxStratFrozenPoolRank             4
+  RepFxStratFrozenPooled               0.731
+  RepFxStratFrozenPooledCI             [0.660, 0.790]
+  RepFxStratFrozenRMSE                 0.465
+  RepFxStratFrozenRank                 3.6
+  RepFxStratFrozenRankOfMean           4
+  RepFxStratFrozenRho                  0.80
+  RepFxStratFrozenSD                   0.061
+  RepFxStratFtFirst                    0
+  RepFxStratFtLast                     2
+  RepFxStratFtMax                      0.741
+  RepFxStratFtMean                     0.687
+  RepFxStratFtMin                      0.538
+  RepFxStratFtPoolRMSE                 0.500
+  RepFxStratFtPoolRank                 7
+  RepFxStratFtPooled                   0.691
+  RepFxStratFtPooledCI                 [0.622, 0.755]
+  RepFxStratFtRMSE                     0.497
+  RepFxStratFtRank                     6.0
+  RepFxStratFtRankOfMean               7
+  RepFxStratFtRho                      0.77
+  RepFxStratFtSD                       0.084
+  RepFxStratFtVsZincCI                 [-0.021, 0.026]
+  RepFxStratFtVsZincDelta              0.003
+  RepFxStratFtVsZincWins               2
+  RepFxStratGnnFirst                   2
+  RepFxStratGnnFtCI                    [-0.053, 0.174]
+  RepFxStratGnnFtDelta                 0.060
+  RepFxStratGnnFtP                     = 0.125
+  RepFxStratGnnFtPoolCI                [0.017, 0.100]
+  RepFxStratGnnFtPoolDelta             0.057
+  RepFxStratGnnFtPoolP                 = 0.001
+  RepFxStratGnnFtWins                  4
+  RepFxStratGnnLast                    0
+  RepFxStratGnnMax                     0.781
+  RepFxStratGnnMean                    0.747
+  RepFxStratGnnMin                     0.700
+  RepFxStratGnnPoolRMSE                0.451
+  RepFxStratGnnPoolRank                1
+  RepFxStratGnnPooled                  0.748
+  RepFxStratGnnPooledCI                [0.690, 0.798]
+  RepFxStratGnnRMSE                    0.450
+  RepFxStratGnnRank                    2.8
+  RepFxStratGnnRankOfMean              1
+  RepFxStratGnnRho                     0.80
+  RepFxStratGnnSD                      0.030
+  RepFxStratHybClmFirst                0
+  RepFxStratHybClmLast                 2
+  RepFxStratHybClmMax                  0.759
+  RepFxStratHybClmMean                 0.699
+  RepFxStratHybClmMin                  0.570
+  RepFxStratHybClmPoolRMSE             0.490
+  RepFxStratHybClmPoolRank             6
+  RepFxStratHybClmPooled               0.703
+  RepFxStratHybClmPooledCI             [0.634, 0.765]
+  RepFxStratHybClmRMSE                 0.488
+  RepFxStratHybClmRank                 5.2
+  RepFxStratHybClmRankOfMean           6
+  RepFxStratHybClmRho                  0.81
+  RepFxStratHybClmSD                   0.076
+  RepFxStratHybFirst                   2
+  RepFxStratHybFpCI                    [0.004, 0.054]
+  RepFxStratHybFpDelta                 0.029
+  RepFxStratHybFpP                     = 0.0625
+  RepFxStratHybFpPoolCI                [0.005, 0.055]
+  RepFxStratHybFpPoolDelta             0.030
+  RepFxStratHybFpPoolP                 = 0.013
+  RepFxStratHybFpWins                  5
+  RepFxStratHybLast                    0
+  RepFxStratHybMax                     0.801
+  RepFxStratHybMean                    0.736
+  RepFxStratHybMin                     0.626
+  RepFxStratHybPoolRMSE                0.459
+  RepFxStratHybPoolRank                3
+  RepFxStratHybPooled                  0.740
+  RepFxStratHybPooledCI                [0.677, 0.796]
+  RepFxStratHybRMSE                    0.456
+  RepFxStratHybRank                    2.2
+  RepFxStratHybRankOfMean              3
+  RepFxStratHybRho                     0.83
+  RepFxStratHybSD                      0.066
+  RepFxStratKendallW                   0.45
+  RepFxStratLast                       Fine-tuned CLM
+  RepFxStratLeader                     Graph network
+  RepFxStratMeanMax                    0.747
+  RepFxStratMeanMin                    0.687
+  RepFxStratMeanSpread                 0.060
+  RepFxStratNFolds                     5
+  RepFxStratNNeg                       0
+  RepFxStratNPooled                    956
+  RepFxStratNScored                    35
+  RepFxStratRankMax                    6.0
+  RepFxStratRankMin                    2.2
+  RepFxStratRhoMax                     0.83
+  RepFxStratRhoMin                     0.77
+  RepFxStratSDMaxFam                   0.084
+  RepFxStratSDMinFam                   0.030
+  RepFxStratWorstRankFamily            fine-tuned language-model
+  RepFxStratZincFrozenMean             0.684
+  RepIntClusDescFp                     0.038
+  RepIntClusDescFpCI                   [-0.056, 0.135]
+  RepIntClusDescFpP                    = 0.430
+  RepIntClusFrozenDesc                 -0.051
+  RepIntClusFrozenDescCI               [-0.105, 0.006]
+  RepIntClusFrozenDescP                = 0.074
+  RepIntClusFrozenFp                   -0.013
+  RepIntClusFrozenFpCI                 [-0.106, 0.081]
+  RepIntClusFrozenFpP                  = 0.772
+  RepIntClusFrozenFt                   0.046
+  RepIntClusFrozenFtCI                 [-0.039, 0.132]
+  RepIntClusFrozenFtP                  = 0.298
+  RepIntClusFrozenGnn                  -0.048
+  RepIntClusFrozenGnnCI                [-0.107, 0.012]
+  RepIntClusFrozenGnnP                 = 0.128
+  RepIntClusFrozenHyb                  -0.023
+  RepIntClusFrozenHybCI                [-0.099, 0.050]
+  RepIntClusFrozenHybP                 = 0.542
+  RepIntClusGnnFt                      0.094
+  RepIntClusGnnFtCI                    [0.002, 0.180]
+  RepIntClusGnnFtP                     = 0.048
+  RepIntClusHybFp                      0.011
+  RepIntClusHybFpCI                    [-0.052, 0.069]
+  RepIntClusHybFpP                     = 0.718
+  RepIntScafDescFp                     -0.089
+  RepIntScafDescFpCI                   [-0.166, -0.029]
+  RepIntScafDescFpP                    = 0.011
+  RepIntScafFrozenDesc                 0.055
+  RepIntScafFrozenDescCI               [-0.020, 0.117]
+  RepIntScafFrozenDescP                = 0.114
+  RepIntScafFrozenFp                   -0.034
+  RepIntScafFrozenFpCI                 [-0.114, 0.026]
+  RepIntScafFrozenFpP                  = 0.255
+  RepIntScafFrozenFt                   0.037
+  RepIntScafFrozenFtCI                 [-0.028, 0.160]
+  RepIntScafFrozenFtP                  = 0.268
+  RepIntScafFrozenGnn                  0.020
+  RepIntScafFrozenGnnCI                [-0.050, 0.109]
+  RepIntScafFrozenGnnP                 = 0.560
+  RepIntScafFrozenHyb                  -0.013
+  RepIntScafFrozenHybCI                [-0.096, 0.042]
+  RepIntScafFrozenHybP                 = 0.661
+  RepIntScafGnnFt                      0.017
+  RepIntScafGnnFtCI                    [-0.058, 0.138]
+  RepIntScafGnnFtP                     = 0.618
+  RepIntScafHybFp                      -0.021
+  RepIntScafHybFpCI                    [-0.059, 0.021]
+  RepIntScafHybFpP                     = 0.276
+  RepIntSrcDescFp                      0.027
+  RepIntSrcDescFpCI                    [-0.040, 0.098]
+  RepIntSrcDescFpP                     = 0.399
+  RepIntSrcFrozenDesc                  -0.017
+  RepIntSrcFrozenDescCI                [-0.096, 0.038]
+  RepIntSrcFrozenDescP                 = 0.561
+  RepIntSrcFrozenFp                    0.010
+  RepIntSrcFrozenFpCI                  [-0.081, 0.083]
+  RepIntSrcFrozenFpP                   = 0.812
+  RepIntSrcFrozenFt                    -0.018
+  RepIntSrcFrozenFtCI                  [-0.082, 0.055]
+  RepIntSrcFrozenFtP                   = 0.588
+  RepIntSrcFrozenGnn                   0.085
+  RepIntSrcFrozenGnnCI                 [-0.014, 0.228]
+  RepIntSrcFrozenGnnP                  = 0.090
+  RepIntSrcFrozenHyb                   -0.029
+  RepIntSrcFrozenHybCI                 [-0.104, 0.042]
+  RepIntSrcFrozenHybP                  = 0.410
+  RepIntSrcGnnFt                       -0.103
+  RepIntSrcGnnFtCI                     [-0.252, 0.003]
+  RepIntSrcGnnFtP                      = 0.056
+  RepIntSrcHybFp                       0.039
+  RepIntSrcHybFpCI                     [-0.024, 0.092]
+  RepIntSrcHybFpP                      = 0.206
+  RepLateChecked                       0
+  RepLateWouldWin                      0
+  RepSameCell                          97
+  RepSameCellOf                        100
+  RepSameCellPct                       97
+  RepScafAllMax                        0.837
+  RepScafAllMin                        0.189
+  RepScafAllNegFolds                   0
+  RepScafBestRank                      2.0
+  RepScafBestRankFamily                fingerprint--descriptor hybrid
+  RepScafDescFirst                     1
+  RepScafDescFpCI                      [-0.139, 0.043]
+  RepScafDescFpDelta                   -0.048
+  RepScafDescFpP                       = 0.3125
+  RepScafDescFpPoolCI                  [-0.146, 0.007]
+  RepScafDescFpPoolDelta               -0.059
+  RepScafDescFpPoolP                   = 0.090
+  RepScafDescFpWins                    2
+  RepScafDescLast                      1
+  RepScafDescMax                       0.781
+  RepScafDescMean                      0.616
+  RepScafDescMin                       0.443
+  RepScafDescPoolRMSE                  0.543
+  RepScafDescPoolRank                  6
+  RepScafDescPooled                    0.651
+  RepScafDescPooledCI                  [0.432, 0.782]
+  RepScafDescRMSE                      0.536
+  RepScafDescRank                      4.6
+  RepScafDescRankOfMean                6
+  RepScafDescRho                       0.64
+  RepScafDescSD                        0.124
+  RepScafFpFirst                       0
+  RepScafFpLast                        0
+  RepScafFpMax                         0.830
+  RepScafFpMean                        0.664
+  RepScafFpMin                         0.438
+  RepScafFpPoolRMSE                    0.495
+  RepScafFpPoolRank                    2
+  RepScafFpPooled                      0.710
+  RepScafFpPooledCI                    [0.503, 0.820]
+  RepScafFpRMSE                        0.491
+  RepScafFpRank                        3.6
+  RepScafFpRankOfMean                  2
+  RepScafFpRho                         0.65
+  RepScafFpSD                          0.152
+  RepScafFriedmanP                     = 0.0841
+  RepScafFrozenDescCI                  [-0.073, 0.141]
+  RepScafFrozenDescDelta               0.034
+  RepScafFrozenDescP                   = 0.625
+  RepScafFrozenDescPoolCI              [-0.016, 0.122]
+  RepScafFrozenDescPoolDelta           0.046
+  RepScafFrozenDescPoolP               = 0.165
+  RepScafFrozenDescWins                3
+  RepScafFrozenFirst                   1
+  RepScafFrozenFpCI                    [-0.105, 0.076]
+  RepScafFrozenFpDelta                 -0.014
+  RepScafFrozenFpP                     = 0.625
+  RepScafFrozenFpPoolCI                [-0.077, 0.044]
+  RepScafFrozenFpPoolDelta             -0.013
+  RepScafFrozenFpPoolP                 = 0.616
+  RepScafFrozenFpWins                  1
+  RepScafFrozenFtCI                    [0.009, 0.197]
+  RepScafFrozenFtDelta                 0.103
+  RepScafFrozenFtP                     = 0.125
+  RepScafFrozenFtPoolCI                [0.026, 0.161]
+  RepScafFrozenFtPoolDelta             0.076
+  RepScafFrozenFtPoolP                 $<$ 0.001
+  RepScafFrozenFtWins                  4
+  RepScafFrozenGnnCI                   [-0.165, 0.165]
+  RepScafFrozenGnnDelta                0.000
+  RepScafFrozenGnnP                    = 0.625
+  RepScafFrozenGnnPoolCI               [-0.068, 0.089]
+  RepScafFrozenGnnPoolDelta            0.002
+  RepScafFrozenGnnPoolP                = 0.963
+  RepScafFrozenGnnWins                 1
+  RepScafFrozenHybCI                   [-0.140, 0.078]
+  RepScafFrozenHybDelta                -0.031
+  RepScafFrozenHybP                    = 0.4375
+  RepScafFrozenHybPoolCI               [-0.087, 0.028]
+  RepScafFrozenHybPoolDelta            -0.022
+  RepScafFrozenHybPoolP                = 0.401
+  RepScafFrozenHybWins                 1
+  RepScafFrozenLast                    0
+  RepScafFrozenMax                     0.763
+  RepScafFrozenMean                    0.650
+  RepScafFrozenMin                     0.374
+  RepScafFrozenPoolRMSE                0.506
+  RepScafFrozenPoolRank                3
+  RepScafFrozenPooled                  0.697
+  RepScafFrozenPooledCI                [0.480, 0.813]
+  RepScafFrozenRMSE                    0.503
+  RepScafFrozenRank                    4.6
+  RepScafFrozenRankOfMean              3
+  RepScafFrozenRho                     0.65
+  RepScafFrozenSD                      0.162
+  RepScafFtFirst                       0
+  RepScafFtLast                        3
+  RepScafFtMax                         0.771
+  RepScafFtMean                        0.547
+  RepScafFtMin                         0.189
+  RepScafFtPoolRMSE                    0.566
+  RepScafFtPoolRank                    7
+  RepScafFtPooled                      0.620
+  RepScafFtPooledCI                    [0.355, 0.768]
+  RepScafFtRMSE                        0.564
+  RepScafFtRank                        6.2
+  RepScafFtRankOfMean                  7
+  RepScafFtRho                         0.58
+  RepScafFtSD                          0.227
+  RepScafFtVsZincCI                    [-0.027, 0.113]
+  RepScafFtVsZincDelta                 0.043
+  RepScafFtVsZincWins                  3
+  RepScafGnnFirst                      2
+  RepScafGnnFtCI                       [-0.084, 0.290]
+  RepScafGnnFtDelta                    0.103
+  RepScafGnnFtP                        = 0.3125
+  RepScafGnnFtPoolCI                   [-0.007, 0.177]
+  RepScafGnnFtPoolDelta                0.075
+  RepScafGnnFtPoolP                    = 0.064
+  RepScafGnnFtWins                     4
+  RepScafGnnLast                       1
+  RepScafGnnMax                        0.837
+  RepScafGnnMean                       0.650
+  RepScafGnnMin                        0.465
+  RepScafGnnPoolRMSE                   0.507
+  RepScafGnnPoolRank                   4
+  RepScafGnnPooled                     0.695
+  RepScafGnnPooledCI                   [0.470, 0.821]
+  RepScafGnnRMSE                       0.500
+  RepScafGnnRank                       3.2
+  RepScafGnnRankOfMean                 4
+  RepScafGnnRho                        0.69
+  RepScafGnnSD                         0.169
+  RepScafHighSim                       28.4
+  RepScafHybClmFirst                   0
+  RepScafHybClmLast                    0
+  RepScafHybClmMax                     0.780
+  RepScafHybClmMean                    0.642
+  RepScafHybClmMin                     0.479
+  RepScafHybClmPoolRMSE                0.511
+  RepScafHybClmPoolRank                5
+  RepScafHybClmPooled                  0.690
+  RepScafHybClmPooledCI                [0.495, 0.800]
+  RepScafHybClmRMSE                    0.510
+  RepScafHybClmRank                    3.8
+  RepScafHybClmRankOfMean              5
+  RepScafHybClmRho                     0.65
+  RepScafHybClmSD                      0.131
+  RepScafHybFirst                      1
+  RepScafHybFpCI                       [-0.029, 0.062]
+  RepScafHybFpDelta                    0.017
+  RepScafHybFpP                        = 0.4375
+  RepScafHybFpPoolCI                   [-0.023, 0.044]
+  RepScafHybFpPoolDelta                0.009
+  RepScafHybFpPoolP                    = 0.538
+  RepScafHybFpWins                     4
+  RepScafHybLast                       0
+  RepScafHybMax                        0.809
+  RepScafHybMean                       0.681
+  RepScafHybMin                        0.516
+  RepScafHybPoolRMSE                   0.487
+  RepScafHybPoolRank                   1
+  RepScafHybPooled                     0.719
+  RepScafHybPooledCI                   [0.530, 0.825]
+  RepScafHybRMSE                       0.484
+  RepScafHybRank                       2.0
+  RepScafHybRankOfMean                 1
+  RepScafHybRho                        0.67
+  RepScafHybSD                         0.121
+  RepScafKendallW                      0.37
+  RepScafLast                          Fine-tuned CLM
+  RepScafLeader                        Hybrid, ECFP4 + Mordred
+  RepScafMeanMax                       0.681
+  RepScafMeanMin                       0.547
+  RepScafMeanSpread                    0.134
+  RepScafNFolds                        5
+  RepScafNNSim                         0.612
+  RepScafNNSimMax                      0.636
+  RepScafNNSimMin                      0.597
+  RepScafNNeg                          0
+  RepScafNPooled                       955
+  RepScafNScored                       35
+  RepScafRankMax                       6.2
+  RepScafRankMin                       2.0
+  RepScafRhoMax                        0.69
+  RepScafRhoMin                        0.58
+  RepScafSDMax                         1.14
+  RepScafSDMaxFam                      0.227
+  RepScafSDMin                         0.68
+  RepScafSDMinFam                      0.121
+  RepScafScafSeen                      0.0
+  RepScafWorstRankFamily               fine-tuned language-model
+  RepScafZincFrozenMean                0.504
+  RepSeed                              20260930
+  RepSrcAllMax                         0.268
+  RepSrcAllMin                         -0.446
+  RepSrcAllNegFolds                    1
+  RepSrcBestRank                       3.0
+  RepSrcBestRankFamily                 descriptor and language-model hybrid
+  RepSrcDescFirst                      1
+  RepSrcDescFpCI                       [-0.039, 0.181]
+  RepSrcDescFpDelta                    0.071
+  RepSrcDescFpP                        = 0.1875
+  RepSrcDescFpPoolCI                   [-0.002, 0.141]
+  RepSrcDescFpPoolDelta                0.057
+  RepSrcDescFpPoolP                    = 0.058
+  RepSrcDescFpWins                     4
+  RepSrcDescLast                       0
+  RepSrcDescMax                        0.265
+  RepSrcDescMean                       0.069
+  RepSrcDescMin                        -0.220
+  RepSrcDescPoolRMSE                   1.029
+  RepSrcDescPoolRank                   2
+  RepSrcDescPooled                     0.060
+  RepSrcDescPooledCI                   [-0.063, 0.160]
+  RepSrcDescRMSE                       0.976
+  RepSrcDescRank                       3.0
+  RepSrcDescRankOfMean                 1
+  RepSrcDescRho                        0.41
+  RepSrcDescSD                         0.193
+  RepSrcFpFirst                        0
+  RepSrcFpLast                         1
+  RepSrcFpMax                          0.149
+  RepSrcFpMean                         -0.002
+  RepSrcFpMin                          -0.156
+  RepSrcFpPoolRMSE                     1.060
+  RepSrcFpPoolRank                     6
+  RepSrcFpPooled                       0.003
+  RepSrcFpPooledCI                     [-0.133, 0.102]
+  RepSrcFpRMSE                         1.011
+  RepSrcFpRank                         5.0
+  RepSrcFpRankOfMean                   5
+  RepSrcFpRho                          0.34
+  RepSrcFpSD                           0.117
+  RepSrcFriedmanP                      = 0.3769
+  RepSrcFrozenDescCI                   [-0.130, 0.032]
+  RepSrcFrozenDescDelta                -0.049
+  RepSrcFrozenDescP                    = 0.3125
+  RepSrcFrozenDescPoolCI               [-0.117, 0.022]
+  RepSrcFrozenDescPoolDelta            -0.027
+  RepSrcFrozenDescPoolP                = 0.327
+  RepSrcFrozenDescWins                 2
+  RepSrcFrozenFirst                    1
+  RepSrcFrozenFpCI                     [-0.127, 0.172]
+  RepSrcFrozenFpDelta                  0.022
+  RepSrcFrozenFpP                      = 0.625
+  RepSrcFrozenFpPoolCI                 [-0.053, 0.100]
+  RepSrcFrozenFpPoolDelta              0.030
+  RepSrcFrozenFpPoolP                  = 0.412
+  RepSrcFrozenFpWins                   4
+  RepSrcFrozenFtCI                     [-0.073, 0.215]
+  RepSrcFrozenFtDelta                  0.071
+  RepSrcFrozenFtP                      = 0.3125
+  RepSrcFrozenFtPoolCI                 [-0.052, 0.092]
+  RepSrcFrozenFtPoolDelta              0.022
+  RepSrcFrozenFtPoolP                  = 0.465
+  RepSrcFrozenFtWins                   3
+  RepSrcFrozenGnnCI                    [-0.146, 0.288]
+  RepSrcFrozenGnnDelta                 0.071
+  RepSrcFrozenGnnP                     = 0.4375
+  RepSrcFrozenGnnPoolCI                [-0.034, 0.228]
+  RepSrcFrozenGnnPoolDelta             0.067
+  RepSrcFrozenGnnPoolP                 = 0.177
+  RepSrcFrozenGnnWins                  3
+  RepSrcFrozenHybCI                    [-0.146, 0.070]
+  RepSrcFrozenHybDelta                 -0.038
+  RepSrcFrozenHybP                     = 0.4375
+  RepSrcFrozenHybPoolCI                [-0.125, 0.022]
+  RepSrcFrozenHybPoolDelta             -0.038
+  RepSrcFrozenHybPoolP                 = 0.213
+  RepSrcFrozenHybWins                  2
+  RepSrcFrozenLast                     0
+  RepSrcFrozenMax                      0.268
+  RepSrcFrozenMean                     0.020
+  RepSrcFrozenMin                      -0.336
+  RepSrcFrozenPoolRMSE                 1.044
+  RepSrcFrozenPoolRank                 4
+  RepSrcFrozenPooled                   0.033
+  RepSrcFrozenPooledCI                 [-0.116, 0.119]
+  RepSrcFrozenRMSE                     0.996
+  RepSrcFrozenRank                     3.8
+  RepSrcFrozenRankOfMean               4
+  RepSrcFrozenRho                      0.32
+  RepSrcFrozenSD                       0.221
+  RepSrcFtFirst                        1
+  RepSrcFtLast                         1
+  RepSrcFtMax                          0.097
+  RepSrcFtMean                         -0.051
+  RepSrcFtMin                          -0.446
+  RepSrcFtPoolRMSE                     1.055
+  RepSrcFtPoolRank                     5
+  RepSrcFtPooled                       0.011
+  RepSrcFtPooledCI                     [-0.159, 0.119]
+  RepSrcFtRMSE                         1.020
+  RepSrcFtRank                         4.6
+  RepSrcFtRankOfMean                   7
+  RepSrcFtRho                          0.36
+  RepSrcFtSD                           0.224
+  RepSrcFtVsZincCI                     [-0.152, -0.005]
+  RepSrcFtVsZincDelta                  -0.078
+  RepSrcFtVsZincWins                   0
+  RepSrcGnnFirst                       1
+  RepSrcGnnFtCI                        [-0.241, 0.241]
+  RepSrcGnnFtDelta                     0.000
+  RepSrcGnnFtP                         = 1
+  RepSrcGnnFtPoolCI                    [-0.218, 0.070]
+  RepSrcGnnFtPoolDelta                 -0.045
+  RepSrcGnnFtPoolP                     = 0.437
+  RepSrcGnnFtWins                      2
+  RepSrcGnnLast                        3
+  RepSrcGnnMax                         0.213
+  RepSrcGnnMean                        -0.051
+  RepSrcGnnMin                         -0.269
+  RepSrcGnnPoolRMSE                    1.079
+  RepSrcGnnPoolRank                    7
+  RepSrcGnnPooled                      -0.034
+  RepSrcGnnPooledCI                    [-0.252, 0.082]
+  RepSrcGnnRMSE                        1.030
+  RepSrcGnnRank                        5.4
+  RepSrcGnnRankOfMean                  6
+  RepSrcGnnRho                         0.32
+  RepSrcGnnSD                          0.178
+  RepSrcHighSim                        6.6
+  RepSrcHybClmFirst                    1
+  RepSrcHybClmLast                     0
+  RepSrcHybClmMax                      0.164
+  RepSrcHybClmMean                     0.041
+  RepSrcHybClmMin                      -0.154
+  RepSrcHybClmPoolRMSE                 1.036
+  RepSrcHybClmPoolRank                 3
+  RepSrcHybClmPooled                   0.047
+  RepSrcHybClmPooledCI                 [-0.072, 0.155]
+  RepSrcHybClmRMSE                     0.988
+  RepSrcHybClmRank                     3.0
+  RepSrcHybClmRankOfMean               3
+  RepSrcHybClmRho                      0.38
+  RepSrcHybClmSD                       0.124
+  RepSrcHybFirst                       0
+  RepSrcHybFpCI                        [-0.039, 0.159]
+  RepSrcHybFpDelta                     0.060
+  RepSrcHybFpP                         = 0.3125
+  RepSrcHybFpPoolCI                    [0.014, 0.128]
+  RepSrcHybFpPoolDelta                 0.068
+  RepSrcHybFpPoolP                     = 0.016
+  RepSrcHybFpWins                      3
+  RepSrcHybLast                        0
+  RepSrcHybMax                         0.209
+  RepSrcHybMean                        0.058
+  RepSrcHybMin                         -0.172
+  RepSrcHybPoolRMSE                    1.023
+  RepSrcHybPoolRank                    1
+  RepSrcHybPooled                      0.071
+  RepSrcHybPooledCI                    [-0.055, 0.157]
+  RepSrcHybRMSE                        0.978
+  RepSrcHybRank                        3.2
+  RepSrcHybRankOfMean                  2
+  RepSrcHybRho                         0.39
+  RepSrcHybSD                          0.144
+  RepSrcKendallW                       0.21
+  RepSrcLast                           Fine-tuned CLM
+  RepSrcLeader                         Mordred / RDKit
+  RepSrcMeanMax                        0.069
+  RepSrcMeanMin                        -0.051
+  RepSrcMeanSpread                     0.120
+  RepSrcNFolds                         5
+  RepSrcNNSim                          0.410
+  RepSrcNNSimMax                       0.518
+  RepSrcNNSimMin                       0.350
+  RepSrcNNeg                           13
+  RepSrcNPooled                        956
+  RepSrcNScored                        35
+  RepSrcRankMax                        5.4
+  RepSrcRankMin                        3.0
+  RepSrcRhoMax                         0.41
+  RepSrcRhoMin                         0.32
+  RepSrcSDMax                          1.59
+  RepSrcSDMaxFam                       0.224
+  RepSrcSDMin                          0.75
+  RepSrcSDMinFam                       0.117
+  RepSrcScafSeen                       31.9
+  RepSrcWorstRankFamily                graph-network
+  RepSrcZincFrozenMean                 0.028
+  RepStratAllMax                       0.806
+  RepStratAllMin                       0.538
+  RepStratAllNegFolds                  0
+  RepStratBestRank                     2.2
+  RepStratBestRankFamily               fingerprint--descriptor hybrid
+  RepStratDescFirst                    0
+  RepStratDescFpCI                     [0.013, 0.047]
+  RepStratDescFpDelta                  0.030
+  RepStratDescFpP                      = 0.0625
+  RepStratDescFpPoolCI                 [-0.007, 0.072]
+  RepStratDescFpPoolDelta              0.030
+  RepStratDescFpPoolP                  = 0.120
+  RepStratDescFpWins                   5
+  RepStratDescLast                     0
+  RepStratDescMax                      0.791
+  RepStratDescMean                     0.737
+  RepStratDescMin                      0.623
+  RepStratDescPoolRMSE                 0.458
+  RepStratDescPoolRank                 2
+  RepStratDescPooled                   0.740
+  RepStratDescPooledCI                 [0.679, 0.796]
+  RepStratDescRMSE                     0.456
+  RepStratDescRank                     3.0
+  RepStratDescRankOfMean               2
+  RepStratDescRho                      0.82
+  RepStratDescSD                       0.066
+  RepStratFpFirst                      0
+  RepStratFpLast                       0
+  RepStratFpMax                        0.741
+  RepStratFpMean                       0.707
+  RepStratFpMin                        0.610
+  RepStratFpPoolRMSE                   0.484
+  RepStratFpPoolRank                   5
+  RepStratFpPooled                     0.710
+  RepStratFpPooledCI                   [0.638, 0.775]
+  RepStratFpRMSE                       0.483
+  RepStratFpRank                       5.0
+  RepStratFpRankOfMean                 5
+  RepStratFpRho                        0.81
+  RepStratFpSD                         0.055
+  RepStratFriedmanP                    = 0.0352
+  RepStratFrozenDescCI                 [-0.063, 0.043]
+  RepStratFrozenDescDelta              -0.010
+  RepStratFrozenDescP                  = 0.8125
+  RepStratFrozenDescPoolCI             [-0.045, 0.026]
+  RepStratFrozenDescPoolDelta          -0.010
+  RepStratFrozenDescPoolP              = 0.538
+  RepStratFrozenDescWins               3
+  RepStratFrozenFirst                  1
+  RepStratFrozenFpCI                   [-0.030, 0.070]
+  RepStratFrozenFpDelta                0.020
+  RepStratFrozenFpP                    = 0.4375
+  RepStratFrozenFpPoolCI               [-0.023, 0.069]
+  RepStratFrozenFpPoolDelta            0.020
+  RepStratFrozenFpPoolP                = 0.410
+  RepStratFrozenFpWins                 4
+  RepStratFrozenFtCI                   [-0.024, 0.105]
+  RepStratFrozenFtDelta                0.041
+  RepStratFrozenFtP                    = 0.3125
+  RepStratFrozenFtPoolCI               [0.006, 0.074]
+  RepStratFrozenFtPoolDelta            0.039
+  RepStratFrozenFtPoolP                = 0.018
+  RepStratFrozenFtWins                 4
+  RepStratFrozenGnnCI                  [-0.084, 0.045]
+  RepStratFrozenGnnDelta               -0.020
+  RepStratFrozenGnnP                   = 0.4375
+  RepStratFrozenGnnPoolCI              [-0.054, 0.020]
+  RepStratFrozenGnnPoolDelta           -0.018
+  RepStratFrozenGnnPoolP               = 0.336
+  RepStratFrozenGnnWins                1
+  RepStratFrozenHybCI                  [-0.076, 0.058]
+  RepStratFrozenHybDelta               -0.009
+  RepStratFrozenHybP                   = 0.8125
+  RepStratFrozenHybPoolCI              [-0.047, 0.033]
+  RepStratFrozenHybPoolDelta           -0.009
+  RepStratFrozenHybPoolP               = 0.633
+  RepStratFrozenHybWins                2
+  RepStratFrozenLast                   1
+  RepStratFrozenMax                    0.806
+  RepStratFrozenMean                   0.727
+  RepStratFrozenMin                    0.644
+  RepStratFrozenPoolRMSE               0.467
+  RepStratFrozenPoolRank               4
+  RepStratFrozenPooled                 0.731
+  RepStratFrozenPooledCI               [0.660, 0.790]
+  RepStratFrozenRMSE                   0.465
+  RepStratFrozenRank                   3.6
+  RepStratFrozenRankOfMean             4
+  RepStratFrozenRho                    0.80
+  RepStratFrozenSD                     0.061
+  RepStratFtFirst                      0
+  RepStratFtLast                       2
+  RepStratFtMax                        0.741
+  RepStratFtMean                       0.687
+  RepStratFtMin                        0.538
+  RepStratFtPoolRMSE                   0.500
+  RepStratFtPoolRank                   7
+  RepStratFtPooled                     0.691
+  RepStratFtPooledCI                   [0.622, 0.755]
+  RepStratFtRMSE                       0.497
+  RepStratFtRank                       5.8
+  RepStratFtRankOfMean                 7
+  RepStratFtRho                        0.77
+  RepStratFtSD                         0.084
+  RepStratFtVsZincCI                   [-0.021, 0.026]
+  RepStratFtVsZincDelta                0.003
+  RepStratFtVsZincWins                 2
+  RepStratGnnFirst                     2
+  RepStratGnnFtCI                      [-0.053, 0.174]
+  RepStratGnnFtDelta                   0.060
+  RepStratGnnFtP                       = 0.125
+  RepStratGnnFtPoolCI                  [0.017, 0.100]
+  RepStratGnnFtPoolDelta               0.057
+  RepStratGnnFtPoolP                   = 0.001
+  RepStratGnnFtWins                    4
+  RepStratGnnLast                      0
+  RepStratGnnMax                       0.781
+  RepStratGnnMean                      0.747
+  RepStratGnnMin                       0.700
+  RepStratGnnPoolRMSE                  0.451
+  RepStratGnnPoolRank                  1
+  RepStratGnnPooled                    0.748
+  RepStratGnnPooledCI                  [0.690, 0.798]
+  RepStratGnnRMSE                      0.450
+  RepStratGnnRank                      2.8
+  RepStratGnnRankOfMean                1
+  RepStratGnnRho                       0.80
+  RepStratGnnSD                        0.030
+  RepStratHighSim                      73.6
+  RepStratHybClmFirst                  0
+  RepStratHybClmLast                   2
+  RepStratHybClmMax                    0.759
+  RepStratHybClmMean                   0.694
+  RepStratHybClmMin                    0.570
+  RepStratHybClmPoolRMSE               0.494
+  RepStratHybClmPoolRank               6
+  RepStratHybClmPooled                 0.699
+  RepStratHybClmPooledCI               [0.628, 0.762]
+  RepStratHybClmRMSE                   0.492
+  RepStratHybClmRank                   5.6
+  RepStratHybClmRankOfMean             6
+  RepStratHybClmRho                    0.80
+  RepStratHybClmSD                     0.073
+  RepStratHybFirst                     2
+  RepStratHybFpCI                      [0.004, 0.054]
+  RepStratHybFpDelta                   0.029
+  RepStratHybFpP                       = 0.0625
+  RepStratHybFpPoolCI                  [0.005, 0.055]
+  RepStratHybFpPoolDelta               0.030
+  RepStratHybFpPoolP                   = 0.013
+  RepStratHybFpWins                    5
+  RepStratHybLast                      0
+  RepStratHybMax                       0.801
+  RepStratHybMean                      0.736
+  RepStratHybMin                       0.626
+  RepStratHybPoolRMSE                  0.459
+  RepStratHybPoolRank                  3
+  RepStratHybPooled                    0.740
+  RepStratHybPooledCI                  [0.677, 0.796]
+  RepStratHybRMSE                      0.456
+  RepStratHybRank                      2.2
+  RepStratHybRankOfMean                3
+  RepStratHybRho                       0.83
+  RepStratHybSD                        0.066
+  RepStratKendallW                     0.45
+  RepStratLast                         Fine-tuned CLM
+  RepStratLeader                       Graph network
+  RepStratMeanMax                      0.747
+  RepStratMeanMin                      0.687
+  RepStratMeanSpread                   0.060
+  RepStratNFolds                       5
+  RepStratNNSim                        0.774
+  RepStratNNSimMax                     0.780
+  RepStratNNSimMin                     0.762
+  RepStratNNeg                         0
+  RepStratNPooled                      956
+  RepStratNScored                      35
+  RepStratRankMax                      5.8
+  RepStratRankMin                      2.2
+  RepStratRhoMax                       0.83
+  RepStratRhoMin                       0.77
+  RepStratSDMax                        1.00
+  RepStratSDMaxFam                     0.084
+  RepStratSDMin                        0.85
+  RepStratSDMinFam                     0.030
+  RepStratScafSeen                     79.5
+  RepStratWorstRankFamily              fine-tuned language-model
+  RepStratZincFrozenMean               0.684
+  RepTriageRhoClus                     0.604
+  RepTriageRhoScaf                     0.637
+  RepTriageRhoSrc                      0.404
+  RepTriageRhoStrat                    0.817
+  ReproGnnMaxDiff                      0.012
+  ReproGnnPartitions                   2
+  ReproGridCells                       8
+  RtwoCIDescClus                       [0.254, 0.587]
+  RtwoCIDescDiss                       [-0.032, 0.388]
+  RtwoCIDescScaf                       [0.277, 0.650]
+  RtwoCIDescSrc                        [-0.297, 0.069]
+  RtwoCIDescStrat                      [0.648, 0.856]
+  RtwoCIFpClus                         [0.165, 0.521]
+  RtwoCIFpDiss                         [0.062, 0.331]
+  RtwoCIFpScaf                         [0.292, 0.719]
+  RtwoCIFpSrc                          [-0.953, -0.186]
+  RtwoCIFpStrat                        [0.689, 0.867]
+  RtwoCIFrozenClus                     [0.348, 0.619]
+  RtwoCIFrozenDiss                     [0.073, 0.461]
+  RtwoCIFrozenScaf                     [0.352, 0.736]
+  RtwoCIFrozenSrc                      [-0.678, -0.170]
+  RtwoCIFrozenStrat                    [0.546, 0.830]
+  RtwoCIFtClus                         [0.124, 0.475]
+  RtwoCIFtDiss                         [-0.098, 0.290]
+  RtwoCIFtScaf                         [0.267, 0.687]
+  RtwoCIFtSrc                          [-0.821, -0.068]
+  RtwoCIFtStrat                        [0.582, 0.826]
+  RtwoCIGnnClus                        [0.276, 0.656]
+  RtwoCIGnnDiss                        [-0.120, 0.383]
+  RtwoCIGnnScaf                        [0.224, 0.688]
+  RtwoCIGnnSrc                         [-1.019, -0.111]
+  RtwoCIGnnStrat                       [0.658, 0.853]
+  RtwoCIHybClmClus                     [0.164, 0.508]
+  RtwoCIHybClmDiss                     [0.049, 0.329]
+  RtwoCIHybClmScaf                     [0.302, 0.709]
+  RtwoCIHybClmSrc                      [-0.659, -0.064]
+  RtwoCIHybClmStrat                    [0.583, 0.816]
+  RtwoCIHybClus                        [0.213, 0.546]
+  RtwoCIHybDiss                        [0.079, 0.388]
+  RtwoCIHybScaf                        [0.338, 0.731]
+  RtwoCIHybSrc                         [-0.475, -0.006]
+  RtwoCIHybStrat                       [0.712, 0.876]
+  RtwoDescStrat                        0.776
+  RtwoFpStrat                          0.798
+  RtwoFrozenStrat                      0.725
+  RtwoFtStrat                          0.738
+  RtwoGnnStrat                         0.779
+  RtwoHybClmStrat                      0.730
+  RtwoHybStrat                         0.814
+  SelMaxOptimism                       0.341
+  SelMaxOptimismFamily                 Frozen CLM
+  SelMaxOptimismNew                    -0.391
+  SelMaxOptimismOld                    -0.050
+  SelMaxOptimismPartition              source-disjoint
+  SelMeanOptimism                      0.027
+  SelMedianOptimism                    0.000
+  SimNHigh                             170
+  SimNLow                              22
+  SimRMSEHigh                          0.322
+  SimRMSELow                           0.577
+  SrClusBestRankFamily                 frozen language-model
+  SrClusDescFirst                      1
+  SrClusDescFpCI                       [-0.046, 0.161]
+  SrClusDescFpDelta                    0.069
+  SrClusDescFpDeltaMax                 0.106
+  SrClusDescFpDeltaMin                 0.014
+  SrClusDescFpP                        = 0.226
+  SrClusDescFpWins                     5
+  SrClusDescLast                       0
+  SrClusDescMax                        0.495
+  SrClusDescMean                       0.420
+  SrClusDescMin                        0.271
+  SrClusDescRank                       2.6
+  SrClusDescRankOfMean                 3
+  SrClusDescSD                         0.087
+  SrClusDescTopThree                   4
+  SrClusEverHeldOut                    290
+  SrClusFpFirst                        0
+  SrClusFpLast                         0
+  SrClusFpMax                          0.460
+  SrClusFpMean                         0.351
+  SrClusFpMin                          0.257
+  SrClusFpRank                         5.6
+  SrClusFpRankOfMean                   6
+  SrClusFpSD                           0.074
+  SrClusFpTopThree                     0
+  SrClusFrozenDescCI                   [-0.022, 0.138]
+  SrClusFrozenDescDelta                0.051
+  SrClusFrozenDescDeltaMax             0.111
+  SrClusFrozenDescDeltaMin             -0.033
+  SrClusFrozenDescP                    = 0.189
+  SrClusFrozenDescWins                 4
+  SrClusFrozenFirst                    4
+  SrClusFrozenFpCI                     [0.013, 0.226]
+  SrClusFrozenFpDelta                  0.120
+  SrClusFrozenFpDeltaMax               0.171
+  SrClusFrozenFpDeltaMin               0.002
+  SrClusFrozenFpP                      = 0.035
+  SrClusFrozenFpWins                   5
+  SrClusFrozenFtCI                     [0.047, 0.199]
+  SrClusFrozenFtDelta                  0.119
+  SrClusFrozenFtDeltaMax               0.143
+  SrClusFrozenFtDeltaMin               0.093
+  SrClusFrozenFtP                      $<$ 0.001
+  SrClusFrozenFtWins                   5
+  SrClusFrozenGnnCI                    [-0.068, 0.161]
+  SrClusFrozenGnnDelta                 0.034
+  SrClusFrozenGnnDeltaMax              0.098
+  SrClusFrozenGnnDeltaMin              0.007
+  SrClusFrozenGnnP                     = 0.527
+  SrClusFrozenGnnWins                  5
+  SrClusFrozenHybCI                    [-0.020, 0.178]
+  SrClusFrozenHybDelta                 0.077
+  SrClusFrozenHybDeltaMax              0.158
+  SrClusFrozenHybDeltaMin              -0.019
+  SrClusFrozenHybP                     = 0.130
+  SrClusFrozenHybWins                  4
+  SrClusFrozenLast                     0
+  SrClusFrozenMax                      0.538
+  SrClusFrozenMean                     0.471
+  SrClusFrozenMin                      0.383
+  SrClusFrozenRank                     1.4
+  SrClusFrozenRankOfMean               1
+  SrClusFrozenRankOfRank               1
+  SrClusFrozenSD                       0.059
+  SrClusFrozenTopThree                 5
+  SrClusFrozenTopTwo                   4
+  SrClusFrozenWorstRank                3
+  SrClusFtFirst                        0
+  SrClusFtLast                         1
+  SrClusFtMax                          0.404
+  SrClusFtMean                         0.352
+  SrClusFtMin                          0.268
+  SrClusFtRank                         5.2
+  SrClusFtRankOfMean                   5
+  SrClusFtSD                           0.051
+  SrClusFtTopThree                     0
+  SrClusGnnFirst                       0
+  SrClusGnnFtCI                        [-0.029, 0.190]
+  SrClusGnnFtDelta                     0.085
+  SrClusGnnFtDeltaMax                  0.127
+  SrClusGnnFtDeltaMin                  0.036
+  SrClusGnnFtP                         = 0.152
+  SrClusGnnFtWins                      5
+  SrClusGnnLast                        0
+  SrClusGnnMax                         0.495
+  SrClusGnnMean                        0.437
+  SrClusGnnMin                         0.367
+  SrClusGnnRank                        2.8
+  SrClusGnnRankOfMean                  2
+  SrClusGnnSD                          0.047
+  SrClusGnnTopThree                    4
+  SrClusHybClmFirst                    0
+  SrClusHybClmLast                     4
+  SrClusHybClmMax                      0.423
+  SrClusHybClmMean                     0.328
+  SrClusHybClmMin                      0.234
+  SrClusHybClmRank                     6.8
+  SrClusHybClmRankOfMean               7
+  SrClusHybClmSD                       0.068
+  SrClusHybClmTopThree                 0
+  SrClusHybFirst                       0
+  SrClusHybFpCI                        [0.005, 0.078]
+  SrClusHybFpDelta                     0.043
+  SrClusHybFpDeltaMax                  0.068
+  SrClusHybFpDeltaMin                  0.005
+  SrClusHybFpP                         = 0.030
+  SrClusHybFpWins                      5
+  SrClusHybLast                        0
+  SrClusHybMax                         0.481
+  SrClusHybMean                        0.394
+  SrClusHybMin                         0.312
+  SrClusHybRank                        3.6
+  SrClusHybRankOfMean                  4
+  SrClusHybSD                          0.060
+  SrClusHybTopThree                    2
+  SrClusKendallW                       0.79
+  SrClusLargestGroup                   1
+  SrClusLeader                         Frozen CLM
+  SrClusMeanMax                        0.471
+  SrClusMeanMin                        0.328
+  SrClusNNSim                          0.525
+  SrClusNNSimMax                       0.534
+  SrClusNNSimMin                       0.516
+  SrClusNPartitions                    5
+  SrClusNTest                          191
+  SrClusScafSeen                       51.7
+  SrClusSharedPrimary                  67
+  SrClusSharedPrimaryMax               68
+  SrClusSharedPrimaryMin               65
+  SrClusSharedRepeats                  65
+  SrClusWorstRankFamily                language-model hybrid
+  SrFrozenDescWinsTotal                7
+  SrFrozenFirstTotal                   5
+  SrFrozenFpWinsTotal                  10
+  SrFrozenFtWinsTotal                  10
+  SrFrozenGnnWinsTotal                 8
+  SrFrozenHybWinsTotal                 9
+  SrFrozenTopTwoTotal                  9
+  SrFxClusBestRankFamily               frozen language-model
+  SrFxClusDescFirst                    1
+  SrFxClusDescFpCI                     [-0.046, 0.161]
+  SrFxClusDescFpDelta                  0.069
+  SrFxClusDescFpDeltaMax               0.106
+  SrFxClusDescFpDeltaMin               0.014
+  SrFxClusDescFpP                      = 0.226
+  SrFxClusDescFpWins                   5
+  SrFxClusDescLast                     0
+  SrFxClusDescMax                      0.495
+  SrFxClusDescMean                     0.420
+  SrFxClusDescMin                      0.271
+  SrFxClusDescRank                     2.6
+  SrFxClusDescRankOfMean               3
+  SrFxClusDescSD                       0.087
+  SrFxClusDescTopThree                 4
+  SrFxClusFpFirst                      0
+  SrFxClusFpLast                       0
+  SrFxClusFpMax                        0.460
+  SrFxClusFpMean                       0.351
+  SrFxClusFpMin                        0.257
+  SrFxClusFpRank                       5.6
+  SrFxClusFpRankOfMean                 6
+  SrFxClusFpSD                         0.074
+  SrFxClusFpTopThree                   0
+  SrFxClusFrozenDescCI                 [-0.022, 0.138]
+  SrFxClusFrozenDescDelta              0.051
+  SrFxClusFrozenDescDeltaMax           0.111
+  SrFxClusFrozenDescDeltaMin           -0.033
+  SrFxClusFrozenDescP                  = 0.189
+  SrFxClusFrozenDescWins               4
+  SrFxClusFrozenFirst                  4
+  SrFxClusFrozenFpCI                   [0.013, 0.226]
+  SrFxClusFrozenFpDelta                0.120
+  SrFxClusFrozenFpDeltaMax             0.171
+  SrFxClusFrozenFpDeltaMin             0.002
+  SrFxClusFrozenFpP                    = 0.035
+  SrFxClusFrozenFpWins                 5
+  SrFxClusFrozenFtCI                   [0.047, 0.199]
+  SrFxClusFrozenFtDelta                0.119
+  SrFxClusFrozenFtDeltaMax             0.143
+  SrFxClusFrozenFtDeltaMin             0.093
+  SrFxClusFrozenFtP                    $<$ 0.001
+  SrFxClusFrozenFtWins                 5
+  SrFxClusFrozenGnnCI                  [-0.068, 0.161]
+  SrFxClusFrozenGnnDelta               0.034
+  SrFxClusFrozenGnnDeltaMax            0.098
+  SrFxClusFrozenGnnDeltaMin            0.007
+  SrFxClusFrozenGnnP                   = 0.527
+  SrFxClusFrozenGnnWins                5
+  SrFxClusFrozenHybCI                  [-0.020, 0.178]
+  SrFxClusFrozenHybDelta               0.077
+  SrFxClusFrozenHybDeltaMax            0.158
+  SrFxClusFrozenHybDeltaMin            -0.019
+  SrFxClusFrozenHybP                   = 0.130
+  SrFxClusFrozenHybWins                4
+  SrFxClusFrozenLast                   0
+  SrFxClusFrozenMax                    0.538
+  SrFxClusFrozenMean                   0.471
+  SrFxClusFrozenMin                    0.383
+  SrFxClusFrozenRank                   1.4
+  SrFxClusFrozenRankOfMean             1
+  SrFxClusFrozenSD                     0.059
+  SrFxClusFrozenTopThree               5
+  SrFxClusFtFirst                      0
+  SrFxClusFtLast                       1
+  SrFxClusFtMax                        0.404
+  SrFxClusFtMean                       0.352
+  SrFxClusFtMin                        0.268
+  SrFxClusFtRank                       5.2
+  SrFxClusFtRankOfMean                 5
+  SrFxClusFtSD                         0.051
+  SrFxClusFtTopThree                   0
+  SrFxClusGnnFirst                     0
+  SrFxClusGnnFtCI                      [-0.029, 0.190]
+  SrFxClusGnnFtDelta                   0.085
+  SrFxClusGnnFtDeltaMax                0.127
+  SrFxClusGnnFtDeltaMin                0.036
+  SrFxClusGnnFtP                       = 0.152
+  SrFxClusGnnFtWins                    5
+  SrFxClusGnnLast                      0
+  SrFxClusGnnMax                       0.495
+  SrFxClusGnnMean                      0.437
+  SrFxClusGnnMin                       0.367
+  SrFxClusGnnRank                      2.8
+  SrFxClusGnnRankOfMean                2
+  SrFxClusGnnSD                        0.047
+  SrFxClusGnnTopThree                  4
+  SrFxClusHybClmFirst                  0
+  SrFxClusHybClmLast                   4
+  SrFxClusHybClmMax                    0.423
+  SrFxClusHybClmMean                   0.328
+  SrFxClusHybClmMin                    0.234
+  SrFxClusHybClmRank                   6.8
+  SrFxClusHybClmRankOfMean             7
+  SrFxClusHybClmSD                     0.068
+  SrFxClusHybClmTopThree               0
+  SrFxClusHybFirst                     0
+  SrFxClusHybFpCI                      [0.005, 0.078]
+  SrFxClusHybFpDelta                   0.043
+  SrFxClusHybFpDeltaMax                0.068
+  SrFxClusHybFpDeltaMin                0.005
+  SrFxClusHybFpP                       = 0.030
+  SrFxClusHybFpWins                    5
+  SrFxClusHybLast                      0
+  SrFxClusHybMax                       0.481
+  SrFxClusHybMean                      0.394
+  SrFxClusHybMin                       0.312
+  SrFxClusHybRank                      3.6
+  SrFxClusHybRankOfMean                4
+  SrFxClusHybSD                        0.060
+  SrFxClusHybTopThree                  2
+  SrFxClusKendallW                     0.79
+  SrFxClusLeader                       Frozen CLM
+  SrFxClusMeanMax                      0.471
+  SrFxClusMeanMin                      0.328
+  SrFxClusNPartitions                  5
+  SrFxClusWorstRankFamily              language-model hybrid
+  SrFxIntClusDescFp                    0.039
+  SrFxIntClusDescFpCI                  [-0.079, 0.135]
+  SrFxIntClusDescFpP                   = 0.529
+  SrFxIntClusDescFpStratGap            0.030
+  SrFxIntClusFrozenDesc                0.061
+  SrFxIntClusFrozenDescCI              [0.003, 0.142]
+  SrFxIntClusFrozenDescP               = 0.038
+  SrFxIntClusFrozenDescStratGap        -0.010
+  SrFxIntClusFrozenFp                  0.100
+  SrFxIntClusFrozenFpCI                [0.006, 0.192]
+  SrFxIntClusFrozenFpP                 = 0.037
+  SrFxIntClusFrozenFpStratGap          0.020
+  SrFxIntClusFrozenFt                  0.079
+  SrFxIntClusFrozenFtCI                [0.010, 0.153]
+  SrFxIntClusFrozenFtP                 = 0.021
+  SrFxIntClusFrozenFtStratGap          0.041
+  SrFxIntClusFrozenGnn                 0.054
+  SrFxIntClusFrozenGnnCI               [-0.036, 0.169]
+  SrFxIntClusFrozenGnnP                = 0.243
+  SrFxIntClusFrozenGnnStratGap         -0.020
+  SrFxIntClusFrozenHyb                 0.086
+  SrFxIntClusFrozenHybCI               [0.012, 0.168]
+  SrFxIntClusFrozenHybP                = 0.026
+  SrFxIntClusFrozenHybStratGap         -0.009
+  SrFxIntClusGnnFt                     0.025
+  SrFxIntClusGnnFtCI                   [-0.079, 0.112]
+  SrFxIntClusGnnFtP                    = 0.669
+  SrFxIntClusGnnFtStratGap             0.060
+  SrFxIntClusHybFp                     0.014
+  SrFxIntClusHybFpCI                   [-0.030, 0.053]
+  SrFxIntClusHybFpP                    = 0.516
+  SrFxIntClusHybFpStratGap             0.029
+  SrFxIntScafDescFp                    -0.011
+  SrFxIntScafDescFpCI                  [-0.100, 0.085]
+  SrFxIntScafDescFpP                   = 0.784
+  SrFxIntScafDescFpStratGap            0.030
+  SrFxIntScafFrozenDesc                0.035
+  SrFxIntScafFrozenDescCI              [-0.043, 0.103]
+  SrFxIntScafFrozenDescP               = 0.332
+  SrFxIntScafFrozenDescStratGap        -0.010
+  SrFxIntScafFrozenFp                  0.024
+  SrFxIntScafFrozenFpCI                [-0.077, 0.130]
+  SrFxIntScafFrozenFpP                 = 0.677
+  SrFxIntScafFrozenFpStratGap          0.020
+  SrFxIntScafFrozenFt                  0.004
+  SrFxIntScafFrozenFtCI                [-0.072, 0.072]
+  SrFxIntScafFrozenFtP                 = 0.942
+  SrFxIntScafFrozenFtStratGap          0.041
+  SrFxIntScafFrozenGnn                 0.009
+  SrFxIntScafFrozenGnnCI               [-0.084, 0.101]
+  SrFxIntScafFrozenGnnP                = 0.823
+  SrFxIntScafFrozenGnnStratGap         -0.020
+  SrFxIntScafFrozenHyb                 0.055
+  SrFxIntScafFrozenHybCI               [-0.051, 0.154]
+  SrFxIntScafFrozenHybP                = 0.308
+  SrFxIntScafFrozenHybStratGap         -0.009
+  SrFxIntScafGnnFt                     -0.005
+  SrFxIntScafGnnFtCI                   [-0.108, 0.090]
+  SrFxIntScafGnnFtP                    = 0.814
+  SrFxIntScafGnnFtStratGap             0.060
+  SrFxIntScafHybFp                     -0.031
+  SrFxIntScafHybFpCI                   [-0.102, 0.031]
+  SrFxIntScafHybFpP                    = 0.363
+  SrFxIntScafHybFpStratGap             0.029
+  SrFxScafBestRankFamily               frozen language-model
+  SrFxScafDescFirst                    2
+  SrFxScafDescFpCI                     [-0.071, 0.126]
+  SrFxScafDescFpDelta                  0.019
+  SrFxScafDescFpDeltaMax               0.084
+  SrFxScafDescFpDeltaMin               -0.062
+  SrFxScafDescFpP                      = 0.710
+  SrFxScafDescFpWins                   3
+  SrFxScafDescLast                     1
+  SrFxScafDescMax                      0.672
+  SrFxScafDescMean                     0.588
+  SrFxScafDescMin                      0.527
+  SrFxScafDescRank                     3.6
+  SrFxScafDescRankOfMean               3
+  SrFxScafDescSD                       0.057
+  SrFxScafDescTopThree                 2
+  SrFxScafFpFirst                      0
+  SrFxScafFpLast                       0
+  SrFxScafFpMax                        0.619
+  SrFxScafFpMean                       0.569
+  SrFxScafFpMin                        0.519
+  SrFxScafFpRank                       4.8
+  SrFxScafFpRankOfMean                 4
+  SrFxScafFpSD                         0.042
+  SrFxScafFpTopThree                   1
+  SrFxScafFrozenDescCI                 [-0.070, 0.104]
+  SrFxScafFrozenDescDelta              0.025
+  SrFxScafFrozenDescDeltaMax           0.096
+  SrFxScafFrozenDescDeltaMin           -0.024
+  SrFxScafFrozenDescP                  = 0.603
+  SrFxScafFrozenDescWins               3
+  SrFxScafFrozenFirst                  1
+  SrFxScafFrozenFpCI                   [-0.062, 0.162]
+  SrFxScafFrozenFpDelta                0.044
+  SrFxScafFrozenFpDeltaMax             0.070
+  SrFxScafFrozenFpDeltaMin             0.025
+  SrFxScafFrozenFpP                    = 0.516
+  SrFxScafFrozenFpWins                 5
+  SrFxScafFrozenFtCI                   [-0.036, 0.122]
+  SrFxScafFrozenFtDelta                0.044
+  SrFxScafFrozenFtDeltaMax             0.076
+  SrFxScafFrozenFtDeltaMin             0.015
+  SrFxScafFrozenFtP                    = 0.265
+  SrFxScafFrozenFtWins                 5
+  SrFxScafFrozenGnnCI                  [-0.110, 0.087]
+  SrFxScafFrozenGnnDelta               -0.011
+  SrFxScafFrozenGnnDeltaMax            0.066
+  SrFxScafFrozenGnnDeltaMin            -0.118
+  SrFxScafFrozenGnnP                   = 0.859
+  SrFxScafFrozenGnnWins                3
+  SrFxScafFrozenHybCI                  [-0.080, 0.157]
+  SrFxScafFrozenHybDelta               0.046
+  SrFxScafFrozenHybDeltaMax            0.072
+  SrFxScafFrozenHybDeltaMin            0.009
+  SrFxScafFrozenHybP                   = 0.518
+  SrFxScafFrozenHybWins                5
+  SrFxScafFrozenLast                   0
+  SrFxScafFrozenMax                    0.656
+  SrFxScafFrozenMean                   0.613
+  SrFxScafFrozenMin                    0.544
+  SrFxScafFrozenRank                   1.8
+  SrFxScafFrozenRankOfMean             2
+  SrFxScafFrozenSD                     0.054
+  SrFxScafFrozenTopThree               5
+  SrFxScafFtFirst                      0
+  SrFxScafFtLast                       1
+  SrFxScafFtMax                        0.639
+  SrFxScafFtMean                       0.569
+  SrFxScafFtMin                        0.511
+  SrFxScafFtRank                       5.0
+  SrFxScafFtRankOfMean                 5
+  SrFxScafFtSD                         0.051
+  SrFxScafFtTopThree                   1
+  SrFxScafGnnFirst                     2
+  SrFxScafGnnFtCI                      [-0.052, 0.167]
+  SrFxScafGnnFtDelta                   0.056
+  SrFxScafGnnFtDeltaMax                0.173
+  SrFxScafGnnFtDeltaMin                -0.022
+  SrFxScafGnnFtP                       = 0.371
+  SrFxScafGnnFtWins                    4
+  SrFxScafGnnLast                      1
+  SrFxScafGnnMax                       0.704
+  SrFxScafGnnMean                      0.625
+  SrFxScafGnnMin                       0.507
+  SrFxScafGnnRank                      3.4
+  SrFxScafGnnRankOfMean                1
+  SrFxScafGnnSD                        0.080
+  SrFxScafGnnTopThree                  3
+  SrFxScafHybClmFirst                  0
+  SrFxScafHybClmLast                   2
+  SrFxScafHybClmMax                    0.593
+  SrFxScafHybClmMean                   0.560
+  SrFxScafHybClmMin                    0.509
+  SrFxScafHybClmRank                   5.2
+  SrFxScafHybClmRankOfMean             7
+  SrFxScafHybClmSD                     0.038
+  SrFxScafHybClmTopThree               1
+  SrFxScafHybFirst                     0
+  SrFxScafHybFpCI                      [-0.074, 0.064]
+  SrFxScafHybFpDelta                   -0.002
+  SrFxScafHybFpDeltaMax                0.017
+  SrFxScafHybFpDeltaMin                -0.037
+  SrFxScafHybFpP                       = 0.977
+  SrFxScafHybFpWins                    4
+  SrFxScafHybLast                      0
+  SrFxScafHybMax                       0.589
+  SrFxScafHybMean                      0.568
+  SrFxScafHybMin                       0.535
+  SrFxScafHybRank                      4.2
+  SrFxScafHybRankOfMean                6
+  SrFxScafHybSD                        0.025
+  SrFxScafHybTopThree                  2
+  SrFxScafKendallW                     0.30
+  SrFxScafLeader                       Graph network
+  SrFxScafMeanMax                      0.625
+  SrFxScafMeanMin                      0.560
+  SrFxScafNPartitions                  5
+  SrFxScafWorstRankFamily              language-model hybrid
+  SrIntClusDescFp                      0.039
+  SrIntClusDescFpCI                    [-0.079, 0.135]
+  SrIntClusDescFpP                     = 0.529
+  SrIntClusDescFpStratGap              0.030
+  SrIntClusFrozenDesc                  0.061
+  SrIntClusFrozenDescCI                [0.003, 0.142]
+  SrIntClusFrozenDescP                 = 0.038
+  SrIntClusFrozenDescStratGap          -0.010
+  SrIntClusFrozenFp                    0.100
+  SrIntClusFrozenFpCI                  [0.006, 0.192]
+  SrIntClusFrozenFpP                   = 0.037
+  SrIntClusFrozenFpStratGap            0.020
+  SrIntClusFrozenFt                    0.079
+  SrIntClusFrozenFtCI                  [0.010, 0.153]
+  SrIntClusFrozenFtP                   = 0.021
+  SrIntClusFrozenFtStratGap            0.041
+  SrIntClusFrozenGnn                   0.054
+  SrIntClusFrozenGnnCI                 [-0.036, 0.169]
+  SrIntClusFrozenGnnP                  = 0.243
+  SrIntClusFrozenGnnStratGap           -0.020
+  SrIntClusFrozenHyb                   0.086
+  SrIntClusFrozenHybCI                 [0.012, 0.168]
+  SrIntClusFrozenHybP                  = 0.026
+  SrIntClusFrozenHybStratGap           -0.009
+  SrIntClusGnnFt                       0.025
+  SrIntClusGnnFtCI                     [-0.079, 0.112]
+  SrIntClusGnnFtP                      = 0.669
+  SrIntClusGnnFtStratGap               0.060
+  SrIntClusHybFp                       0.014
+  SrIntClusHybFpCI                     [-0.030, 0.053]
+  SrIntClusHybFpP                      = 0.516
+  SrIntClusHybFpStratGap               0.029
+  SrIntScafDescFp                      -0.011
+  SrIntScafDescFpCI                    [-0.100, 0.085]
+  SrIntScafDescFpP                     = 0.784
+  SrIntScafDescFpStratGap              0.030
+  SrIntScafFrozenDesc                  0.035
+  SrIntScafFrozenDescCI                [-0.043, 0.103]
+  SrIntScafFrozenDescP                 = 0.332
+  SrIntScafFrozenDescStratGap          -0.010
+  SrIntScafFrozenFp                    0.024
+  SrIntScafFrozenFpCI                  [-0.077, 0.130]
+  SrIntScafFrozenFpP                   = 0.677
+  SrIntScafFrozenFpStratGap            0.020
+  SrIntScafFrozenFt                    0.004
+  SrIntScafFrozenFtCI                  [-0.072, 0.072]
+  SrIntScafFrozenFtP                   = 0.942
+  SrIntScafFrozenFtStratGap            0.041
+  SrIntScafFrozenGnn                   0.009
+  SrIntScafFrozenGnnCI                 [-0.084, 0.101]
+  SrIntScafFrozenGnnP                  = 0.823
+  SrIntScafFrozenGnnStratGap           -0.020
+  SrIntScafFrozenHyb                   0.055
+  SrIntScafFrozenHybCI                 [-0.051, 0.154]
+  SrIntScafFrozenHybP                  = 0.308
+  SrIntScafFrozenHybStratGap           -0.009
+  SrIntScafGnnFt                       -0.005
+  SrIntScafGnnFtCI                     [-0.108, 0.090]
+  SrIntScafGnnFtP                      = 0.814
+  SrIntScafGnnFtStratGap               0.060
+  SrIntScafHybFp                       -0.031
+  SrIntScafHybFpCI                     [-0.102, 0.031]
+  SrIntScafHybFpP                      = 0.363
+  SrIntScafHybFpStratGap               0.029
+  SrSameCell                           48
+  SrSameCellOf                         50
+  SrScafBestRankFamily                 frozen language-model
+  SrScafDescFirst                      2
+  SrScafDescFpCI                       [-0.071, 0.126]
+  SrScafDescFpDelta                    0.019
+  SrScafDescFpDeltaMax                 0.084
+  SrScafDescFpDeltaMin                 -0.062
+  SrScafDescFpP                        = 0.710
+  SrScafDescFpWins                     3
+  SrScafDescLast                       1
+  SrScafDescMax                        0.672
+  SrScafDescMean                       0.588
+  SrScafDescMin                        0.527
+  SrScafDescRank                       3.6
+  SrScafDescRankOfMean                 3
+  SrScafDescSD                         0.057
+  SrScafDescTopThree                   2
+  SrScafEverHeldOut                    358
+  SrScafFpFirst                        0
+  SrScafFpLast                         0
+  SrScafFpMax                          0.619
+  SrScafFpMean                         0.569
+  SrScafFpMin                          0.519
+  SrScafFpRank                         4.8
+  SrScafFpRankOfMean                   4
+  SrScafFpSD                           0.042
+  SrScafFpTopThree                     1
+  SrScafFrozenDescCI                   [-0.070, 0.104]
+  SrScafFrozenDescDelta                0.025
+  SrScafFrozenDescDeltaMax             0.096
+  SrScafFrozenDescDeltaMin             -0.024
+  SrScafFrozenDescP                    = 0.603
+  SrScafFrozenDescWins                 3
+  SrScafFrozenFirst                    1
+  SrScafFrozenFpCI                     [-0.062, 0.162]
+  SrScafFrozenFpDelta                  0.044
+  SrScafFrozenFpDeltaMax               0.070
+  SrScafFrozenFpDeltaMin               0.025
+  SrScafFrozenFpP                      = 0.516
+  SrScafFrozenFpWins                   5
+  SrScafFrozenFtCI                     [-0.036, 0.122]
+  SrScafFrozenFtDelta                  0.044
+  SrScafFrozenFtDeltaMax               0.076
+  SrScafFrozenFtDeltaMin               0.015
+  SrScafFrozenFtP                      = 0.265
+  SrScafFrozenFtWins                   5
+  SrScafFrozenGnnCI                    [-0.110, 0.087]
+  SrScafFrozenGnnDelta                 -0.011
+  SrScafFrozenGnnDeltaMax              0.066
+  SrScafFrozenGnnDeltaMin              -0.118
+  SrScafFrozenGnnP                     = 0.859
+  SrScafFrozenGnnWins                  3
+  SrScafFrozenHybCI                    [-0.080, 0.157]
+  SrScafFrozenHybDelta                 0.046
+  SrScafFrozenHybDeltaMax              0.072
+  SrScafFrozenHybDeltaMin              0.009
+  SrScafFrozenHybP                     = 0.518
+  SrScafFrozenHybWins                  5
+  SrScafFrozenLast                     0
+  SrScafFrozenMax                      0.656
+  SrScafFrozenMean                     0.613
+  SrScafFrozenMin                      0.544
+  SrScafFrozenRank                     1.8
+  SrScafFrozenRankOfMean               2
+  SrScafFrozenRankOfRank               1
+  SrScafFrozenSD                       0.054
+  SrScafFrozenTopThree                 5
+  SrScafFrozenTopTwo                   5
+  SrScafFrozenWorstRank                2
+  SrScafFtFirst                        0
+  SrScafFtLast                         2
+  SrScafFtMax                          0.639
+  SrScafFtMean                         0.569
+  SrScafFtMin                          0.511
+  SrScafFtRank                         5.2
+  SrScafFtRankOfMean                   5
+  SrScafFtSD                           0.051
+  SrScafFtTopThree                     1
+  SrScafGnnFirst                       2
+  SrScafGnnFtCI                        [-0.052, 0.167]
+  SrScafGnnFtDelta                     0.056
+  SrScafGnnFtDeltaMax                  0.173
+  SrScafGnnFtDeltaMin                  -0.022
+  SrScafGnnFtP                         = 0.371
+  SrScafGnnFtWins                      4
+  SrScafGnnLast                        1
+  SrScafGnnMax                         0.704
+  SrScafGnnMean                        0.625
+  SrScafGnnMin                         0.507
+  SrScafGnnRank                        3.4
+  SrScafGnnRankOfMean                  1
+  SrScafGnnSD                          0.080
+  SrScafGnnTopThree                    3
+  SrScafHybClmFirst                    0
+  SrScafHybClmLast                     1
+  SrScafHybClmMax                      0.593
+  SrScafHybClmMean                     0.547
+  SrScafHybClmMin                      0.505
+  SrScafHybClmRank                     5.0
+  SrScafHybClmRankOfMean               7
+  SrScafHybClmSD                       0.043
+  SrScafHybClmTopThree                 1
+  SrScafHybFirst                       0
+  SrScafHybFpCI                        [-0.074, 0.064]
+  SrScafHybFpDelta                     -0.002
+  SrScafHybFpDeltaMax                  0.017
+  SrScafHybFpDeltaMin                  -0.037
+  SrScafHybFpP                         = 0.977
+  SrScafHybFpWins                      4
+  SrScafHybLast                        0
+  SrScafHybMax                         0.589
+  SrScafHybMean                        0.568
+  SrScafHybMin                         0.535
+  SrScafHybRank                        4.2
+  SrScafHybRankOfMean                  6
+  SrScafHybSD                          0.025
+  SrScafHybTopThree                    2
+  SrScafKendallW                       0.30
+  SrScafLargestGroup                   1
+  SrScafLeader                         Graph network
+  SrScafMeanMax                        0.625
+  SrScafMeanMin                        0.547
+  SrScafNNSim                          0.663
+  SrScafNNSimMax                       0.688
+  SrScafNNSimMin                       0.642
+  SrScafNPartitions                    5
+  SrScafNTest                          191
+  SrScafScafSeen                       0.0
+  SrScafSharedPrimary                  54
+  SrScafSharedPrimaryMax               57
+  SrScafSharedPrimaryMin               51
+  SrScafSharedRepeats                  52
+  SrScafWorstRankFamily                fine-tuned language-model
+  SrSrcEverHeldOut                     220
+  SrSrcSharedPrimary                   88
+  SrSrcSharedPrimaryMax                94
+  SrSrcSharedPrimaryMin                83
+  SrSrcSharedRepeats                   89
+  TopHeldOutName                       Stacked model without language-model members
+  TopHeldOutQtwo                       0.8022
+  TopHeldOutRtwo                       0.8140
+  TopHeldOutSingleName                 ECFP4+Mordred + ExtraTrees
+  TopHeldOutSingleRtwo                 0.8137
+  TriageHitsClus                       4
+  TriageHitsDiss                       5
+  TriageHitsScaf                       10
+  TriageHitsSrc                        4
+  TriageHitsStrat                      12
+  TriagePClus                          = 0.0283
+  TriagePDiss                          = 0.0268
+  TriagePScaf                          $<$ 0.0001
+  TriagePSrc                           = 0.2567
+  TriagePStrat                         $<$ 0.0001
+  TriageRhoClusCI                      [0.454, 0.667]
+  TriageRhoDissCI                      [0.350, 0.571]
+  TriageRhoScafCI                      [0.484, 0.704]
+  TriageRhoSrcCI                       [0.208, 0.462]
+  TriageRhoStratCI                     [0.685, 0.854]
+  TriageSelectedClus                   19
+  TriageSelectedDiss                   19
+  TriageSelectedScaf                   19
+  TriageSelectedSrc                    19
+  TriageSelectedStrat                  19
+  TriageThreshold                      5.02

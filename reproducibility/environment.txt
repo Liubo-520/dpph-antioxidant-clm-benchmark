@@ -1,0 +1,20 @@
+Python 3.10.14 on Windows 10 (AMD64)
+CPU threads 20
+GPU NVIDIA GeForce RTX 4080, 16376 MiB, 591.86
+CUDA 12.1
+
+numpy==1.26.4
+pandas==2.1.4
+scipy==1.13.1
+scikit-learn==1.7.2
+rdkit==2025.3.6
+mordred==1.2.0
+torch==2.4.0+cu121
+transformers==5.6.1
+tokenizers==0.22.2
+safetensors==0.5.2
+catboost==1.2.8
+xgboost==3.0.5
+umap-learn==0.5.7
+matplotlib==3.8.4
+Pillow==11.3.0

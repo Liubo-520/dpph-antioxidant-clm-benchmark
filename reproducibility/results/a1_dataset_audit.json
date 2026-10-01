@@ -1,0 +1,520 @@
+{
+  "provenance": {
+    "n_records": 1911,
+    "n_unique_source_publications": 233,
+    "n_unique_chembl_ids": 1911,
+    "records_per_source_median": 6.0,
+    "records_per_source_iqr": [
+      2.0,
+      12.0
+    ],
+    "records_per_source_max": 66,
+    "records_per_source_min": 1,
+    "share_from_largest_source_pct": 3.4536891679748822,
+    "share_from_top10_sources_pct": 15.960230245944532,
+    "n_sources_with_single_record": 29,
+    "n_unique_assay_descriptions": 125,
+    "assay_description_counts": {
+      "Antioxidant activity assessed as DPPH radical scavenging activity after 30 mins": 162,
+      "Antioxidant activity assessed as DPPH free radical scavenging activity after 30 mins": 152,
+      "Antioxidant activity assessed as DPPH radical scavenging activity 30 min (manual check)": 145,
+      "Antioxidant activity assessed as DPPH free radical scavenging activity after 30 mins by spectrophotometric analysis": 80,
+      "Antioxidant activity assessed as DPPH radical scavenging activity after 30 mins by spectrophotometry": 74,
+      "Antioxidant activity assessed as DPPH radical scavenging activity after 30 mins by spectrophotometric analysis": 64,
+      "Antioxidant activity assessed as DPPH scavenging activity after 30 mins by spectrophotometry": 62,
+      "DPPH radical scavenging activity 30 min (manual check)": 55,
+      "Antioxidant activity assessed as DPPH radical scavenging activity in ethanol solution 30 min (manual check)": 42,
+      "Antioxidant activity assessed as DPPH radical scavenging activity incubated for 30 mins": 38,
+      "Antioxidant activity assessed as DPPH free radical scavenging activity 30 min (manual check)": 36,
+      "Antioxidant activity assessed as DPPH radical scavenging activity after 20 to 30 mins": 29,
+      "Antioxidant activity assessed as DPPH free radical scavenging activity incubated at 37 degC for 30 mins by microtiter plate reader based method": 28,
+      "Antioxidant activity assessed as DPPH radical scavenging activity measured after 30 mins": 27,
+      "Antioxidant activity assessed as DPPH radical scavenging activity incubated for 30 mins under dark condition": 26,
+      "Antioxidant activity assessed as DPPH free radical scavenging activity after 30 mins by spectrophotometry": 25,
+      "Antioxidant activity assessed as DPPH radical scavenging activity incubated for 30 mins under dark condition by spectrophotometric method": 25,
+      "Antioxidant activity assessed as DPPH radical scavenging activity in chloroform solution 30 min (manual check)": 24,
+      "Antioxidant activity assessed as DPPH scavenging activity at 10 to 60 ug/ml after 30 mins": 22,
+      "Antioxidant activity assessed as DPPH free radical scavenging activity by UV-Vis spectrophotometry 30 min (manual check)": 21,
+      "Antioxidant activity assessed as DPPH free radical scavenging activity after 30 min": 21,
+      "Antioxidant activity assessed as DPPH free radical scavenging activity incubated for 30 mins": 19,
+      "Antioxidant activity assessed as DPPH free radical scavenging activity incubated for 30 mins in dark condition by spectrophotometric method": 19,
+      "Antioxidant activity assessed as DPPH radical scavenging activity measured after 30 mins incubation in dark by UV-Visible spectrophotometric analysis": 19,
+      "Antioxidant activity assessed as DPPH radical scavenging activity after 30 mins under dark condition by spectrophotometric analysis": 18,
+      "Antioxidant activity assessed as DPPH radical scavenging activity incubated for 30 mins in dark": 18,
+      "Antioxidant activity assessed as DPPH radical scavenging activity incubated for 30 mins under dark condition by UV-vis spectrophotometric method": 18,
+      "Antioxidant activity assessed as DPPH radical scavenging activity after 30 min": 17,
+      "Antioxidant activity assessed as DPPH radical scavenging activity after 30 mins in absence of light": 17,
+      "Antioxidant activity assessed as DPPH radical scavenging activity incubated at 40 degC in dark after 30 mins": 17,
+      "Antioxidant activity assessed as DPPH radical scavenging activity incubated under dark condition for 30 mins by spectrophotometric analysis": 17,
+      "Antioxidant activity assessed as DPPH radical scavenging activity shaken for 1 min and incubated under dark condition for 30 mins by spectrophotometric analysis": 16,
+      "Antioxidant activity assessed as DPPH free radical scavenging effect after 30 mins by spectrophotometric analysis": 16,
+      "Antioxidant activity assessed as DPPH free radical scavenging activity under dark condition after 30 mins": 15,
+      "Antioxidant activity assessed as DPPH radical scavenging activity incubated in dark for 30 mins by spectrophotometry": 15,
+      "Antioxidant activity assessed as DPPH radical scavenging by spectrophotometric analysis 30 min (manual check)": 14,
+      "Antioxidant activity assessed as DPPH free radical scavenging activity by UV spectroscopic method 30 min (manual check)": 13,
+      "Antioxidant activity assessed as DPPH scavenging activity after 30 mins by microplate reader method": 13,
+      "Antioxidant activity assessed as DPPH radical scavenging activity incubated for 30 mins under dark conditions by spectrophotometry": 13,
+      "Antioxidant activity assessed as inhibition of DPPH radical after 30 mins by spectrophotometric analysis": 13,
+      "Antioxidant activity of compound assessed as DPPH radical scavenging activity by colorimetric method 30 min (manual check)": 13,
+      "Antioxidant activity of the compound assessed as DPPH radical scavenging after 30 mins by spectrophotometric analysis": 12,
+      "Antioxidant activity assessed as inhibition of DPPH free radical production after 30 mins by spectrophotometric analysis": 12,
+      "Antioxidant activity assessed as DPPH radical scavenging activity incubated under dark condition for 30 mins": 12,
+      "Antioxidant activity assessed as inhibition of DPPH radical formation after 30 mins": 11,
+      "Antioxidant activity assessed as DPPH radical scavenging activity incubated for 30 mins under dark condition by Uv-vis spectrophotometric method": 11,
+      "Antioxidant activity assessed as DPPH free radical scavenging activity after 30 mins by spectrophotometric assay": 10,
+      "Antioxidant activity assessed as DPPH radical scavenging activity incubated for 30 mins under dark condition by UV-Vis spectrophotometric analysis": 10,
+      "Antioxidant activity assessed as DPPH radical scavenging activity after 30 mins by ELISA reader analysis": 10,
+      "Antioxidant activity assessed as DPPH radical scavenging activity by spectrophotometric assay 30 min (manual check)": 10,
+      "Antioxidant activity assessed as DPPH free radical scavenging activity relative to control 30 min (manual check)": 10,
+      "Antioxidant activity assessed as DPPH free radical scavenging activity after 30 mins by TLC autographic assay": 10,
+      "Antioxidant activity assessed as DPPH radical scavenging activity after 30 mins by micro plate reader": 10,
+      "Antioxidant activity assessed as DPPH free radical scavenging activity after 30 min by spectrophotometeric analysis": 10,
+      "Antioxidant activity against DPPH free radical assessed as compound able to consume half the initial amount of DPPH free radical after 30 to 60 mins by spectrophotometry": 9,
+      "Antioxidant activity assessed as concentration required for 50 % inhibition of micoM DPPH activity after 30 mins by UV-vis spectrophotometry": 9,
+      "Antioxidant activity of the compound assessed as DPPH radical scavenging activity after 30 min": 9,
+      "Antioxidant activity assessed as DPPH scavenging activity after 30 min by spectrophotometry": 9,
+      "Antioxidant activity assessed as DPPH radical scavenging activity after 30 mins by microplate reader assay": 9,
+      "Antioxidant activity assessed by DPPH radical scavenging assay 30 min (manual check)": 8,
+      "Antioxidant activity assessed as inhibition of DPPH radical by spectrophotometric analysis using MTT assay method 30 min (manual check)": 8,
+      "Antioxidant activity assessed as DPPH radical scavenging activity incubated in dark for 30 mins": 8,
+      "Antioxidant effect assessed as DPPH radical scavenging activity 30 min (manual check)": 8,
+      "Antioxidant activity assessed as DPPH radical scavenging activity after 30 mins by spectrophotometric method": 8,
+      "Antioxidant activity assessed as DPPH radical scavenging activity incubated for 30 mins under dark condition by spectrophotometric analysis": 8,
+      "Antioxidant activity assessed as DPPH radical scavenging activity measured after 30 mins incubation under dark condition": 8,
+      "Antioxidant activity assessed as inhibition of DPPH radical scavenging activity after 30 mins by spectrophotometry": 8,
+      "Antioxidant activity assessed as residual DPPH radical scavenging activity after 30 mins by spectrophotometric analysis": 7,
+      "Antioxidant activity assessed as DPPH radical scavenging capacity after 30 mins by UV spectrophotometry": 7,
+      "Antioxidant activity assessed as DPPH radical scavenging activity after 30 mins by microplate reader analysis": 7,
+      "Antioxidant activity assessed as DPPH free radical scavenging activity incubated for 30 mins in dark condition by spectrophotometric analysis": 7,
+      "Antioxidant activity assessed as DPPH free radical scavenging activity  30 min (manual check)": 6,
+      "Antioxidant activity assessed as DPPH radical scavenging activity after 30 mins under dark condition": 6,
+      "Antioxidant activity assessed as DPPH scavenging activity after 30 min by UV-vis spectroscopy": 6,
+      "Antioxidant activity assessed as DPPH radical scavenging activity after 30 mins by microplate reader based assay": 6,
+      "Antioxidant activity assessed as DPPH radical scavenging activity measured at 30 to 60 mins by UV-Visible spectrophotometric method": 6,
+      "Antioxidant activity assessed as inhibition of DPPH free radical after 30 mins by UV-Visible spectrophotometric analysis": 6,
+      "DPPH radical scavenging activity of Cudriana tricuspidata extracts 30 min (manual check)": 6,
+      "Antioxidant activity assessed as DPPH radical scavenging activity after 30 mins by ELISA reader": 5,
+      "Antioxidant activity assessed as 150 uM DPPH free radical scavenging activity under dark condition after 30 mins by microplate reader analysis": 5,
+      "Antioxidant activity assessed as inhibition of DPPH free radical 30 min (manual check)": 5,
+      "Antioxidant activity assessed as DPPH radical scavenging activity after 30 min by spectrophotometric analysis": 5,
+      "Antioxidant activity assessed as DPPH free radical scavenging activity measured after 30 mins in absence of light": 5,
+      "Antioxidant activity assessed as DPPH free radical scavenging activity in cell-free system after 30 mins": 4,
+      "Antioxidant activity assessed as DPPH radical scavenging activity measured as discoloration incubated for 30 mins in dark": 4,
+      "Antioxidant activity assessed as DPPH free radical scavenging activity after 30 mins by microplate reader assay": 4,
+      "Antioxidant activity assessed as DPPH radical scavenging activity after 30 mins by microplate reader": 4,
+      "Antioxidant activity assessed as DPPH free radical scavenging activity after 30 min by UV-VIS spectrophotometer analysis": 4,
+      "Antioxidant activity assessed as DPPH radical scavenging activity at 1 mg/ml after 30 min by spectrophotometric analysis": 4,
+      "Antioxidant activity assessed as decrease in initial DPPH concentration after 30 min by MicroELISA reader analysis": 4,
+      "DPPH radical scavenging activity relative to control 30 min (manual check)": 4,
+      "Antioxidant activity assessed as DPPH free radical scavenging activity after 30 min by TLC autographic assay": 4,
+      "Antioxidant activity assessed as DPPH radical scavenging activity incubated for 30 mins under dark conditions": 3,
+      "Antioxidant activity assessed as DPPH radical scavenging activity measured up to 300 mins": 3,
+      "Antioxidant activity assessed as DPPH radical scavenging activity by by UV-vis spectrophotometry analysis 30 min (manual check)": 3,
+      "Antioxidant activity assessed as DPPH free radical scavenging activity after 30 mins by multilabel counter": 3,
+      "DPPH radical scavenging activity after 30 mins": 3,
+      "Antioxidant activity assessed as DPPH free radical scavenging activity incubated for 30 mins in dark condition": 2,
+      "Antioxidant activity assessed as DPPH free radical scavenging activity after 30 to 60 mins by UV-vis spectrophotometric analysis": 2,
+      "Antioxidant activity assessed as DPPH scavenging activity after 30 mins by UV spectrophotometry": 2,
+      "Antioxidant activity assessed as DPPH radical scavenging activity after 30 mins by UV-Vis spectrophotometeric analysis": 2,
+      "Antioxidant activity assessed as DPPH free radical scavenging activity after 30 mins in dark by spectrophotometry": 2,
+      "Antioxidant activity assessed as DPPH radical scavenging activity after 30 mins by UV-spectrophotometry": 2,
+      "Antioxidant activity assessed as DPPH radical scavenging activity incubated for 30 mins by UV absorption spectrometry": 2,
+      "Antioxidant activity assessed as DPPH radical scavenging activity after 30 mins by spectrophotometer": 2,
+      "Antioxidant activity of the compound assessed as DPPH radical scavenging activity after 30 mins by spectrophotometry": 2,
+      "Antioxidant activity assessed as DPPH free radical scavenging activity after 30 mins incubation in dark by UV-Vis spectrophotometric analysis": 2,
+      "Antioxidant activity assessed as DPPH free radical scavenging activity after 30 mins incubation in dark by UV-Visible spectrophotometric analysis": 2,
+      "Antiradical activity assessed as DPPH radical scavenging activity 30 min (manual check)": 2,
+      "Antioxidant activity assessed as DPPH free radical scavenging activity incubated for 5 to 30 mins in dark condition followed by incubated in room temperature for 24 hrs by UV-vis method": 1,
+      "Antioxidant activity assessed as DPPH free radical scavenging activity incubated for 30 min by UV-vis spectrophotometric analysis": 1,
+      "Antioxidant activity in pH 7.4 phosphate buffer assessed as DPPH radical scavenging activity after 30 mins by spectrophotometric analysis": 1,
+      "Antioxidant activity assessed as DPPH free radical scavenging activity by spectrophotometric analysis 30 min (manual check)": 1,
+      "Antioxidant activity assessed as DPPH radical-scavenging activity after 30 mins by spectrophotometric analysis": 1,
+      "Antioxidant activity assessed as inhibition of DPPH radical formation measured at 30 min relative to trolox": 1,
+      "Antioxidant activity assessed as inhibition of DPPH radical production after 30 min by spectrophotometric analysis": 1,
+      "Antioxidant activity assessed as DPPH radical scavenging activity incubated for 30 mins by absorbance method": 1,
+      "Antioxidant activity assessed as DPPH scavenging activity after 30 mins": 1,
+      "Antioxidant activity assessed as DPPH radicle scavenging activity after 30 mins by spectrometric analysis": 1,
+      "Antioxidant activity of the compound assessed as DPPH free radical scavenging activity after 30 mins": 1,
+      "Antioxidant activity assessed as DPPH radical-scavenging activity incubated for 30 mins by spectrophotometry": 1,
+      "Antioxidant activity assessed as inhibition of DPPH radical generation after 30 mins": 1,
+      "Antioxidant activity assessed as DPPH radical scavenging activity measured after 30 mins by spectrophotometric method": 1,
+      "Antioxidant activity assessed as DPPH radical scavenging activity incubated for 30 mins by UV-spectrophotometric method": 1,
+      "Antioxidant activity assessed as DPPH free radical scavenging activity after 30 mins by spectrophotometric analysis 30 min (manual check)": 1
+    },
+    "top_sources": [
+      {
+        "doi": "10.1016/j.bmcl.2012.12.001",
+        "n": 66
+      },
+      {
+        "doi": "10.1016/j.bmc.2013.08.002",
+        "n": 33
+      },
+      {
+        "doi": "10.1039/C5MD00057B",
+        "n": 31
+      },
+      {
+        "doi": "10.1016/j.ejmech.2014.07.078",
+        "n": 28
+      },
+      {
+        "doi": "10.1016/j.bmcl.2015.01.010",
+        "n": 26
+      },
+      {
+        "doi": "10.1007/s00044-010-9384-4",
+        "n": 25
+      },
+      {
+        "doi": "10.1016/j.bmcl.2019.06.052",
+        "n": 25
+      },
+      {
+        "doi": "10.1016/j.bmc.2014.10.015",
+        "n": 24
+      },
+      {
+        "doi": "10.1016/j.ejmech.2018.01.096",
+        "n": 24
+      },
+      {
+        "doi": "10.1021/np070208z",
+        "n": 23
+      },
+      {
+        "doi": "10.1016/j.bmcl.2012.11.006",
+        "n": 22
+      },
+      {
+        "doi": "10.1016/j.bmcl.2017.06.053",
+        "n": 22
+      },
+      {
+        "doi": "10.1016/j.bmcl.2015.10.051",
+        "n": 22
+      },
+      {
+        "doi": "10.1016/j.ejmech.2012.02.018",
+        "n": 21
+      },
+      {
+        "doi": "10.1016/j.bmc.2009.07.077",
+        "n": 20
+      }
+    ],
+    "fraction_assay_text_mentions_DPPH": 1.0,
+    "fraction_assay_text_mentions_30_min": 1.0
+  },
+  "endpoint": {
+    "definition": "pIC50 = -log10(IC50 in mol/L) for 30-min DPPH radical scavenging",
+    "pIC50_mean": 4.152294154034207,
+    "pIC50_sd": 0.9027482894652871,
+    "pIC50_median": 4.266572118838795,
+    "pIC50_min": -0.0969100130080564,
+    "pIC50_max": 7.6675615400844,
+    "pIC50_iqr": [
+      3.8334225202808447,
+      4.63827216398241
+    ],
+    "ic50_micromolar_median": 54.12873543691921,
+    "ic50_micromolar_range": [
+      0.021499999999999717,
+      1250000.0
+    ],
+    "ic50_log_range_orders": 7.764471553092457,
+    "mw_median": 355.4,
+    "mw_range": [
+      122.1,
+      940.7
+    ],
+    "skew_ic50": 13.311752413376267,
+    "skew_pic50": -1.2974106582754998
+  },
+  "duplicates": {
+    "isomeric_smiles": {
+      "level": "isomeric canonical SMILES",
+      "n_unique": 1911,
+      "n_duplicate_groups": 0,
+      "n_records_in_duplicate_groups": 0,
+      "max_pIC50_spread_within_group": 0.0,
+      "median_pIC50_spread_within_group": 0.0,
+      "n_groups_spread_gt_1_log": 0
+    },
+    "flat_smiles": {
+      "level": "stereochemistry-stripped SMILES",
+      "n_unique": 1911,
+      "n_duplicate_groups": 0,
+      "n_records_in_duplicate_groups": 0,
+      "max_pIC50_spread_within_group": 0.0,
+      "median_pIC50_spread_within_group": 0.0,
+      "n_groups_spread_gt_1_log": 0
+    },
+    "inchikey_full": {
+      "level": "full InChIKey",
+      "n_unique": 1911,
+      "n_duplicate_groups": 0,
+      "n_records_in_duplicate_groups": 0,
+      "max_pIC50_spread_within_group": 0.0,
+      "median_pIC50_spread_within_group": 0.0,
+      "n_groups_spread_gt_1_log": 0
+    },
+    "inchikey_skeleton": {
+      "level": "InChIKey skeleton (first block)",
+      "n_unique": 1911,
+      "n_duplicate_groups": 0,
+      "n_records_in_duplicate_groups": 0,
+      "max_pIC50_spread_within_group": 0.0,
+      "median_pIC50_spread_within_group": 0.0,
+      "n_groups_spread_gt_1_log": 0
+    }
+  },
+  "structure_qc": {
+    "n_parsable": 1911,
+    "n_multi_fragment_after_curation": 0,
+    "n_charged_after_curation": 0,
+    "n_with_non_standard_elements": 0,
+    "n_with_defined_stereocentres": 0
+  },
+  "categories": [
+    {
+      "category": "Aromatic amine",
+      "n_total": 533,
+      "pct_total": 27.89115646258503,
+      "n_train": 479,
+      "n_test": 54,
+      "mean_pIC50": 4.116907952091233,
+      "sd_pIC50": 0.6032409348091113,
+      "min_pIC50": 0.484126156288321,
+      "max_pIC50": 5.94823141718741,
+      "n_source_publications": 62
+    },
+    {
+      "category": "Coumarin",
+      "n_total": 114,
+      "pct_total": 5.965463108320251,
+      "n_train": 102,
+      "n_test": 12,
+      "mean_pIC50": 3.7637388564128664,
+      "sd_pIC50": 1.1338815851990844,
+      "min_pIC50": 0.674322569257451,
+      "max_pIC50": 5.68402965454308,
+      "n_source_publications": 22
+    },
+    {
+      "category": "Flavonoid",
+      "n_total": 154,
+      "pct_total": 8.058608058608058,
+      "n_train": 138,
+      "n_test": 16,
+      "mean_pIC50": 4.5780589965107,
+      "sd_pIC50": 0.5574215232000368,
+      "min_pIC50": 3.33461603388567,
+      "max_pIC50": 6.45593195564972,
+      "n_source_publications": 29
+    },
+    {
+      "category": "Other",
+      "n_total": 879,
+      "pct_total": 45.99686028257457,
+      "n_train": 791,
+      "n_test": 88,
+      "mean_pIC50": 4.101210173566502,
+      "sd_pIC50": 1.083858181474402,
+      "min_pIC50": -0.0969100130080564,
+      "max_pIC50": 7.6675615400844,
+      "n_source_publications": 144
+    },
+    {
+      "category": "Phenolic acid",
+      "n_total": 123,
+      "pct_total": 6.436420722135009,
+      "n_train": 111,
+      "n_test": 12,
+      "mean_pIC50": 4.5362170274375915,
+      "sd_pIC50": 0.5924364966277315,
+      "min_pIC50": 1.52724355068279,
+      "max_pIC50": 5.95460427079461,
+      "n_source_publications": 40
+    },
+    {
+      "category": "Quinone",
+      "n_total": 14,
+      "pct_total": 0.7326007326007326,
+      "n_train": 13,
+      "n_test": 1,
+      "mean_pIC50": 4.522117539929306,
+      "sd_pIC50": 0.3570691646533076,
+      "min_pIC50": 3.68516364270073,
+      "max_pIC50": 5.04575749056067,
+      "n_source_publications": 5
+    },
+    {
+      "category": "Stilbene",
+      "n_total": 12,
+      "pct_total": 0.6279434850863422,
+      "n_train": 11,
+      "n_test": 1,
+      "mean_pIC50": 4.057513728825399,
+      "sd_pIC50": 0.2549187013413416,
+      "min_pIC50": 3.65915945018767,
+      "max_pIC50": 4.45185636256515,
+      "n_source_publications": 5
+    },
+    {
+      "category": "Terpenoid",
+      "n_total": 82,
+      "pct_total": 4.290947148090005,
+      "n_train": 74,
+      "n_test": 8,
+      "mean_pIC50": 4.045324726296769,
+      "sd_pIC50": 0.5482301839217243,
+      "min_pIC50": 2.67778070526608,
+      "max_pIC50": 5.35372393758895,
+      "n_source_publications": 20
+    }
+  ],
+  "category_definitions": [
+    {
+      "category": "Flavonoid",
+      "smarts": [
+        "c1cc2oc(-c3ccccc3)cc(=O)c2cc1",
+        "O=C1CC(c2ccccc2)Oc2ccccc12",
+        "OC1c2ccccc2OC(c2ccccc2)C1",
+        "O=c1c([OH])c(-c2ccccc2)oc2ccccc12"
+      ]
+    },
+    {
+      "category": "Phenolic acid",
+      "smarts": [
+        "OC(=O)c1ccccc1[OH]",
+        "OC(=O)c1cc([OH])c([OH])cc1",
+        "OC(=O)/C=C/c1ccc([OH])cc1",
+        "OC(=O)/C=C/c1ccc([OH])c([OH])c1",
+        "OC(=O)Cc1ccc([OH])cc1"
+      ]
+    },
+    {
+      "category": "Stilbene",
+      "smarts": [
+        "c1ccc(/C=C/c2ccccc2)cc1"
+      ]
+    },
+    {
+      "category": "Coumarin",
+      "smarts": [
+        "O=c1ccc2ccccc2o1",
+        "O=c1cc(*)oc2ccccc12"
+      ]
+    },
+    {
+      "category": "Lignan",
+      "smarts": [
+        "OCc1ccc(C(C)C(C)Cc2ccc([OH])cc2)cc1[OH]"
+      ]
+    },
+    {
+      "category": "Terpenoid",
+      "smarts": [
+        "CC(=CCCC(C)=CCC)C",
+        "C1(C)CCCCC1",
+        "C12CCC(C)(CC1)C(C)CC2"
+      ]
+    },
+    {
+      "category": "Vitamin/Tocopherol",
+      "smarts": [
+        "Cc1c(C)c2OC(C)(CCCC(C)CCCC(C)CCCC(C)C)CCc2c(C)c1[OH]",
+        "OC1=C(C)C(=O)OC1[CH](O)CO"
+      ]
+    },
+    {
+      "category": "Quinone",
+      "smarts": [
+        "O=C1C=CC(=O)C=C1",
+        "O=C1c2ccccc2C(=O)c2ccccc21"
+      ]
+    },
+    {
+      "category": "Aromatic amine",
+      "smarts": [
+        "Nc1ccccc1",
+        "NC(=O)c1ccccc1"
+      ]
+    }
+  ],
+  "category_definition_note": "First-match-wins SMARTS cascade evaluated in the listed priority order; molecules matching no pattern fall into the residual 'Other' class. Category labels are computed from structure only, never from pIC50, and are used solely to stratify the split and to report class-wise metrics.",
+  "category_label_check": {
+    "anova_F": 12.644314922350054,
+    "anova_p": 6.087311527261166e-16,
+    "eta_squared": 0.0444437614521828,
+    "note": "Categories carry a small amount of activity information (eta^2 reported), which is why they are used only to balance the split and never as model input. Because stratification is applied to structure-derived labels and the test labels are untouched, this cannot leak test activity into training."
+  },
+  "split_endpoint_distribution": {
+    "n_train": 1719,
+    "n_test": 192,
+    "train_mean": 4.142882349847512,
+    "train_sd": 0.9121888481537958,
+    "test_mean": 4.236559213393211,
+    "test_sd": 0.8106600758989313,
+    "train_range": [
+      -0.0969100130080564,
+      7.6675615400844
+    ],
+    "test_range": [
+      0.245651664288981,
+      7.36451625318509
+    ],
+    "ks_statistic": 0.07510725712623618,
+    "ks_p": 0.2691999849074683,
+    "levene_p": 0.6192059216258105
+  },
+  "scaffold_inventory": {
+    "n_unique_bemis_murcko_scaffolds": 634,
+    "n_singleton_scaffolds": 363,
+    "largest_scaffold_size": 110,
+    "n_acyclic": 6,
+    "top_scaffolds": [
+      {
+        "scaffold": "c1ccccc1",
+        "n": 110
+      },
+      {
+        "scaffold": "C(=Nc1ccccc1)c1ccccc1",
+        "n": 79
+      },
+      {
+        "scaffold": "O=c1cc(-c2ccccc2)oc2ccccc12",
+        "n": 49
+      },
+      {
+        "scaffold": "c1ccc(Cn2cc(COc3ccccc3)nn2)cc1",
+        "n": 31
+      },
+      {
+        "scaffold": "S=c1oc(-c2ccc3c(c2)OCCO3)nn1CNc1ccccc1",
+        "n": 28
+      },
+      {
+        "scaffold": "O=C(C=Cc1ccccc1)c1ccccc1",
+        "n": 24
+      },
+      {
+        "scaffold": "O=C(NN=Cc1ccccc1)c1ccc(-c2nc3ccccc3[nH]2)cc1",
+        "n": 23
+      },
+      {
+        "scaffold": "O=C(Nc1ccccc1)C1Cc2ccccc2C1=O",
+        "n": 22
+      },
+      {
+        "scaffold": "O=c1c(OC2CCCCO2)c(-c2ccccc2)oc2ccccc12",
+        "n": 21
+      },
+      {
+        "scaffold": "c1ccc(-c2cc3ccccc3o2)cc1",
+        "n": 19
+      }
+    ]
+  }
+}

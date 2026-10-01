@@ -29,15 +29,19 @@ cross-validation estimate.
 
 ## Limits
 
-- This is the best *individual* model of the benchmark, not the top line of the
-  paper's main table; that line is Stacked model without language-model members at R2 = 0.8140, 0.0003 above this
-  one and well inside both confidence intervals.
+- This is the representative of the fingerprint-descriptor hybrid family, the
+  model with the highest training-set Q2 in that family. It is not the model
+  reported in the main table of the article; that one is the
+  stacked model over representation families, chosen by the highest Q2 of all models, at
+  R2 = 0.8013. The difference from this model is -0.012 (95% CI -0.053 to +0.019).
 - Hyperparameters were selected inside the training partition only, and the
   held-out compounds were scored exactly once.
-- On a source-publication-disjoint partition the model scores R2 = -0.033. Treat
-  predictions for compounds unlike the training set as ranking hints.
+- Refitted on the training side of a source-publication-disjoint partition, the
+  same representation and learner score R2 = -0.183. Treat predictions for
+  compounds unlike the training set as ranking hints.
 - The training labels are aggregated from many publications and differ in
   solvent, temperature, illumination and instrument. That heterogeneity places a
   floor on attainable accuracy.
 - The model is not a mechanistic model. It does not explain why a compound
   scavenges radicals.
+- The model has not been validated experimentally.

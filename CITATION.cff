@@ -1,0 +1,21 @@
+cff-version: 1.2.0
+message: "If you use this repository, please cite the article it accompanies."
+type: dataset
+title: "Data, code and deployable model for: Leakage-controlled multi-partition benchmarking of chemical language models for antioxidant activity prediction with quantitative molecular attribution"
+authors:
+  - family-names: Chi
+    given-names: Chao
+    affiliation: "School of Food and Pharmaceutical Science and Technology, Guangzhou College of Technology and Business, Guangzhou 510850, China"
+  - family-names: Yang
+    given-names: Chunmin
+    affiliation: "School of Food and Pharmaceutical Science and Technology, Guangzhou College of Technology and Business, Guangzhou 510850, China"
+  - family-names: Cui
+    given-names: Dongyang
+    affiliation: "School of Food and Pharmaceutical Science and Technology, Guangzhou College of Technology and Business, Guangzhou 510850, China"
+repository-code: "https://github.com/Liubo-520/dpph-antioxidant-clm-benchmark"
+keywords:
+  - antioxidant activity
+  - DPPH
+  - chemical language model
+  - QSAR
+  - benchmark

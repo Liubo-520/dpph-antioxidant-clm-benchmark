@@ -1,0 +1,58 @@
+{
+  "model": "ChemBERTa-ZINC, frozen",
+  "learner": "Ridge with alpha selected by five-fold cross-validation inside the training set",
+  "split": "stratified",
+  "strategies": [
+    {
+      "strategy": "Final layer, mean over non-padding tokens",
+      "layer": "-1",
+      "pooling": "mean",
+      "n_features": 768,
+      "alpha": 100.0,
+      "q2_cv_oof": 0.5499702820699639,
+      "test_r2": 0.5135855665196158,
+      "test_rmse": 0.5639077729555899
+    },
+    {
+      "strategy": "Final layer, [CLS] token",
+      "layer": "-1",
+      "pooling": "cls",
+      "n_features": 768,
+      "alpha": 100.0,
+      "q2_cv_oof": 0.5305987982342475,
+      "test_r2": 0.5182041470198574,
+      "test_rmse": 0.5612241916166532
+    },
+    {
+      "strategy": "Second-to-last layer, mean over non-padding tokens",
+      "layer": "-2",
+      "pooling": "mean",
+      "n_features": 768,
+      "alpha": 100.0,
+      "q2_cv_oof": 0.5350559833152166,
+      "test_r2": 0.49754885874812416,
+      "test_rmse": 0.5731281933277691
+    },
+    {
+      "strategy": "Second-to-last layer, [CLS] token",
+      "layer": "-2",
+      "pooling": "cls",
+      "n_features": 768,
+      "alpha": 100.0,
+      "q2_cv_oof": 0.5205947498810239,
+      "test_r2": 0.5221540888775045,
+      "test_rmse": 0.5589188944901955
+    },
+    {
+      "strategy": "Mean of the final four layers, mean pooling",
+      "layer": "last4",
+      "pooling": "mean",
+      "n_features": 768,
+      "alpha": 100.0,
+      "q2_cv_oof": 0.5433201536852106,
+      "test_r2": 0.5048396624751491,
+      "test_rmse": 0.5689548180011222
+    }
+  ],
+  "spread_test_r2": 0.024605230129380318
+}

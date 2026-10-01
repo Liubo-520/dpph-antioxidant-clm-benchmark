@@ -1,0 +1,44 @@
+{
+  "n_records": 1911,
+  "n_single_timepoint": 1861,
+  "n_window_wording": 50,
+  "pct_window_wording": 2.6164311878597593,
+  "window_descriptions": {
+    "Antioxidant activity assessed as DPPH radical scavenging activity after 20 to 30 mins": 29,
+    "Antioxidant activity against DPPH free radical assessed as compound able to consume half the initial amount of DPPH free radical after 30 to 60 mins by spectrophotometry": 9,
+    "Antioxidant activity assessed as DPPH radical scavenging activity measured at 30 to 60 mins by UV-Visible spectrophotometric method": 6,
+    "Antioxidant activity assessed as DPPH radical scavenging activity measured up to 300 mins": 3,
+    "Antioxidant activity assessed as DPPH free radical scavenging activity after 30 to 60 mins by UV-vis spectrophotometric analysis": 2,
+    "Antioxidant activity assessed as DPPH free radical scavenging activity incubated for 5 to 30 mins in dark condition followed by incubated in room temperature for 24 hrs by UV-vis method": 1
+  },
+  "cells": [
+    {
+      "representation": "ECFP4+Mordred",
+      "learner": "ExtraTrees",
+      "r2_full": 0.8136725252230776,
+      "rmse_full": 0.3490143658350286,
+      "mae_full": 0.2502398870863638,
+      "r2_single_timepoint": 0.8233904356711718,
+      "rmse_single_timepoint": 0.3421593717917383,
+      "mae_single_timepoint": 0.24361095287751067,
+      "refit_seconds": 198.8444728000004,
+      "delta_r2": 0.009717910448094114
+    },
+    {
+      "representation": "ECFP4",
+      "learner": "ExtraTrees",
+      "r2_full": 0.7983205394950098,
+      "rmse_full": 0.3631078932841713,
+      "mae_full": 0.2517354552907185,
+      "r2_single_timepoint": 0.8098209157491862,
+      "rmse_single_timepoint": 0.3550607827910198,
+      "mae_single_timepoint": 0.24591239139862828,
+      "refit_seconds": 62.61762650000037,
+      "delta_r2": 0.011500376254176436
+    }
+  ],
+  "n_train_full": 1719,
+  "n_test_full": 192,
+  "n_train_single_timepoint": 1679,
+  "n_test_single_timepoint": 182
+}

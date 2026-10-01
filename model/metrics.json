@@ -22,11 +22,22 @@
   "best_params": {
     "mdl__max_features": "0.3"
   },
-  "worst_split_r2": -0.0325980503724083,
   "model_file": "dpph_pic50_ecfp4_mordred_extratrees.joblib",
   "model_mb": 29.0,
-  "n_scored_models": 55,
   "n_features": 3475,
-  "top_table_name": "Stacked model without language-model members",
-  "top_table_r2": 0.8140063176554858
+  "same_cell_r2_by_partition": {
+    "stratified": 0.8136725252230776,
+    "scaffold": 0.5774583963833526,
+    "cluster": 0.3854239736728174,
+    "dissimilarity": 0.2512076745613423,
+    "source": -0.1834395932011334
+  },
+  "reported_model_name": "Stacked model over representation families",
+  "reported_model_q2": 0.8090875347612871,
+  "reported_model_r2": 0.801347899274345,
+  "reported_minus_released_r2": -0.0123246259487326,
+  "reported_minus_released_ci95": [
+    -0.05302104381539207,
+    0.019103256337582603
+  ]
 }
