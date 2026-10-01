@@ -59,7 +59,7 @@ def facts():
     rep = summary[summary["model"] == sa["best_model"]].iloc[0]
     out["reported_model_name"] = sa["best_model"]
     out["reported_model_q2"] = float(rep["q2_cv_oof"])
-    out["reported_model_r2"] = float(rep["test_r2"])
+    out["reported_model_r2"] = float(rep["r2"])
     pairs = pd.read_csv(os.path.join(OUT, "a7_pairwise_tests.csv"))
     row = pairs[pairs["model_b"] == " | ".join(CELL)].iloc[0]
     ci = row["delta_r2_ci95"]
